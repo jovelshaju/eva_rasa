@@ -1,0 +1,60 @@
+version: "2.0"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: open sites
+  steps:
+  - intent: open_sites
+  - action: action_open_sites
+
+- story: increase volume
+  steps:
+  - intent: volume_increase
+  - action: action_increase_volume
+
+- story: query info
+  steps:
+  - intent: query_info
+  - action: action_query_info
+
+- story: interactive_story_1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: open_sites
+    entities:
+    - site: wikipedia
+  - action: action_open_sites
+  - intent: open_sites
+    entities:
+    - site: twitter
+  - action: action_open_sites
+  - intent: goodbye
+  - action: utter_goodbye
