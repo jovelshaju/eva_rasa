@@ -111,3 +111,25 @@ nlu:
     - who is [president of india](topic) 
     - who is [mohanlal](topic)
     - what is a [car](topic)
+- intent: query_time
+  examples: |
+    - what is the time
+    - hey eva tell me the time
+    - what time is it
+    - do you know the time
+    - the time please
+- intent: query_date
+  examples: |
+    - what is the date
+    - hey eva tell me the date
+    - what day is it
+    - what is today date
+    - do you know the date
+    - tell me date
+# - intent: set_timer
+#     - set timer for [60 seconds](duration)
+#     - set timer for [2 hours](duration)
+#     - set timer for [1 minute](duration)
+#     - set timer for [2 minutes](duration) and [30 seconds](duration)
+#     - set timer fro [10 hours](duration)
+#     - set timer for [1 hour](duration) [30 minutes](duration)

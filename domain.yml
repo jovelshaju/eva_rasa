@@ -25,6 +25,10 @@ intents:
     use_entities: true
 - query_info:
     use_entities: true
+- query_time:
+    use_entities: true
+- query_date:
+    use_entities: true
 entities:
 - site
 - mode
@@ -50,5 +54,7 @@ actions:
 - utter_greet
 - action_increase_volume
 - action_query_info
+- action_query_time
+- action_query_date
 forms: {}
 e2e_actions: []

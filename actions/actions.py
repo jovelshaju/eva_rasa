@@ -19,12 +19,15 @@ import webbrowser
 from pynput.keyboard import Key,Controller
 import time
 import wikipedia
+import datetime
 
 ### RECORD OF SITES AND THEIR LINKS ###
 site_links = {
     "google" : "https://www.google.com",
     "wikipedia" : "www.wikipedia.org",
     "youtube" : "www.youtube.com",
+    "facebook" : "www.facebook.com",
+    "whatsapp" : "web.whatsapp.com",
 }
 
 # class ActionHelloWorld(Action):
@@ -142,5 +145,41 @@ class ActionQueryInfo(Action):
             
         except:
             dispatcher.utter_message(text=f"I'm sorry, I couldn't get any info")
+
+        return []
+
+class ActionQueryTime(Action):
+
+    def name(self) -> Text:
+        return "action_query_time"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
+        time = datetime.datetime.now()
+
+        time = time.strftime("%I:%M %p")
+        print(time)
+
+        dispatcher.utter_message(text=f"The time is {time}")
+
+        return []
+
+class ActionQueryDate(Action):
+
+    def name(self) -> Text:
+        return "action_query_date"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
+        date = datetime.datetime.now()
+
+        date = date.strftime("%A, %d %b %Y")
+        print(date)
+        dispatcher.utter_message(text=f"Today is {date}")
+
 
         return []
