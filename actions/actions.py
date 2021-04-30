@@ -29,6 +29,7 @@ site_links = {
     "youtube" : "www.youtube.com",
     "facebook" : "www.facebook.com",
     "whatsapp" : "web.whatsapp.com",
+    "spotify" : "https://open.spotify.com/",
 }
 
 jokes = [
@@ -204,7 +205,7 @@ class ActionPlayMusic(Action):
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
 
         dispatcher.utter_message(text="Opening Spotify...")
-        webbrowser.open('spotify')
+        webbrowser.open_new(site_links["spotify"])
 
         return []
 
