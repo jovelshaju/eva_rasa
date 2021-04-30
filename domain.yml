@@ -29,6 +29,10 @@ intents:
     use_entities: true
 - query_date:
     use_entities: true
+- play_music:
+    use_entities: true
+- tell_a_joke:
+    use_entities: true
 entities:
 - site
 - mode
@@ -57,5 +61,7 @@ actions:
 - action_query_info
 - action_query_time
 - action_query_date
+- action_play_music
+- action_tell_a_joke
 forms: {}
 e2e_actions: []

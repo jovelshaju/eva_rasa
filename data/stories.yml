@@ -59,6 +59,16 @@ stories:
 #   - intent: set_timer
 #   - action: action_set_timer
 
+- story: play music
+  steps:
+  - intent: play_music
+  - action: action_play_music
+
+- story: tell joke
+  steps:
+  - intent: tell_a_joke
+  - action: action_tell_a_joke
+
 - story: interactive_story_1
   steps:
   - intent: greet

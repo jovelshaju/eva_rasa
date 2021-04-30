@@ -20,6 +20,7 @@ from pynput.keyboard import Key,Controller
 import time
 import wikipedia
 import datetime
+import random
 
 ### RECORD OF SITES AND THEIR LINKS ###
 site_links = {
@@ -29,6 +30,14 @@ site_links = {
     "facebook" : "www.facebook.com",
     "whatsapp" : "web.whatsapp.com",
 }
+
+jokes = [
+    "Yesterday I saw a guy spill all his Scrabble letters on the road.\nI asked him, 'What’s the word on the street?'",
+    "Hear about the new restaurant called Karma?\nThere’s no menu: You get what you deserve",
+    "Why don’t scientists trust atoms?\nBecause they make up everything",
+    "Why don’t Calculus majors throw house parties?\nBecause you should never drink and derive",
+    "What did the left eye say to the right eye?\nBetween you and me, something smells"
+]
 
 # class ActionHelloWorld(Action):
 
@@ -136,7 +145,7 @@ class ActionQueryInfo(Action):
 
             topic = e['value']
             
-        topic = "_".join(topic.split())
+        topic = " ".join(topic.split())
         print(topic)
         
         try:
@@ -144,7 +153,8 @@ class ActionQueryInfo(Action):
             dispatcher.utter_message(text=f"According to Wikipedia, {result}")
             
         except:
-            dispatcher.utter_message(text=f"I'm sorry, I couldn't get any info")
+            dispatcher.utter_message(text=f"I'm sorry, I couldn't get any info, here's what I found in the internet")
+            webbrowser.open(f"https://www.google.com/search?q={topic}")
 
         return []
 
@@ -181,5 +191,33 @@ class ActionQueryDate(Action):
         print(date)
         dispatcher.utter_message(text=f"Today is {date}")
 
+
+        return []
+
+class ActionPlayMusic(Action):
+
+    def name(self) -> Text:
+        return "action_play_music"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
+        dispatcher.utter_message(text="Opening Spotify...")
+        webbrowser.open('spotify')
+
+        return []
+
+class ActionTellAJoke(Action):
+
+    def name(self) -> Text:
+        return "action_tell_a_joke"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
+        joke = random.choice(jokes)
+        dispatcher.utter_message(text=f"Here's one,\n{joke}")
 
         return []
