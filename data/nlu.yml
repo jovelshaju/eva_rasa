@@ -61,6 +61,10 @@ nlu:
     - so so perfect
     - so good
     - so perfect
+    - i'm good
+    - good
+    - fine
+    - i'm fine
 - intent: mood_unhappy
   examples: |
     - my day was horrible
@@ -109,7 +113,7 @@ nlu:
     - what do you think is [astrophysics](topic)
     - what is a [pandemic](topic)
     - who is [mahatma gandhi](topic)
-    - who is [president of india](topic) 
+    - who is [president of india](topic)
     - who is [mohanlal](topic)
     - what is a [car](topic)
     - what is the [city of gold](topic)
@@ -121,6 +125,7 @@ nlu:
     - what time is it
     - do you know the time
     - the time please
+    - what time of day it is
 - intent: query_date
   examples: |
     - what is the date
@@ -129,6 +134,7 @@ nlu:
     - what is today date
     - do you know the date
     - tell me date
+<<<<<<< HEAD
 - intent: play_music
   examples: |
     - play music
@@ -152,3 +158,5 @@ nlu:
 #     - set timer for [2 minutes](duration) and [30 seconds](duration)
 #     - set timer fro [10 hours](duration)
 #     - set timer for [1 hour](duration) [30 minutes](duration)
+=======
+>>>>>>> main
