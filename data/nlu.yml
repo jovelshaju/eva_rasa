@@ -134,7 +134,6 @@ nlu:
     - what is today date
     - do you know the date
     - tell me date
-<<<<<<< HEAD
 - intent: play_music
   examples: |
     - play music
@@ -158,5 +157,3 @@ nlu:
 #     - set timer for [2 minutes](duration) and [30 seconds](duration)
 #     - set timer fro [10 hours](duration)
 #     - set timer for [1 hour](duration) [30 minutes](duration)
-=======
->>>>>>> main
