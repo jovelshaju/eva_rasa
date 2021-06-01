@@ -1,0 +1,290 @@
+[
+  {
+    "text": "good evening",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.3713925778865814
+    }
+  },
+  {
+    "text": "good afternoon",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.30528154969215393
+    }
+  },
+  {
+    "text": "good afternoon",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.30528154969215393
+    }
+  },
+  {
+    "text": "good by",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.4968477189540863
+    }
+  },
+  {
+    "text": "have a nice day",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "open_sites",
+      "confidence": 0.3370300233364105
+    }
+  },
+  {
+    "text": "indeed",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.588121771812439
+    }
+  },
+  {
+    "text": "of course",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "query_info",
+      "confidence": 0.22676344215869904
+    }
+  },
+  {
+    "text": "that sounds good",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "query_info",
+      "confidence": 0.3408566415309906
+    }
+  },
+  {
+    "text": "no",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.16199161112308502
+    }
+  },
+  {
+    "text": "n",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.2132563292980194
+    }
+  },
+  {
+    "text": "no way",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.5395523905754089
+    }
+  },
+  {
+    "text": "I am going to save the world",
+    "intent": "mood_great",
+    "intent_prediction": {
+      "name": "query_info",
+      "confidence": 0.27680686116218567
+    }
+  },
+  {
+    "text": "super stoked",
+    "intent": "mood_great",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.8439011573791504
+    }
+  },
+  {
+    "text": "I am disappointed",
+    "intent": "mood_unhappy",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.5058754086494446
+    }
+  },
+  {
+    "text": "unhappy",
+    "intent": "mood_unhappy",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.1824227273464203
+    }
+  },
+  {
+    "text": "what do you know about ships",
+    "intent": "query_info",
+    "intent_prediction": {
+      "name": "query_date",
+      "confidence": 0.8689623475074768
+    }
+  },
+  {
+    "text": "what do you think is astrophysics",
+    "intent": "query_info",
+    "intent_prediction": {
+      "name": "query_date",
+      "confidence": 0.3232710659503937
+    }
+  },
+  {
+    "text": "do you know the time",
+    "intent": "query_time",
+    "intent_prediction": {
+      "name": "query_date",
+      "confidence": 0.7789651155471802
+    }
+  },
+  {
+    "text": "play song",
+    "intent": "play_music",
+    "intent_prediction": {
+      "name": "volume_increase",
+      "confidence": 0.151936337351799
+    }
+  },
+  {
+    "text": "eva say a joke",
+    "intent": "tell_a_joke",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.4870016872882843
+    }
+  },
+  {
+    "text": "a joke please",
+    "intent": "tell_a_joke",
+    "intent_prediction": {
+      "name": "query_time",
+      "confidence": 0.4017724394798279
+    }
+  },
+  {
+    "text": "let's go",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "open_sites",
+      "confidence": 0.23648668825626373
+    }
+  },
+  {
+    "text": "cu",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.26329275965690613
+    }
+  },
+  {
+    "text": "good night",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.7881852984428406
+    }
+  },
+  {
+    "text": "goodbye",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.446512371301651
+    }
+  },
+  {
+    "text": "yes",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.23051922023296356
+    }
+  },
+  {
+    "text": "y",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.3073517978191376
+    }
+  },
+  {
+    "text": "correct",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.2989746630191803
+    }
+  },
+  {
+    "text": "I don't think so",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.5076301693916321
+    }
+  },
+  {
+    "text": "not really",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.34972187876701355
+    }
+  },
+  {
+    "text": "my day was horrible",
+    "intent": "mood_unhappy",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.4932425022125244
+    }
+  },
+  {
+    "text": "not good",
+    "intent": "mood_unhappy",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.8192458152770996
+    }
+  },
+  {
+    "text": "not very good",
+    "intent": "mood_unhappy",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.4567778706550598
+    }
+  },
+  {
+    "text": "are you a human?",
+    "intent": "bot_challenge",
+    "intent_prediction": {
+      "name": "query_info",
+      "confidence": 0.2758486568927765
+    }
+  },
+  {
+    "text": "what is the city of gold",
+    "intent": "query_info",
+    "intent_prediction": {
+      "name": "tell_a_joke",
+      "confidence": 0.2187604457139969
+    }
+  },
+  {
+    "text": "what day is it",
+    "intent": "query_date",
+    "intent_prediction": {
+      "name": "query_info",
+      "confidence": 0.49871429800987244
+    }
+  }
+]

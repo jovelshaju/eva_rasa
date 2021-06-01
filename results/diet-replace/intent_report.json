@@ -1,0 +1,140 @@
+{
+  "tell_a_joke": {
+    "precision": 1.0,
+    "recall": 0.6,
+    "f1-score": 0.7499999999999999,
+    "support": 5,
+    "confused_with": {
+      "query_info": 1,
+      "query_date": 1
+    }
+  },
+  "mood_great": {
+    "precision": 0.75,
+    "recall": 0.8333333333333334,
+    "f1-score": 0.7894736842105262,
+    "support": 18,
+    "confused_with": {
+      "mood_unhappy": 2,
+      "deny": 1
+    }
+  },
+  "greet": {
+    "precision": 0.7272727272727273,
+    "recall": 0.6153846153846154,
+    "f1-score": 0.6666666666666667,
+    "support": 13,
+    "confused_with": {
+      "deny": 2,
+      "open_sites": 1
+    }
+  },
+  "bot_challenge": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 4,
+    "confused_with": {}
+  },
+  "volume_increase": {
+    "precision": 0.8571428571428571,
+    "recall": 0.8571428571428571,
+    "f1-score": 0.8571428571428571,
+    "support": 7,
+    "confused_with": {
+      "play_music": 1
+    }
+  },
+  "query_time": {
+    "precision": 0.5,
+    "recall": 1.0,
+    "f1-score": 0.6666666666666666,
+    "support": 6,
+    "confused_with": {}
+  },
+  "deny": {
+    "precision": 0.36363636363636365,
+    "recall": 0.5714285714285714,
+    "f1-score": 0.4444444444444444,
+    "support": 7,
+    "confused_with": {
+      "mood_unhappy": 2,
+      "mood_great": 1
+    }
+  },
+  "query_date": {
+    "precision": 0.8,
+    "recall": 0.6666666666666666,
+    "f1-score": 0.7272727272727272,
+    "support": 6,
+    "confused_with": {
+      "query_time": 2
+    }
+  },
+  "affirm": {
+    "precision": 1.0,
+    "recall": 0.3333333333333333,
+    "f1-score": 0.5,
+    "support": 6,
+    "confused_with": {
+      "mood_unhappy": 1,
+      "mood_great": 1
+    }
+  },
+  "query_info": {
+    "precision": 0.8333333333333334,
+    "recall": 0.5555555555555556,
+    "f1-score": 0.6666666666666667,
+    "support": 9,
+    "confused_with": {
+      "query_time": 4
+    }
+  },
+  "goodbye": {
+    "precision": 0.75,
+    "recall": 0.5454545454545454,
+    "f1-score": 0.631578947368421,
+    "support": 11,
+    "confused_with": {
+      "mood_great": 2,
+      "greet": 2
+    }
+  },
+  "open_sites": {
+    "precision": 0.9,
+    "recall": 1.0,
+    "f1-score": 0.9473684210526316,
+    "support": 9,
+    "confused_with": {}
+  },
+  "play_music": {
+    "precision": 0.8571428571428571,
+    "recall": 1.0,
+    "f1-score": 0.923076923076923,
+    "support": 6,
+    "confused_with": {}
+  },
+  "mood_unhappy": {
+    "precision": 0.6666666666666666,
+    "recall": 0.7142857142857143,
+    "f1-score": 0.689655172413793,
+    "support": 14,
+    "confused_with": {
+      "deny": 3,
+      "goodbye": 1
+    }
+  },
+  "accuracy": 0.7272727272727273,
+  "macro avg": {
+    "precision": 0.7860853432282003,
+    "recall": 0.735184656613228,
+    "f1-score": 0.7328580840701661,
+    "support": 121
+  },
+  "weighted avg": {
+    "precision": 0.7655057064147972,
+    "recall": 0.7272727272727273,
+    "f1-score": 0.7253657737188807,
+    "support": 121
+  }
+}

@@ -1,0 +1,128 @@
+[
+  {
+    "text": "let's go",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "site",
+        "start": 6,
+        "end": 8,
+        "confidence_entity": 0.988889217376709,
+        "value": "go",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "what do you know about ships",
+    "entities": [
+      {
+        "start": 23,
+        "end": 28,
+        "value": "ships",
+        "entity": "topic"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "who is mahatma gandhi",
+    "entities": [
+      {
+        "start": 7,
+        "end": 21,
+        "value": "mahatma gandhi",
+        "entity": "topic"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "topic",
+        "start": 15,
+        "end": 21,
+        "confidence_entity": 0.9657888412475586,
+        "value": "gandhi",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "who is president of india",
+    "entities": [
+      {
+        "start": 7,
+        "end": 25,
+        "value": "president of india",
+        "entity": "topic"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "topic",
+        "start": 17,
+        "end": 19,
+        "confidence_entity": 0.9124329090118408,
+        "value": "of",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "topic",
+        "start": 20,
+        "end": 25,
+        "confidence_entity": 0.5958418846130371,
+        "value": "india",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "open music player",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "site",
+        "start": 11,
+        "end": 17,
+        "confidence_entity": 0.9992436170578003,
+        "value": "player",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "can you open stackoverflow",
+    "entities": [
+      {
+        "start": 13,
+        "end": 26,
+        "value": "stackoverflow",
+        "entity": "site"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "what is the city of gold",
+    "entities": [
+      {
+        "start": 12,
+        "end": 24,
+        "value": "city of gold",
+        "entity": "topic"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "which is the largest country",
+    "entities": [
+      {
+        "start": 13,
+        "end": 28,
+        "value": "largest country",
+        "entity": "topic"
+      }
+    ],
+    "predicted_entities": []
+  }
+]

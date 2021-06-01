@@ -1,13 +1,14 @@
 language: en
 pipeline:
 - name: WhitespaceTokenizer
+- name: RegexFeaturizer
+- name: LexicalSyntacticFeaturizer
 - name: CountVectorsFeaturizer
 - name: DIETClassifier
 policies:
-- name: TEDPolicy
+- name: EmbeddingPolicy
   max_history: 10
   epochs: 100
-  constrain_similarities: true
   batch_size:
   - 32
   - 64
