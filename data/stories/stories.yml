@@ -1,32 +1,31 @@
 version: "2.0"
 
 stories:
-
 - story: happy path
   steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_great
+  - intent: greetings.hello
+  - action: utter_greetings.hello
+  - intent: agent.good
   - action: utter_happy
 
 - story: sad path 1
   steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_unhappy
+  - intent: greetings.hello
+  - action: utter_greetings.hello
+  - intent: user.sad
   - action: utter_cheer_up
   - action: utter_did_that_help
-  - intent: affirm
+  - intent: confirmation.yes
   - action: utter_happy
 
 - story: sad path 2
   steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_unhappy
+  - intent: greetings.hello
+  - action: utter_greetings.hello
+  - intent: user.bored
   - action: utter_cheer_up
   - action: utter_did_that_help
-  - intent: deny
+  - intent: confirmation.no
   - action: utter_goodbye
 
 - story: open sites
@@ -37,6 +36,9 @@ stories:
 - story: increase volume
   steps:
   - intent: volume_increase
+    entities: 
+     - mode: increase
+     - mode: decrease
   - action: action_increase_volume
 
 - story: query info
@@ -71,8 +73,8 @@ stories:
 
 - story: interactive_story_1
   steps:
-  - intent: greet
-  - action: utter_greet
+  - intent: greetings.hello
+  - action: utter_greetings.hello
   - intent: open_sites
     entities:
     - site: wikipedia
@@ -81,5 +83,5 @@ stories:
     entities:
     - site: twitter
   - action: action_open_sites
-  - intent: goodbye
-  - action: utter_goodbye
+  - intent: greetings.bye
+  - action: utter_greetings.bye

@@ -1,0 +1,418 @@
+[
+  {
+    "text": "hey",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.44364693760871887
+    }
+  },
+  {
+    "text": "hello there",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.34733450412750244
+    }
+  },
+  {
+    "text": "hey there",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.25237029790878296
+    }
+  },
+  {
+    "text": "hey dude",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.25237029790878296
+    }
+  },
+  {
+    "text": "good afternoon",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.3358784317970276
+    }
+  },
+  {
+    "text": "good by",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.3358784317970276
+    }
+  },
+  {
+    "text": "cee you later",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.37918058037757874
+    }
+  },
+  {
+    "text": "goodbye",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.5039135217666626
+    }
+  },
+  {
+    "text": "yes",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.5039135217666626
+    }
+  },
+  {
+    "text": "indeed",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.5039135217666626
+    }
+  },
+  {
+    "text": "of course",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "tell_a_joke",
+      "confidence": 0.9292455315589905
+    }
+  },
+  {
+    "text": "never",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.5039135217666626
+    }
+  },
+  {
+    "text": "I don't think so",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.9430206418037415
+    }
+  },
+  {
+    "text": "don't like that",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.6953158974647522
+    }
+  },
+  {
+    "text": "great",
+    "intent": "mood_great",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.5039135217666626
+    }
+  },
+  {
+    "text": "wonderful",
+    "intent": "mood_great",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.5039135217666626
+    }
+  },
+  {
+    "text": "I'm so sad",
+    "intent": "mood_unhappy",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.7046085596084595
+    }
+  },
+  {
+    "text": "not good",
+    "intent": "mood_unhappy",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9631307721138
+    }
+  },
+  {
+    "text": "not very good",
+    "intent": "mood_unhappy",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.6190202832221985
+    }
+  },
+  {
+    "text": "so saad",
+    "intent": "mood_unhappy",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.9704921245574951
+    }
+  },
+  {
+    "text": "go to facebook",
+    "intent": "open_sites",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.7564436793327332
+    }
+  },
+  {
+    "text": "can you open stackoverflow",
+    "intent": "open_sites",
+    "intent_prediction": {
+      "name": "volume_increase",
+      "confidence": 0.9043900966644287
+    }
+  },
+  {
+    "text": "what do you think is astrophysics",
+    "intent": "query_info",
+    "intent_prediction": {
+      "name": "query_time",
+      "confidence": 0.5076049566268921
+    }
+  },
+  {
+    "text": "what is the city of gold",
+    "intent": "query_info",
+    "intent_prediction": {
+      "name": "tell_a_joke",
+      "confidence": 0.9819837212562561
+    }
+  },
+  {
+    "text": "what time of day it is",
+    "intent": "query_time",
+    "intent_prediction": {
+      "name": "query_date",
+      "confidence": 0.7832995057106018
+    }
+  },
+  {
+    "text": "can you tell me a joke",
+    "intent": "tell_a_joke",
+    "intent_prediction": {
+      "name": "query_date",
+      "confidence": 0.6696609854698181
+    }
+  },
+  {
+    "text": "hi",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.9842131733894348
+    }
+  },
+  {
+    "text": "good morning",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.34443673491477966
+    }
+  },
+  {
+    "text": "good evening",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.34443673491477966
+    }
+  },
+  {
+    "text": "moin",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.9842131733894348
+    }
+  },
+  {
+    "text": "let's go",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "open_sites",
+      "confidence": 0.9994252920150757
+    }
+  },
+  {
+    "text": "goodmorning",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.9842131733894348
+    }
+  },
+  {
+    "text": "cu",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.9842131733894348
+    }
+  },
+  {
+    "text": "good night",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.34443673491477966
+    }
+  },
+  {
+    "text": "bye",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.9842131733894348
+    }
+  },
+  {
+    "text": "have a nice day",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "query_time",
+      "confidence": 0.5254453420639038
+    }
+  },
+  {
+    "text": "y",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.9842131733894348
+    }
+  },
+  {
+    "text": "that sounds good",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.6035358309745789
+    }
+  },
+  {
+    "text": "correct",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.9842131733894348
+    }
+  },
+  {
+    "text": "n",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.9842131733894348
+    }
+  },
+  {
+    "text": "not really",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.9999771118164062
+    }
+  },
+  {
+    "text": "I am going to save the world",
+    "intent": "mood_great",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.9339901208877563
+    }
+  },
+  {
+    "text": "super stoked",
+    "intent": "mood_great",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.9923562407493591
+    }
+  },
+  {
+    "text": "i'm good",
+    "intent": "mood_great",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.9925482273101807
+    }
+  },
+  {
+    "text": "I don't feel very well",
+    "intent": "mood_unhappy",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9985960125923157
+    }
+  },
+  {
+    "text": "unhappy",
+    "intent": "mood_unhappy",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.9842131733894348
+    }
+  },
+  {
+    "text": "which is the largest country",
+    "intent": "query_info",
+    "intent_prediction": {
+      "name": "query_date",
+      "confidence": 0.43855592608451843
+    }
+  },
+  {
+    "text": "hey eva tell me the date",
+    "intent": "query_date",
+    "intent_prediction": {
+      "name": "query_time",
+      "confidence": 0.8242764472961426
+    }
+  },
+  {
+    "text": "what day is it",
+    "intent": "query_date",
+    "intent_prediction": {
+      "name": "query_time",
+      "confidence": 0.9400733113288879
+    }
+  },
+  {
+    "text": "open music player",
+    "intent": "play_music",
+    "intent_prediction": {
+      "name": "open_sites",
+      "confidence": 0.9857639074325562
+    }
+  },
+  {
+    "text": "open music",
+    "intent": "play_music",
+    "intent_prediction": {
+      "name": "open_sites",
+      "confidence": 0.8882423639297485
+    }
+  },
+  {
+    "text": "what is joke of the day",
+    "intent": "tell_a_joke",
+    "intent_prediction": {
+      "name": "query_time",
+      "confidence": 0.8130783438682556
+    }
+  }
+]

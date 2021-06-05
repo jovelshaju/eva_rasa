@@ -1,16 +1,15 @@
 language: en
 pipeline:
 - name: WhitespaceTokenizer
+- name: RegexFeaturizer
+- name: DucklingEntityExtractor
+- name: LexicalSyntacticFeaturizer
 - name: CountVectorsFeaturizer
 - name: DIETClassifier
-  epochs: 200
-  model_confidence: linear_norm
-  constrain_similarities: True
 policies:
-- name: TEDPolicy
+- name: EmbeddingPolicy
   max_history: 10
   epochs: 100
-  constrain_similarities: true
   batch_size:
   - 32
   - 64
