@@ -17,7 +17,4 @@ policies:
 - max_history: 6
   name: AugmentedMemoizationPolicy
 - core_threshold: 0.3
-  name: TwoStageFallbackPolicy
-  nlu_threshold: 0.8
-- name: FormPolicy
-- name: MappingPolicy
+  name: RulePolicy
