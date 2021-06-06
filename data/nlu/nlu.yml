@@ -1,7 +1,7 @@
 version: "2.0"
 nlu:
-  - intent: out_of_scope
-    examples: |
+- intent: out_of_scope
+  examples: |
       - I want to order food
       - can you find me a hotel
       - can you show me some picture
