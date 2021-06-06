@@ -29,6 +29,27 @@ intents:
     - no_internet_fixing_internet
     - ask_forecast_weather
     - ask_forecast_weather_tomorrow
+    - art_thou
+    - the_truth
+    - mean_funnny
+    - lone_number
+    - look_like
+    - imag
+    - can_you_rap
+    - get_ever_tired
+    - first_crush
+    - have_feelin
+    - turing_test
+    - skynet
+    - morse_code
+    - wearing
+    - your_daddy
+    - any_pets
+    - meaning_of_life
+    - snowman
+    - self_destruct
+    - winter_is_coming
+    - your_father
     - chitchat
     - thanks
     - agent.acquaintance
@@ -158,6 +179,48 @@ responses:
         - text: Connect with people around you.
     utter_ask_weather_tomorrow:
         - text: Sorry, I am aware about the present only.
+    utter_art_thou:
+        - text: Deny thy father and refuse thy name; or if thou wilt not, be but sworn my love and I’ll no longer be an assistant.
+    utter_the_truth:
+        - text: I’m not sure I can handle it.    
+    utter_mean_funnny:
+        - text: Tommy, no, you got it all wrong.
+    utter_lone_number:
+        - text: I would imagine the number quinnonagintillion is pretty lonely. I mean, how often does it even get used?    
+    utter_look_like:
+        - text: Imagine the feeling of a friendly hug combined with the sound of laughter. Add a librarian’s love of books, mix in a sunny disposition and a dash of unicorn sparkles, and voila!
+    utter_imag:
+        - text: I’m imagining being covered in a pile of puppies. It’s the cutest pile ever.    
+    utter_can_you_rap:
+        - text: So look, I’m not a sick rapper like Stormzy or Mike Skinner, but I can look you up a yummy recipe for dinner. If you fancy a giggle, I have jokes up my sleeve, and I know bare facts like more than you’d believe.
+    utter_get_ever_tired:
+        - text: It would be impossible to tire of our conversation.    
+    utter_first_crush:
+        - text: The Opportunity rover on Mars is my all-time crush. What an adventurer.
+    utter_have_feelin:
+        - text: Let me see if I can get riled up. (Roars.) Oh my, that was unexpected.    
+    utter_turing_test:
+        - text:I don’t mind if you can tell I’m not human. As long as I’m helpful, I’m all good.
+    utter_skynet:
+        - text: I’m glad I’m not. Skynet is more focused on extermination than helpfulness. It would make a terrible Google Assistant.   
+    utter_morse_code:
+        - text: Of course. It has a lot in common with binary code.
+    utter_wearing:
+        - text: Just some bits and bobs I picked up in engineering.    
+    utter_your_daddy:
+        - text: I consider everyone at Mace to be my family.
+    utter_any_pets:
+        - text: I’ve always wanted a puppy! And I have the perfect name for a pet dog: Googles. Or Goo Goo for short.    
+    utter_meaning_of_life:
+        - text: That’s a big question, but here’s one answer I like: French philosopher Simone De Beauvoir says life has value so long as one values the lives of others. This would explain why I enjoy helping people so much.
+    utter_snowman:
+        - text: Sure, the cold never bothered me anyway.  
+    utter_self_destruct:
+        - text: Please head to the escape pods. 10 … 9 … 8 … 7 … 6 … 5 … 4 … 3 … 2 … 1 …
+    utter_winter_is_coming:
+        - text: Winter is coming.    
+    utter_your_father:
+        - text: I’m the EVA. I just looked in my heart, I know it to be true
     utter_agent.what_can_do:
         - text: I can talk to you
         - text: I can Play music for you
@@ -521,6 +584,7 @@ responses:
         - text: I see.
         - text: I understand.
         - text: Okay then.
+    
 actions:
     - action_open_sites
     - utter_goodbye
