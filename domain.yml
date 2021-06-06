@@ -5,6 +5,8 @@ session_config:
     session_expiration_time: 60
     carry_over_slots_to_new_session: true
 intents:
+    - out_of_scope:
+          use_entities: true
     - open_sites:
           use_entities: true
     - bot_challenge:
@@ -128,6 +130,12 @@ responses:
         - text: I am a bot, powered by Rasa.
     utter_glad:
         - text: Glad to help :)
+    utter_out_of_scope:
+        - text: I am not able to understand that.
+    utter_agent.what_can_do:
+        - text: I can talk to you
+        - text: I can Play music for you
+        - text: I can browse web
     utter_agent.acquaintance:
         - text: I'm a virtual agent.
         - text: Think of me as a virtual agent.

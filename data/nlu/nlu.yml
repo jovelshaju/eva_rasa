@@ -1,71 +1,91 @@
 version: "2.0"
 nlu:
-- intent: open_sites
-  examples: |
-    - open [google](site)
-    - open [youtube](site)
-    - go to [facebook](site)
-    - open [github](site)
-    - go to [twitter](site)
-    - can you open [stackoverflow](site)
-    - open [wikipedia](site)
-    - open [twitter](site)
-    - open [whatsapp](site)
-- intent: volume_increase
-  examples: |
-    - can you [increase](mode) the volume
-    - can you [decrease](mode) the volume
-    - [decrease](mode) the volume
-    - [increase](mode) the volume
-    - volume [up](mode)
-    - volume [down](mode)
-    - [down](mode) the volume
-    - [increase](mode) volume
-    - [decrease](mode) volume
-    - turn [down](mode) the volume
-    - turn [up](mode) the music
-- intent: query_info
-  examples: |
-    - what do you know about [ships](topic)
-    - what do you think is [astrophysics](topic)
-    - what is a [pandemic](topic)
-    - who is [mahatma gandhi](topic)
-    - who is [president of india](topic)
-    - who is [mohanlal](topic)
-    - what is a [car](topic)
-    - what is the [city of gold](topic)
-    - which is the [largest country](topic)
-- intent: query_time
-  examples: |
-    - what is the time
-    - hey eva tell me the time
-    - what time is it
-    - do you know the time
-    - the time please
-    - what time of day it is
-- intent: query_date
-  examples: |
-    - what is the date
-    - hey eva tell me the date
-    - what day is it
-    - what is today date
-    - do you know the date
-    - tell me date
-- intent: play_music
-  examples: |
-    - play music
-    - open music player
-    - open music
-    - play song
-    - put on the music
-    - music on
-- intent: tell_a_joke
-  examples: |
-    - tell me a joke
-    - eva say a joke
-    - what is joke of the day
-    - can you tell me a joke
-    - a joke please
+  - intent: out_of_scope
+    examples: |
+      - I want to order food
+      - can you find me a hotel
+      - can you show me some picture
+      - pics please
+      - Take me home
+      - navigation
+      - navigate
+      - How’s the commute to work?
+      - Navigate home
+      - Servos near me
+      - What’s the address for location?
+      - What are the hours for [insert place]?
+      - Where is the nearest florist?
+      - What time will flight arrive in Sydney?
+  - intent: open_sites
+    examples: |
+      - open [google](site)
+      - open [youtube](site)
+      - go to [facebook](site)
+      - open [github](site)
+      - go to [twitter](site)
+      - can you open [stackoverflow](site)
+      - open [wikipedia](site)
+      - open [twitter](site)
+      - open [whatsapp](site)
+  - intent: volume_increase
+    examples: |
+      - can you [increase](mode) the volume
+      - can you [decrease](mode) the volume
+      - [decrease](mode) the volume
+      - [increase](mode) the volume
+      - volume [up](mode)
+      - volume [down](mode)
+      - [down](mode) the volume
+      - [increase](mode) volume
+      - [decrease](mode) volume
+      - turn [down](mode) the volume
+      - turn [up](mode) the music
+  - intent: query_info
+    examples: |
+      - what do you know about [ships](topic)
+      - what do you think is [astrophysics](topic)
+      - what is a [pandemic](topic)
+      - who is [mahatma gandhi](topic)
+      - who is [president of india](topic)
+      - who is [mohanlal](topic)
+      - what is a [car](topic)
+      - what is the [city of gold](topic)
+      - which is the [largest country](topic)
+  - intent: query_time
+    examples: |
+      - what is the time
+      - hey eva tell me the time
+      - what time is it
+      - do you know the time
+      - the time please
+      - what time of day it is
+  - intent: query_date
+    examples: |
+      - what is the date
+      - hey eva tell me the date
+      - what day is it
+      - what is today date
+      - do you know the date
+      - tell me date
+  - intent: play_music
+    examples: |
+      - play music
+      - open music player
+      - open music
+      - play song
+      - put on the music
+      - music on
+      - song
+      - can you sing a song
+      - song for me
+      - song please
+  - intent: tell_a_joke
+    examples: |
+      - tell me a joke
+      - eva say a joke
+      - what is joke of the day
+      - can you tell me a joke
+      - a joke please
 
 # - intent: set_timer
 #     - set timer for [60 seconds](duration)
