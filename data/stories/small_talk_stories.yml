@@ -131,7 +131,7 @@ stories:
   - story: story what to do
     steps:
       - intent: agent.what_can_do
-    = action: utter_agent.what_can_do
+      - action: utter_agent.what_can_do
   - story: story 33
     steps:
       - intent: appraisal.bad

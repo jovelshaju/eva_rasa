@@ -85,3 +85,32 @@ stories:
   - action: action_open_sites
   - intent: greetings.bye
   - action: utter_greetings.bye
+
+- story: mood_scared_path
+  steps:
+  - intent: mood_scared
+  - action: utter_mood_scared
+
+- story: mood_nervous_path
+  steps:
+  - intent: mood_nervous
+  - action: utter_mood_nervous
+
+- story: internet_is_slow_fixing_internet_path
+  steps:
+  - intent: internet_is_slow_fixing_internet
+  - action: utter_internet_is_slow1
+  - action: utter_internet_is_slow2
+  - action: utter_internet_is_slow3
+
+- story: no_internet_fixing_internet_path
+  steps:
+  - intent: no_internet_fixing_internet
+  - action: utter_no_internet1
+  - action: utter_no_internet2
+  - action: utter_no_internet3
+
+- story: ask_forecast_weather_path
+  steps:
+  - intent: ask_forecast_weather
+  - action: utter_ask_weather_tomorrow

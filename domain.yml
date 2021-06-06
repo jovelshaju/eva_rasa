@@ -23,6 +23,12 @@ intents:
           use_entities: true
     - tell_a_joke:
           use_entities: true
+    - mood_scared
+    - mood_nervous
+    - internet_is_slow_fixing_internet
+    - no_internet_fixing_internet
+    - ask_forecast_weather
+    - ask_forecast_weather_tomorrow
     - chitchat
     - thanks
     - agent.acquaintance
@@ -132,6 +138,26 @@ responses:
         - text: Glad to help :)
     utter_out_of_scope:
         - text: I am not able to understand that.
+    utter_mood_scared:
+        - text: Don't Feel scared, Every night has a dawn, Every sunset has a sunrise. Find the light in your life. 
+        - text: Be optimistic, Light will come to you soon
+    utter_mood_nervous:
+        - text: It's natural to feel nervous, close your eyes, take a deep breath and relax for a minute.
+        - text: Take a deep breath, everyone will be nervous at one point in life, it's the next moent that makes changes.
+    utter_internet_is_slow1:
+        - text: Turn your device off and on again
+    utter_internet_is_slow2:
+        - text: Turn off or limit bandwidth-hogging apps 
+    utter_internet_is_slow3:
+        - text: Call your internet service provider
+    utter_no_internet1:
+        - text: It's time to rethink about your life now.
+    utter_no_internet2:
+        - text: Read a book
+    utter_no_internet3:
+        - text: Connect with people around you.
+    utter_ask_weather_tomorrow:
+        - text: Sorry, I am aware about the present only.
     utter_agent.what_can_do:
         - text: I can talk to you
         - text: I can Play music for you
