@@ -242,6 +242,72 @@ nlu:
     - am I talking to an actual person?
     - you're a bot aren't you?
     - are you even a real person?
+- intent: art_thou
+  examples: |
+    - Wherefore art thou Romeo?
+- intent: the_truth
+  examples: |
+    - You want the truth?
+- intent: mean_funnny
+  examples: |
+    - What do you mean I’m funny?
+- intent: lone_number
+  examples: |
+    - What is the loneliest number?  
+- intent: look_like
+  examples: |
+    - What do you look like?
+- intent: imag
+  examples: |
+    - Do you have an imagination?
+- intent: can_you_rap
+  examples: |
+    - Can you rap?  
+- intent: get_ever_tired
+  examples: |
+    - Do you ever get tired? 
+- intent: first_crush
+  examples: |
+    - Who was your first crush?
+- intent: have_feelin
+  examples: |
+    - Do you have feelings?
+- intent: turing_test
+  examples: |
+    - Can you pass the Turing test? 
+- intent: skynet
+  examples: |
+    - Are you Skynet? 
+- intent: morse_code
+  examples: |
+    - Do you speak Morse code?
+- intent: wearing
+  examples: |
+    - What are you wearing?
+- intent: your_daddy
+  examples: |
+    - Who’s your daddy?
+- intent: any_pets
+  examples: |
+    - Do you have any pets?
+- intent: meaning_of_life
+  examples: |
+    - What’s the meaning of life?
+- intent: snowman
+  examples: |
+    - Do you want to build a snowman?
+- intent: self_destruct
+  examples: |
+    - Self-destruct.
+- intent: winter_is_coming
+  examples: |
+    - Winter is coming.
+- intent: your_father
+  examples: |
+    - I am your father.
+    
+    
+    
     
 # - intent: set_timer
 #     - set timer for [60 seconds](duration)
