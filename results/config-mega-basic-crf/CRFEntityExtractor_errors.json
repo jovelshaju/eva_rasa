@@ -1,0 +1,398 @@
+[
+  {
+    "text": "open google",
+    "entities": [
+      {
+        "start": 5,
+        "end": 11,
+        "value": "google",
+        "entity": "site"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "site",
+        "start": 5,
+        "end": 11,
+        "confidence_entity": 0.9920259118080139,
+        "value": "google",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "open youtube",
+    "entities": [
+      {
+        "start": 5,
+        "end": 12,
+        "value": "youtube",
+        "entity": "site"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "site",
+        "start": 5,
+        "end": 12,
+        "confidence_entity": 0.9920259118080139,
+        "value": "youtube",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "go to twitter",
+    "entities": [
+      {
+        "start": 6,
+        "end": 13,
+        "value": "twitter",
+        "entity": "site"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "site",
+        "start": 6,
+        "end": 13,
+        "confidence_entity": 0.9997462630271912,
+        "value": "twitter",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "open wikipedia",
+    "entities": [
+      {
+        "start": 5,
+        "end": 14,
+        "value": "wikipedia",
+        "entity": "site"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "site",
+        "start": 5,
+        "end": 14,
+        "confidence_entity": 0.9920259118080139,
+        "value": "wikipedia",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "decrease the volume",
+    "entities": [
+      {
+        "start": 0,
+        "end": 8,
+        "value": "decrease",
+        "entity": "mode"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "increase volume",
+    "entities": [
+      {
+        "start": 0,
+        "end": 8,
+        "value": "increase",
+        "entity": "mode"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "mode",
+        "start": 0,
+        "end": 8,
+        "confidence_entity": 0.9997028708457947,
+        "value": "increase",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "what do you know about ships",
+    "entities": [
+      {
+        "start": 23,
+        "end": 28,
+        "value": "ships",
+        "entity": "topic"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "who is mahatma gandhi",
+    "entities": [
+      {
+        "start": 7,
+        "end": 21,
+        "value": "mahatma gandhi",
+        "entity": "topic"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "topic",
+        "start": 15,
+        "end": 21,
+        "confidence_entity": 0.5273951888084412,
+        "value": "gandhi",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "who is mohanlal",
+    "entities": [
+      {
+        "start": 7,
+        "end": 15,
+        "value": "mohanlal",
+        "entity": "topic"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "site",
+        "start": 7,
+        "end": 15,
+        "confidence_entity": 0.8067639470100403,
+        "value": "mohanlal",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "what is a car",
+    "entities": [
+      {
+        "start": 10,
+        "end": 13,
+        "value": "car",
+        "entity": "topic"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "go to facebook",
+    "entities": [
+      {
+        "start": 6,
+        "end": 14,
+        "value": "facebook",
+        "entity": "site"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "site",
+        "start": 6,
+        "end": 14,
+        "confidence_entity": 0.9901902675628662,
+        "value": "facebook",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "open github",
+    "entities": [
+      {
+        "start": 5,
+        "end": 11,
+        "value": "github",
+        "entity": "site"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "site",
+        "start": 5,
+        "end": 11,
+        "confidence_entity": 0.9977915287017822,
+        "value": "github",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "can you open stackoverflow",
+    "entities": [
+      {
+        "start": 13,
+        "end": 26,
+        "value": "stackoverflow",
+        "entity": "site"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "site",
+        "start": 13,
+        "end": 26,
+        "confidence_entity": 0.4453686773777008,
+        "value": "stackoverflow",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "open whatsapp",
+    "entities": [
+      {
+        "start": 5,
+        "end": 13,
+        "value": "whatsapp",
+        "entity": "site"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "site",
+        "start": 5,
+        "end": 13,
+        "confidence_entity": 0.9977915287017822,
+        "value": "whatsapp",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "volume up",
+    "entities": [
+      {
+        "start": 7,
+        "end": 9,
+        "value": "up",
+        "entity": "mode"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "mode",
+        "start": 7,
+        "end": 9,
+        "confidence_entity": 0.9981558918952942,
+        "value": "up",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "down the volume",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "down",
+        "entity": "mode"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "mode",
+        "start": 0,
+        "end": 4,
+        "confidence_entity": 0.9992577433586121,
+        "value": "down",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "what do you think is astrophysics",
+    "entities": [
+      {
+        "start": 21,
+        "end": 33,
+        "value": "astrophysics",
+        "entity": "topic"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "topic",
+        "start": 21,
+        "end": 33,
+        "confidence_entity": 0.9219056963920593,
+        "value": "astrophysics",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "what is a pandemic",
+    "entities": [
+      {
+        "start": 10,
+        "end": 18,
+        "value": "pandemic",
+        "entity": "topic"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "topic",
+        "start": 10,
+        "end": 18,
+        "confidence_entity": 0.8290562033653259,
+        "value": "pandemic",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "who is president of india",
+    "entities": [
+      {
+        "start": 7,
+        "end": 25,
+        "value": "president of india",
+        "entity": "topic"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "topic",
+        "start": 20,
+        "end": 25,
+        "confidence_entity": 0.8677348494529724,
+        "value": "india",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "what is the city of gold",
+    "entities": [
+      {
+        "start": 12,
+        "end": 24,
+        "value": "city of gold",
+        "entity": "topic"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "which is the largest country",
+    "entities": [
+      {
+        "start": 13,
+        "end": 28,
+        "value": "largest country",
+        "entity": "topic"
+      }
+    ],
+    "predicted_entities": []
+  }
+]
