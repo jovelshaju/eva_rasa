@@ -684,6 +684,6 @@ actions:
     - utter_confirmation.yes
     - utter_confirmation.cancel
     - utter_confirmation.no
-- action_query_weather
+    - action_query_weather
 forms: {}
 e2e_actions: []
