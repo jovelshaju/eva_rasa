@@ -1,9 +1,7 @@
-version: "2.0"
-config:
-    store_entities_as_slots: true
+version: '2.0'
 session_config:
-    session_expiration_time: 60
-    carry_over_slots_to_new_session: true
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
 intents:
     - out_of_scope:
           use_entities: true
@@ -142,10 +140,9 @@ intents:
     - confirmation.cancel
     - confirmation.no
 entities:
-    - site
-    - mode
-    - topic
-slots: {}
+- mode
+- site
+- topic
 responses:
     utter_cheer_up:
         - text: Don't worry, everything will be ok
@@ -687,5 +684,6 @@ actions:
     - utter_confirmation.yes
     - utter_confirmation.cancel
     - utter_confirmation.no
+- action_query_weather
 forms: {}
 e2e_actions: []

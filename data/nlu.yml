@@ -1,0 +1,11 @@
+version: "2.0"
+nlu:
+- intent: greetings.hello
+  examples: |
+    - Hi
+- intent: user.sad
+  examples: |
+    - I am not feeling good
+- intent: confirmation.yes
+  examples: |
+    - yes
