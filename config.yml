@@ -3,7 +3,7 @@ pipeline:
 - name: WhitespaceTokenizer
 - name: CountVectorsFeaturizer
 - name: DIETClassifier
-  epochs: 200
+  epochs: 100
   model_confidence: linear_norm
   constrain_similarities: True
 policies:

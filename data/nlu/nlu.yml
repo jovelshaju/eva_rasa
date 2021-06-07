@@ -243,6 +243,18 @@ nlu:
     - am I talking to an actual person?
     - you're a bot aren't you?
     - are you even a real person?
+- intent: news_headlines
+  examples: |
+    - todays news?
+    - news headlines
+    - top news
+    - important news
+    - news
+    - headline news
+    - heading news
+    - news headings
+    - news details
+    - news depth
 - intent: art_thou
   examples: |
     - Wherefore art thou Romeo?

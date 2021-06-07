@@ -29,6 +29,7 @@ intents:
     - no_internet_fixing_internet
     - ask_forecast_weather
     - ask_forecast_weather_tomorrow
+    - news_headlines
     - art_thou
     - the_truth
     - mean_funnny
@@ -592,6 +593,7 @@ responses:
     
 actions:
     - action_open_sites
+    - action_news_headlines
     - utter_goodbye
     - action_increase_volume
     - action_query_info

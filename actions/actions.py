@@ -14,6 +14,8 @@ from rasa_sdk.executor import CollectingDispatcher
 
 #import custom_actions as ca
 
+from . import custom_news
+
 import os
 import webbrowser
 from pynput.keyboard import Key,Controller
@@ -222,3 +224,17 @@ class ActionTellAJoke(Action):
         dispatcher.utter_message(text=f"Here's one,\n{joke}")
 
         return []
+
+class ActionNewsHeadlines(Action):
+    def name(self) -> Text:
+        return "action_news_headlines"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
+        x=custom_news.NewsFromBBC()
+        for i in range(len(x)):
+                 dispatcher.utter_message(text=f"{x[i]}")
+
+        return[]
