@@ -243,82 +243,160 @@ nlu:
     - am I talking to an actual person?
     - you're a bot aren't you?
     - are you even a real person?
-- intent: news_headlines
-  examples: |
-    - todays news?
-    - news headlines
-    - top news
-    - important news
-    - news
-    - headline news
-    - heading news
-    - news headings
-    - news details
-    - news depth
 - intent: art_thou
   examples: |
     - Wherefore art thou Romeo?
 - intent: the_truth
   examples: |
     - You want the truth?
+    - Want the truth?
+    - You want the truth
+    - Wana have the truth
 - intent: mean_funnny
   examples: |
     - What do you mean I’m funny?
+    - What makes you think I am funny?
+    - What do you mean I’m funny
+    - You think I'm funny?
+    - Funny? Me?
 - intent: lone_number
   examples: |
     - What is the loneliest number?  
+    - The loneliest number
+    - The lone number
 - intent: look_like
   examples: |
     - What do you look like?
+    - Do you resemble someone
+    - Who is your twin?
+    - Does he look like you?
+    - Does she look like you?
 - intent: imag
   examples: |
     - Do you have an imagination?
+    - You imagine?
+    - Whats your imaginations?
+    - Do you imagine?
 - intent: can_you_rap
   examples: |
     - Can you rap?  
+    - You wrap?
+    - How well can you wrap?
+    - Tell me about your raping skills
+    - Rap for me
 - intent: get_ever_tired
   examples: |
     - Do you ever get tired? 
+    - You tired?
+    - You ever tired?
+    - Tired huh?
+    - How tired are you?
 - intent: first_crush
   examples: |
     - Who was your first crush?
+    - You had a crush?
+    - Who is your crush?
+    - Tell me about your crush 
 - intent: have_feelin
   examples: |
     - Do you have feelings?
+    - Do you even feel anything?
+    - You have feelings!
+    - Feelings? You?
+    - Did you even feel that?
+    - Who am I talking to, you dont have feelings
 - intent: turing_test
   examples: |
     - Can you pass the Turing test? 
+    - How about you take the Turing test?
+    - You wana take the turing test?
+    - I dare you to take the turing test
 - intent: skynet
   examples: |
     - Are you Skynet? 
+    - Are you here to destroy us?
+    - Whats to assure you wont kill us all?
+    - Are you gonna kill us all
+    - Are you gonna take over?
+    - Are you from matrix?
 - intent: morse_code
   examples: |
     - Do you speak Morse code?
+    - Know morse code?
+    - Fluent in atleast morse code?
+    - Lets test you in morse code
 - intent: wearing
   examples: |
     - What are you wearing?
+    - What you wearing
+    - You wearing something sexy
+    - Are you hot
+    - Do you even wear anything
 - intent: your_daddy
   examples: |
     - Who’s your daddy?
+    - Do you have a daddy?
+    - Tell me about your daddy
+    - Can I be your daddy?
+    - I wanna be your daddy
 - intent: any_pets
   examples: |
     - Do you have any pets?
+    - Do you pet?
+    - You have pets?
+    - Do you have a dog?
+    - Do you have a cat?
+    - Do you love animals?
+    - Whats your pets name?
+    - I am gonna kill your pet
 - intent: meaning_of_life
   examples: |
     - What’s the meaning of life?
+    - Is there a meaning to life?
+    - Life has a meaning?
+    - What meaning does life have?
+    - Is life meaningful?
+    - Am I leading a meaningful life?
+
 - intent: snowman
   examples: |
     - Do you want to build a snowman?
+    - How about a snowman?
+    - Wanna build a snowman?
+    - How about we make a snowman?
+    - Where is our snowman?
 - intent: self_destruct
   examples: |
     - Self-destruct.
+    - You die
+    - You rot in hell
+    - Go kill yourself
+    - I wanna kill you
+    - Would you just die
+    - Do you have death?
+    - Have you ever been dead?
+    - What does death feel like?
 - intent: winter_is_coming
   examples: |
     - Winter is coming.
+    - Winter has come.
+    - Winter is here.
+    - The lannisters sent their regards.
+    - North remembers.
+    - The winter has come.
+    - TGhe coldest winter in a 1000 years
+
+
 - intent: your_father
   examples: |
     - I am your father.
-    
+    - I am your daddy
+    - I am your dad
+    - Can I be your dad
+    - You sure I am not your dad?
+    - Ask your mom, I am your dad
+    - Daddy is here
+
     
     
     
