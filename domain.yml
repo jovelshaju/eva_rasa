@@ -595,6 +595,7 @@ actions:
 - action_query_info
 - action_query_time
 - action_tell_a_joke
+- action_query_weather
 - utter_agent.acquaintance
 - utter_agent.age
 - utter_agent.annoying

@@ -7,6 +7,7 @@
 
 # This is a simple example for a custom action which utters "Hello World!"
 
+from actions.customactions import locaion, weather
 from typing import Any, Text, Dict, List
 
 from rasa_sdk import Action, Tracker
@@ -21,6 +22,9 @@ import time
 import wikipedia
 import datetime
 import random
+
+# Custom Libraries
+from .customactions import weather
 
 ### RECORD OF SITES AND THEIR LINKS ###
 site_links = {
@@ -220,5 +224,19 @@ class ActionTellAJoke(Action):
 
         joke = random.choice(jokes)
         dispatcher.utter_message(text=f"Here's one,\n{joke}")
+
+        return []
+
+class ActionQueryWeather(Action):
+
+    def name(self) -> Text:
+        return "action_query_weather"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
+        weather_data = weather.queryWeather()
+        dispatcher.utter_message(text=weather_data)
 
         return []
