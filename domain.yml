@@ -201,7 +201,7 @@ responses:
     utter_have_feelin:
         - text: Let me see if I can get riled up. (Roars.) Oh my, that was unexpected.    
     utter_turing_test:
-        - text:I don’t mind if you can tell I’m not human. As long as I’m helpful, I’m all good.
+        - text: I don’t mind if you can tell I’m not human. As long as I’m helpful, I’m all good.
     utter_skynet:
         - text: I’m glad I’m not. Skynet is more focused on extermination than helpfulness. It would make a terrible Google Assistant.   
     utter_morse_code:
@@ -211,9 +211,9 @@ responses:
     utter_your_daddy:
         - text: I consider everyone at Mace to be my family.
     utter_any_pets:
-        - text: I’ve always wanted a puppy! And I have the perfect name for a pet dog: Googles. Or Goo Goo for short.    
+        - text: I’ve always wanted a puppy! And I have the perfect name for a pet dog Googles. Or Goo Goo for short.    
     utter_meaning_of_life:
-        - text: That’s a big question, but here’s one answer I like: French philosopher Simone De Beauvoir says life has value so long as one values the lives of others. This would explain why I enjoy helping people so much.
+        - text: That’s a big question, but here’s one answer I like- French philosopher Simone De Beauvoir says life has value so long as one values the lives of others. This would explain why I enjoy helping people so much.
     utter_snowman:
         - text: Sure, the cold never bothered me anyway.  
     utter_self_destruct:
