@@ -24,7 +24,7 @@ import datetime
 import random
 
 # Custom Libraries
-from .customactions import weather
+
 
 ### RECORD OF SITES AND THEIR LINKS ###
 site_links = {
@@ -236,7 +236,11 @@ class ActionQueryWeather(Action):
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
 
-        weather_data = weather.queryWeather()
-        dispatcher.utter_message(text=weather_data)
+        try:
+            weather_data = weather.queryWeather()
+            dispatcher.utter_message(text=weather_data)
+        except:
+            dispatcher.utter_message("I'm sorry, I couldn't get the weather data")
+
 
         return []

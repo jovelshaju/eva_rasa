@@ -31,5 +31,3 @@ def queryWeather():
     
     except:
         return ("Error while fetching the data")
-
-print(queryWeather())
