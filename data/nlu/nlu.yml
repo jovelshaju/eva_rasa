@@ -1,5 +1,21 @@
 version: "2.0"
 nlu:
+- intent: out_of_scope
+  examples: |
+      - I want to order food
+      - can you find me a hotel
+      - can you show me some picture
+      - pics please
+      - Take me home
+      - navigation
+      - navigate
+      - How’s the commute to work?
+      - Navigate home
+      - Servos near me
+      - What’s the address for location?
+      - What are the hours for [insert place]?
+      - Where is the nearest florist?
+      - What time will flight arrive in Sydney?
 - intent: open_sites
   examples: |
     - open [google](site)
@@ -66,7 +82,234 @@ nlu:
     - what is joke of the day
     - can you tell me a joke
     - a joke please
-
+- intent: mood_scared
+  examples: |
+    - I am scared
+    - I feel scared
+    - I'm worried
+    - I am terrified
+    - That is frightening
+    - I feel intimidated
+    - That is intimidating
+    - I am petrified
+    - I am afraid
+    - I'm having a bad feeling
+    - I'm fearful
+    - I panicked
+    - I shrank back in fear
+    - I am scared to death
+    - I broke out in a cold sweat
+    - That startled me!
+    - I'm spooked easily
+    - I'm trembling from fear
+    - I'm horrified
+- intent: mood_nervous
+  examples: |
+    - I am nervous
+    - I am stressed out
+    - I feel nervous
+    - I am anxious
+    - I feel anxious
+    - This is nerveracking
+    - This is nervewracking
+    - This is nerve racking
+    - This is nerve wracking
+    - I feel like I am going to throw up
+    - I have a lump in my throat
+    - I have butterflies in my stomach
+    - I am a bundle of nerves
+    - I am breaking out in a cold sweat
+    - I am afraid of my own shadow
+    - I am like a cat on hot bricks
+    - I am jumping out of my skin
+    - I am at my wits' end
+    - I am tongue tied
+    - I am on edge
+    - I am very tense
+    - I feel uneasy
+    - I am alarmed
+    - I am troubled
+    - I'm tensed
+    - I'm stressed
+    - I'm under a lot of stress
+    - I'm constantly worried
+    - I feel constant tension
+    - I’m anxious.
+    - I’m suffering from anxiety.
+    - I’ve been feeling rather anxious lately.
+    - My anxiety is rather through the roof these days.
+    - I’m feeling rather restless
+    - I cannot concentrate as I'm worried constantly
+    - I'm under immense stress
+    - It's been a rough couple of days. VERY stressful
+    - I'm quite tensed.
+    - There's been quite a few changes in my life. I don't think I am handling them well. It's quite stressful.
+    - I find myself worrying about every little detail
+    - I am a chronic worrier.
+    - I’m feeling rather restless and a horde of worries is bothering me
+    - I cannot concentrate due to the whole number of worries that are bothering me
+- intent: internet_is_slow_fixing_internet
+  examples: |
+    - spotty internet
+    - slow internet connection
+    - sluggish internet connection
+    - slow internet speeds
+    - slow internet speed
+    - bad internet speed
+    - low internet speeds
+    - bad internet speeds
+    - internet is slow
+    - ping is high
+    - latency is high
+    - web page is slow to load
+- intent: no_internet_fixing_internet
+  examples: |
+    - no internet
+    - no internet signal
+    - internet is down
+    - my home has no internet
+    - no internet connection
+    - web page is not loading
+    - network outage
+- intent: ask_forecast_weather
+  examples: |
+    - Anybody notice the weather today?
+    - Are the roads flooded today?
+    - Awful weather, isn’t it?
+    - Do you know the weather forecast for today?
+    - Do I need to carry an umbrella today?
+    - How is the weather today?
+    - How cold is it going to get today?
+    - How hot is it going to get today?
+    - How humid is it going to get today?
+    - How rainy is it going to be today?
+    - How’s the weather?
+    - How's the weather out in the country today?
+    - I wonder if there will be a storm?
+    - Is it cold outside?
+    - Is it expected to rain?
+    - Is it expected to snow?
+    - Is it snowing outside?
+    - Is it warm or cold?
+    - Is it windy out?
+    - It is so cloudy today, isn’t it?
+    - It is so sunny today, isn’t it?
+    - Is there much flooding on the roads today?
+    - Lovely day, huh?
+    - Nice weather today, isn’t it?
+    - So, what will the weather be like today?
+    - Tell me, what is the weather like today?
+    - Terrible weather, isn’t it?
+    - The forecast?
+    - What do you think the weather looks like?
+    - What is the humidity level right now?
+    - What is the temperature outside?
+    - What is the temperature?
+    - What is the weather expected to be like?
+    - What is the weather forecast saying?
+    - What is the weather forecast today?
+    - What is the weather today?
+    - What temperature do you think it is?
+    - What’s it like out there?
+    - What’s it like out?
+    - What's the humidity level right now?
+    - What’s the temperature like out there?
+    - What’s the temperature like?
+    - What’s the temperature today?
+    - What’s the temperature?
+    - What’s the weather forecast?
+    - What’s the weather like?
+    - What's the forecast like?
+    - What's the forecast?
+    - What's the weather like today?
+    - Will the weather keep up?
+- intent: ask_forecast_weather_tomorrow
+  examples: |
+    - How rainy is it going to be tomorrow?
+    - How humid is it going to be tomorrow?
+    - How hot is it going to be tomorrow?
+    - How cold is it going to be tomorrow?
+    - Do I need to carry an umbrella tomorrow?
+    - What is the weather tomorrow?
+    - will it rain tomorrow?
+    - weather tomorrow?
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+    - are you a robot?
+    - am I talking to an actual person?
+    - you're a bot aren't you?
+    - are you even a real person?
+- intent: art_thou
+  examples: |
+    - Wherefore art thou Romeo?
+- intent: the_truth
+  examples: |
+    - You want the truth?
+- intent: mean_funnny
+  examples: |
+    - What do you mean I’m funny?
+- intent: lone_number
+  examples: |
+    - What is the loneliest number?  
+- intent: look_like
+  examples: |
+    - What do you look like?
+- intent: imag
+  examples: |
+    - Do you have an imagination?
+- intent: can_you_rap
+  examples: |
+    - Can you rap?  
+- intent: get_ever_tired
+  examples: |
+    - Do you ever get tired? 
+- intent: first_crush
+  examples: |
+    - Who was your first crush?
+- intent: have_feelin
+  examples: |
+    - Do you have feelings?
+- intent: turing_test
+  examples: |
+    - Can you pass the Turing test? 
+- intent: skynet
+  examples: |
+    - Are you Skynet? 
+- intent: morse_code
+  examples: |
+    - Do you speak Morse code?
+- intent: wearing
+  examples: |
+    - What are you wearing?
+- intent: your_daddy
+  examples: |
+    - Who’s your daddy?
+- intent: any_pets
+  examples: |
+    - Do you have any pets?
+- intent: meaning_of_life
+  examples: |
+    - What’s the meaning of life?
+- intent: snowman
+  examples: |
+    - Do you want to build a snowman?
+- intent: self_destruct
+  examples: |
+    - Self-destruct.
+- intent: winter_is_coming
+  examples: |
+    - Winter is coming.
+- intent: your_father
+  examples: |
+    - I am your father.
+    
+    
+    
+    
 # - intent: set_timer
 #     - set timer for [60 seconds](duration)
 #     - set timer for [2 hours](duration)
