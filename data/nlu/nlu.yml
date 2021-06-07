@@ -384,7 +384,7 @@ nlu:
     - The lannisters sent their regards.
     - North remembers.
     - The winter has come.
-    - TGhe coldest winter in a 1000 years
+    - The coldest winter in a 1000 years
 
 
 - intent: your_father
@@ -396,9 +396,6 @@ nlu:
     - You sure I am not your dad?
     - Ask your mom, I am your dad
     - Daddy is here
-
-    
-    
     
 # - intent: set_timer
 #     - set timer for [60 seconds](duration)

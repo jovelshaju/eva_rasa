@@ -117,9 +117,14 @@ stories:
 
   - story: ask_forecast_weather_path
     steps:
-      - intent: ask_forecast_weather
-      - action: utter_ask_weather_tomorrow
+    - intent: ask_forecast_weather
+    - action: action_query_weather
 
+  - story: ask_forecast_weather_tomorrow_path
+    steps:
+    - intent: ask_forecast_weather_tomorrow
+    - action: ask_forecast_weather_tomorrow_path
+    
   - story: funny1
     steps:
       - intent: art_thou
