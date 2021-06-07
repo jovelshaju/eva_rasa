@@ -114,3 +114,109 @@ stories:
   steps:
   - intent: ask_forecast_weather
   - action: utter_ask_weather_tomorrow
+
+- story: funny1
+  steps:
+  - intent: art_thou
+  - action: utter_art_thou
+
+- story: funny2
+  steps:
+  - intent: the_truth
+  - action: utter_the_truth
+
+- story: funny3
+  steps:
+  - intent: mean_funnny
+  - action: utter_mean_funnny
+
+- story: funny4
+  steps:
+  - intent: lone_number
+  - action: utter_lone_number
+
+- story: funny5
+  steps:
+  - intent: look_like
+  - action: utter_look_like
+
+- story: funny6
+  steps:
+  - intent: imag
+  - action: utter_imag
+
+- story: funny7
+  steps:
+  - intent: first_crush
+  - action: utter_first_crush
+
+- story: funny8
+  steps:
+  - intent: can_you_rap
+  - action: utter_can_you_rap
+
+- story: funny9
+  steps:
+  - intent: get_ever_tired
+  - action: utter_get_ever_tired
+
+- story: funny10
+  steps:
+  - intent: have_feelin
+  - action: utter_have_feelin
+
+- story: funny11
+  steps:
+  - intent: turing_test
+  - action: utter_turing_test
+
+- story: funny12
+  steps:
+  - intent: skynet
+  - action: utter_skynet
+
+- story: funny13
+  steps:
+  - intent: morse_code
+  - action: utter_morse_code
+
+- story: funny14
+  steps:
+  - intent: wearing
+  - action: utter_wearing
+
+- story: funny15
+  steps:
+  - intent: your_daddy
+  - action: utter_your_daddy
+
+- story: funny16
+  steps:
+  - intent: any_pets
+  - action: utter_any_pets
+
+- story: funny17
+  steps:
+  - intent: meaning_of_life
+  - action: utter_meaning_of_life
+
+- story: funny18
+  steps:
+  - intent: snowman
+  - action: utter_snowman
+
+- story: funny19
+  steps:
+  - intent: self_destruct
+  - action: utter_self_destruct
+
+- story: funny20
+  steps:
+  - intent: winter_is_coming
+  - action: utter_winter_is_coming
+
+- story: funny21
+  steps:
+  - intent: your_father
+  - action: utter_your_father
+ 
