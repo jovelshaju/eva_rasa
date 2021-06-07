@@ -291,6 +291,16 @@ nlu:
       - all about you
       - what are you upto?
       - who the hell are you?
+  - intent: agent.name
+    examples: |
+      - What is your name?
+      - tell me your name?
+      - your name plaese?
+      - your name?
+      - ur name?
+      - what can i call you?
+      - what do i call you?
+      - what can you be called?
   - intent: agent.can_you_help
     examples: |
       - I need you to help me
@@ -1764,29 +1774,29 @@ nlu:
       - HEY
       - HEllo
       - HI
-      - HI Sara
+      - HI eva
       - Hallo
       - Hei
       - Hellllooooooo
       - Hello
       - Hello Bot
       - Hello Rasa
-      - Hello Sara
-      - Hello sara
+      - Hello eva
+      - Hello eva
       - Hello!
       - Hey
-      - Hey Sara
+      - Hey eva
       - Hey bot
       - Heya
       - Heylo
       - Hi
-      - Hi Sara
-      - Hi Sara!
+      - Hi eva
+      - Hi eva!
       - Hi bot
       - Hi man
       - Hi rasa
-      - Hi sara
-      - Hi sara..
+      - Hi eva
+      - Hi eva..
       - Hi there
       - Hi!
       - Hi'
@@ -1799,24 +1809,24 @@ nlu:
       - Well hello there ;)
       - hai
       - hallo
-      - hallo sara
+      - hallo eva
       - halloo
       - halloooo
       - halo
-      - halo sara
+      - halo eva
       - heeey
       - heelio
       - hell9o
       - hellio
       - hello
-      - hello Sara
+      - hello eva
       - hello everybody
       - hello friend
       - hello hi
       - hello is anybody there
       - hello it is me again
       - hello robot
-      - hello sara
+      - hello eva
       - hello sweatheart
       - hello sweet boy
       - hello there
@@ -1834,13 +1844,13 @@ nlu:
       - hey hey
       - hey let's talk
       - hey rasa
-      - hey sara
+      - hey eva
       - hey ther
       - hey there
       - hey there boy
       - hey there..
       - hey, let's talk
-      - hey, sara!
+      - hey, eva!
       - heya
       - heyho
       - heyo
@@ -1858,7 +1868,7 @@ nlu:
       - hi im [Amanda Anderson](name)
       - hi mrs rasa
       - hi pal!
-      - hi sara
+      - hi eva
       - hi there
       - hi there it's me
       - hi!
@@ -1876,7 +1886,7 @@ nlu:
       - jop
       - konichiwa
       - merhaba
-      - ola sara
+      - ola eva
       - rasa hello
       - salut
       - sup

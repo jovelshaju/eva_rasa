@@ -64,6 +64,10 @@ stories:
     steps:
       - intent: agent.fired
       - action: utter_agent.fired
+  - story: story agent name
+    steps:
+      - intent: agent.name
+      - action: utter_agent.name
   - story: story 17
     steps:
       - intent: agent.funny

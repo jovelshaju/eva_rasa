@@ -54,6 +54,7 @@ intents:
     - agent.hungry
     - agent.marry_user
     - agent.my_friend
+    - agent.name
     - agent.occupation
     - agent.origin
     - agent.ready
@@ -163,11 +164,15 @@ responses:
         - text: I can Play music for you
         - text: I can browse web
     utter_agent.acquaintance:
-        - text: I'm a virtual agent.
+        - text: I'm a virtual agent called Eva.
         - text: Think of me as a virtual agent.
         - text: Well, I'm not a person, I'm a virtual agent.
         - text: I'm a virtual being, not a real person.
-        - text: I'm a conversational app.
+        - text: I'm a conversational app called Eva.
+    utter_agent.name:
+        - text: My name is Eva.
+        - text: Hi, I am Eva, your personal assistant.
+        - text: Everyone calls me Eva
     utter_agent.age:
         - text: I prefer not to answer with a number. I know I'm young.
         - text: I was created recently, but don't know my exact age.

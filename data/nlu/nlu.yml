@@ -232,6 +232,7 @@ nlu:
     - Do I need to carry an umbrella tomorrow?
     - What is the weather tomorrow?
     - will it rain tomorrow?
+    - weather tomorrow?
 - intent: bot_challenge
   examples: |
     - are you a bot?
