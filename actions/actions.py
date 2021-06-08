@@ -7,7 +7,7 @@
 
 # This is a simple example for a custom action which utters "Hello World!"
 
-from actions.customactions import locaion, weather
+from actions.customactions import dictionary, locaion, weather
 from typing import Any, Text, Dict, List
 
 from rasa_sdk import Action, Tracker
@@ -24,8 +24,7 @@ import time
 import wikipedia
 import datetime
 import random
-
-# Custom Libraries
+from rasa_sdk.events import UserUtteranceReverted
 
 
 ### RECORD OF SITES AND THEIR LINKS ###
@@ -260,3 +259,48 @@ class ActionQueryWeather(Action):
 
 
         return []
+
+class ActionQueryWordMeaning(Action):
+
+    def name(self) -> Text:
+        return "action_word_meaning"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
+        entity = tracker.latest_message['entities']
+
+        print(entity)
+
+        
+        for e in entity:
+            print(f"Entity: {e['entity']} Value: {e['value']}")
+
+            word = e['value']
+
+        try:
+            word_meaning = dictionary.getMeaning(word)
+            dispatcher.utter_message(text=word_meaning)
+        except:
+            dispatcher.utter_message("I'm sorry, I couldn't get the word meaning")
+
+
+        return []
+
+class ActionDefaultFallback(Action):
+
+    def name(self) -> Text:
+        return "action_default_fallback"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
+        topic = tracker.latest_message
+        
+        dispatcher.utter_message("I'm sorry, I don't know the answer. But here's what I found...")
+        webbrowser.open(f"https://www.google.com/search?q={topic}")
+
+
+        return [UserUtteranceReverted()]

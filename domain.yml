@@ -21,12 +21,13 @@ intents:
           use_entities: true
     - tell_a_joke:
           use_entities: true
+    - word_meaning:
+          use_entities: true
     - mood_scared
     - mood_nervous
     - internet_is_slow_fixing_internet
     - no_internet_fixing_internet
     - ask_forecast_weather
-    - ask_forecast_weather_tomorrow
     - news_headlines
     - art_thou
     - the_truth
@@ -143,6 +144,7 @@ entities:
 - mode
 - site
 - topic
+- word
 responses:
     utter_cheer_up:
         - text: Don't worry, everything will be ok
@@ -176,8 +178,6 @@ responses:
         - text: Read a book
     utter_no_internet3:
         - text: Connect with people around you.
-    utter_ask_weather_tomorrow:
-        - text: Sorry, I am aware about the present only.
     utter_art_thou:
         - text: Deny thy father and refuse thy name; or if thou wilt not, be but sworn my love and I’ll no longer be an assistant.
     utter_the_truth:
@@ -598,6 +598,7 @@ actions:
     - action_query_date
     - action_play_music
     - action_tell_a_joke
+    - action_word_meaning
     - utter_agent.acquaintance
     - utter_agent.age
     - utter_agent.annoying
