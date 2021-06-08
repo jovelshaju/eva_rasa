@@ -91,7 +91,7 @@ stories:
       - intent: greetings.bye
       - action: utter_greetings.bye
 
-  - story: news healine story
+  - story: news headline story
     steps:
       - intent: news_headlines
       - action: action_news_headlines

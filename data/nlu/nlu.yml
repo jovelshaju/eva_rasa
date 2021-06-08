@@ -91,6 +91,18 @@ nlu:
     - what is the meaning of [car](word)
     - what's the meaning of [ego]
     - do you know the meaning of [action](word)
+- intent: news_headlines
+  examples: |
+    - todays news?
+    - news headlines
+    - top news
+    - important news
+    - news
+    - headline news
+    - heading news
+    - news headings
+    - news details
+    - news depth
 - intent: mood_scared
   examples: |
     - I am scared
