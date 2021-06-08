@@ -82,6 +82,27 @@ nlu:
     - what is joke of the day
     - can you tell me a joke
     - a joke please
+- intent: word_meaning
+  examples: |
+    - what is the meaning of [ambition](word)
+    - do you know the meaning of [humidity](word)
+    - what does [programming](word) mean
+    - what do you mean by [patrolling](word)
+    - what is the meaning of [car](word)
+    - what's the meaning of [ego]
+    - do you know the meaning of [action](word)
+- intent: news_headlines
+  examples: |
+    - todays news?
+    - news headlines
+    - top news
+    - important news
+    - news
+    - headline news
+    - heading news
+    - news headings
+    - news details
+    - news depth
 - intent: mood_scared
   examples: |
     - I am scared
@@ -223,16 +244,6 @@ nlu:
     - What's the forecast?
     - What's the weather like today?
     - Will the weather keep up?
-- intent: ask_forecast_weather_tomorrow
-  examples: |
-    - How rainy is it going to be tomorrow?
-    - How humid is it going to be tomorrow?
-    - How hot is it going to be tomorrow?
-    - How cold is it going to be tomorrow?
-    - Do I need to carry an umbrella tomorrow?
-    - What is the weather tomorrow?
-    - will it rain tomorrow?
-    - weather tomorrow?
 - intent: bot_challenge
   examples: |
     - are you a bot?
@@ -349,15 +360,6 @@ nlu:
     - Do you love animals?
     - Whats your pets name?
     - I am gonna kill your pet
-- intent: meaning_of_life
-  examples: |
-    - What’s the meaning of life?
-    - Is there a meaning to life?
-    - Life has a meaning?
-    - What meaning does life have?
-    - Is life meaningful?
-    - Am I leading a meaningful life?
-
 - intent: snowman
   examples: |
     - Do you want to build a snowman?
