@@ -1,11 +1,11 @@
 [
   {
-    "text": "open youtube",
+    "text": "open google",
     "entities": [
       {
         "start": 5,
-        "end": 12,
-        "value": "youtube",
+        "end": 11,
+        "value": "google",
         "entity": "site"
       }
     ],
@@ -24,12 +24,12 @@
     "predicted_entities": []
   },
   {
-    "text": "open github",
+    "text": "open wikipedia",
     "entities": [
       {
         "start": 5,
-        "end": 11,
-        "value": "github",
+        "end": 14,
+        "value": "wikipedia",
         "entity": "site"
       }
     ],
@@ -72,12 +72,170 @@
     "predicted_entities": []
   },
   {
+    "text": "who is mahatma gandhi",
+    "entities": [
+      {
+        "start": 7,
+        "end": 21,
+        "value": "mahatma gandhi",
+        "entity": "topic"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
     "text": "who is president of india",
     "entities": [
       {
         "start": 7,
         "end": 25,
         "value": "president of india",
+        "entity": "topic"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "what is a car",
+    "entities": [
+      {
+        "start": 10,
+        "end": 13,
+        "value": "car",
+        "entity": "topic"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "hello, my name is Charles Pfeffer",
+    "entities": [
+      {
+        "start": 18,
+        "end": 33,
+        "value": "Charles Pfeffer",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "hi im Amanda Anderson",
+    "entities": [
+      {
+        "start": 6,
+        "end": 21,
+        "value": "Amanda Anderson",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "i am Karen Mease",
+    "entities": [
+      {
+        "start": 5,
+        "end": 16,
+        "value": "Karen Mease",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "in which city do you live",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "topic",
+        "start": 9,
+        "end": 13,
+        "confidence_entity": 0.9697087407112122,
+        "value": "city",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "open youtube",
+    "entities": [
+      {
+        "start": 5,
+        "end": 12,
+        "value": "youtube",
+        "entity": "site"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "open github",
+    "entities": [
+      {
+        "start": 5,
+        "end": 11,
+        "value": "github",
+        "entity": "site"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "can you open stackoverflow",
+    "entities": [
+      {
+        "start": 13,
+        "end": 26,
+        "value": "stackoverflow",
+        "entity": "site"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "open whatsapp",
+    "entities": [
+      {
+        "start": 5,
+        "end": 13,
+        "value": "whatsapp",
+        "entity": "site"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "what do you know about ships",
+    "entities": [
+      {
+        "start": 23,
+        "end": 28,
+        "value": "ships",
+        "entity": "topic"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "what is a pandemic",
+    "entities": [
+      {
+        "start": 10,
+        "end": 18,
+        "value": "pandemic",
+        "entity": "topic"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "who is mohanlal",
+    "entities": [
+      {
+        "start": 7,
+        "end": 15,
+        "value": "mohanlal",
         "entity": "topic"
       }
     ],
@@ -108,133 +266,41 @@
     "predicted_entities": []
   },
   {
-    "text": "open google",
-    "entities": [
+    "text": "I feel like I am going to throw up",
+    "entities": [],
+    "predicted_entities": [
       {
-        "start": 5,
-        "end": 11,
-        "value": "google",
-        "entity": "site"
+        "entity": "mode",
+        "start": 32,
+        "end": 34,
+        "confidence_entity": 0.6557482481002808,
+        "value": "up",
+        "extractor": "DIETClassifier"
       }
-    ],
-    "predicted_entities": []
+    ]
   },
   {
-    "text": "can you open stackoverflow",
-    "entities": [
+    "text": "internet is down",
+    "entities": [],
+    "predicted_entities": [
       {
-        "start": 13,
-        "end": 26,
-        "value": "stackoverflow",
-        "entity": "site"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "open wikipedia",
-    "entities": [
-      {
-        "start": 5,
-        "end": 14,
-        "value": "wikipedia",
-        "entity": "site"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "open whatsapp",
-    "entities": [
-      {
-        "start": 5,
-        "end": 13,
-        "value": "whatsapp",
-        "entity": "site"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "down the volume",
-    "entities": [
-      {
-        "start": 0,
-        "end": 4,
+        "entity": "mode",
+        "start": 12,
+        "end": 16,
+        "confidence_entity": 0.968341052532196,
         "value": "down",
-        "entity": "mode"
+        "extractor": "DIETClassifier"
       }
-    ],
-    "predicted_entities": []
+    ]
   },
   {
-    "text": "turn down the volume",
-    "entities": [
-      {
-        "start": 5,
-        "end": 9,
-        "value": "down",
-        "entity": "mode"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "what do you know about ships",
-    "entities": [
-      {
-        "start": 23,
-        "end": 28,
-        "value": "ships",
-        "entity": "topic"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "what is a pandemic",
-    "entities": [
-      {
-        "start": 10,
-        "end": 18,
-        "value": "pandemic",
-        "entity": "topic"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "who is mahatma gandhi",
+    "text": "hi i'm Sandra Hernandez",
     "entities": [
       {
         "start": 7,
-        "end": 21,
-        "value": "mahatma gandhi",
-        "entity": "topic"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "who is mohanlal",
-    "entities": [
-      {
-        "start": 7,
-        "end": 15,
-        "value": "mohanlal",
-        "entity": "topic"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "what is a car",
-    "entities": [
-      {
-        "start": 10,
-        "end": 13,
-        "value": "car",
-        "entity": "topic"
+        "end": 23,
+        "value": "Sandra Hernandez",
+        "entity": "name"
       }
     ],
     "predicted_entities": []

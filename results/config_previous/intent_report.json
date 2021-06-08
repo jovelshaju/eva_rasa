@@ -1,0 +1,1193 @@
+{
+  "agent.boss": {
+    "precision": 0.5925925925925926,
+    "recall": 0.8,
+    "f1-score": 0.6808510638297872,
+    "support": 20,
+    "confused_with": {
+      "agent.acquaintance": 1,
+      "agent.be_clever": 1
+    }
+  },
+  "user.bored": {
+    "precision": 0.7894736842105263,
+    "recall": 0.7142857142857143,
+    "f1-score": 0.7500000000000001,
+    "support": 21,
+    "confused_with": {
+      "agent.boring": 2,
+      "user.can_not_sleep": 2
+    }
+  },
+  "wearing": {
+    "precision": 1.0,
+    "recall": 0.4,
+    "f1-score": 0.5714285714285715,
+    "support": 5,
+    "confused_with": {
+      "have_feelin": 1,
+      "ask_forecast_weather": 1
+    }
+  },
+  "agent.sure": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 11,
+    "confused_with": {}
+  },
+  "appraisal.well_done": {
+    "precision": 0.5555555555555556,
+    "recall": 0.25,
+    "f1-score": 0.3448275862068966,
+    "support": 20,
+    "confused_with": {
+      "greetings.hello": 4,
+      "appraisal.good": 4
+    }
+  },
+  "user.wants_to_talk": {
+    "precision": 0.5,
+    "recall": 0.4,
+    "f1-score": 0.4444444444444445,
+    "support": 20,
+    "confused_with": {
+      "agent.talk_to_me": 4,
+      "agent.can_you_help": 2
+    }
+  },
+  "agent.age": {
+    "precision": 0.9444444444444444,
+    "recall": 0.85,
+    "f1-score": 0.8947368421052632,
+    "support": 20,
+    "confused_with": {
+      "user.waits": 2,
+      "agent.beautiful": 1
+    }
+  },
+  "mood_scared": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 19,
+    "confused_with": {
+      "mood_nervous": 3,
+      "user.lonely": 2,
+      "user.angry": 2
+    }
+  },
+  "agent.funny": {
+    "precision": 0.6956521739130435,
+    "recall": 0.8,
+    "f1-score": 0.7441860465116279,
+    "support": 20,
+    "confused_with": {
+      "agent.chatbot": 2,
+      "agent.annoying": 1
+    }
+  },
+  "agent.good": {
+    "precision": 0.7560975609756098,
+    "recall": 0.6888888888888889,
+    "f1-score": 0.7209302325581395,
+    "support": 45,
+    "confused_with": {
+      "agent.crazy": 3,
+      "user.likes_agent": 2
+    }
+  },
+  "agent.boring": {
+    "precision": 0.7894736842105263,
+    "recall": 0.75,
+    "f1-score": 0.7692307692307692,
+    "support": 20,
+    "confused_with": {
+      "user.bored": 4,
+      "agent.bad": 1
+    }
+  },
+  "meaning_of_life": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 6,
+    "confused_with": {}
+  },
+  "user.sleepy": {
+    "precision": 0.4444444444444444,
+    "recall": 0.7272727272727273,
+    "f1-score": 0.5517241379310345,
+    "support": 11,
+    "confused_with": {
+      "user.angry": 2,
+      "user.lonely": 1
+    }
+  },
+  "user.does_not_want_to_talk": {
+    "precision": 0.5625,
+    "recall": 0.6923076923076923,
+    "f1-score": 0.6206896551724138,
+    "support": 13,
+    "confused_with": {
+      "user.wants_to_talk": 2,
+      "appraisal.bad": 1
+    }
+  },
+  "dialog.hold_on": {
+    "precision": 0.6875,
+    "recall": 0.7857142857142857,
+    "f1-score": 0.7333333333333334,
+    "support": 14,
+    "confused_with": {
+      "user.waits": 2,
+      "confirmation.no": 1
+    }
+  },
+  "tell_a_joke": {
+    "precision": 1.0,
+    "recall": 0.4,
+    "f1-score": 0.5714285714285715,
+    "support": 5,
+    "confused_with": {
+      "user.joking": 2,
+      "query_time": 1
+    }
+  },
+  "mean_funnny": {
+    "precision": 0.3333333333333333,
+    "recall": 0.2,
+    "f1-score": 0.25,
+    "support": 5,
+    "confused_with": {
+      "dialog.what_do_you_mean": 2,
+      "emotions.ha_ha": 1
+    }
+  },
+  "confirmation.yes": {
+    "precision": 0.75,
+    "recall": 0.5,
+    "f1-score": 0.6,
+    "support": 24,
+    "confused_with": {
+      "greetings.hello": 4,
+      "appraisal.good": 4
+    }
+  },
+  "user.going_to_bed": {
+    "precision": 0.8888888888888888,
+    "recall": 0.6666666666666666,
+    "f1-score": 0.761904761904762,
+    "support": 12,
+    "confused_with": {
+      "greetings.bye": 1,
+      "user.sleepy": 1
+    }
+  },
+  "internet_is_slow_fixing_internet": {
+    "precision": 0.6666666666666666,
+    "recall": 0.8333333333333334,
+    "f1-score": 0.7407407407407408,
+    "support": 12,
+    "confused_with": {
+      "appraisal.bad": 2
+    }
+  },
+  "confirmation.no": {
+    "precision": 0.5769230769230769,
+    "recall": 0.5172413793103449,
+    "f1-score": 0.5454545454545454,
+    "support": 29,
+    "confused_with": {
+      "appraisal.bad": 3,
+      "mean_funnny": 1
+    }
+  },
+  "your_daddy": {
+    "precision": 0.5,
+    "recall": 1.0,
+    "f1-score": 0.6666666666666666,
+    "support": 5,
+    "confused_with": {}
+  },
+  "ask_forecast_weather_tomorrow": {
+    "precision": 0.5,
+    "recall": 0.75,
+    "f1-score": 0.6,
+    "support": 8,
+    "confused_with": {
+      "ask_forecast_weather": 1,
+      "agent.can_you_help": 1
+    }
+  },
+  "morse_code": {
+    "precision": 1.0,
+    "recall": 0.75,
+    "f1-score": 0.8571428571428571,
+    "support": 4,
+    "confused_with": {
+      "user.testing_agent": 1
+    }
+  },
+  "agent.fired": {
+    "precision": 0.75,
+    "recall": 0.6,
+    "f1-score": 0.6666666666666665,
+    "support": 20,
+    "confused_with": {
+      "user.likes_agent": 2,
+      "agent.bad": 1
+    }
+  },
+  "user.excited": {
+    "precision": 0.9375,
+    "recall": 0.8333333333333334,
+    "f1-score": 0.8823529411764706,
+    "support": 18,
+    "confused_with": {
+      "user.angry": 2,
+      "greetings.nice_to_talk_to_you": 1
+    }
+  },
+  "user.here": {
+    "precision": 0.8,
+    "recall": 0.7058823529411765,
+    "f1-score": 0.7500000000000001,
+    "support": 17,
+    "confused_with": {
+      "greetings.hello": 1,
+      "user.busy": 1
+    }
+  },
+  "winter_is_coming": {
+    "precision": 1.0,
+    "recall": 0.7142857142857143,
+    "f1-score": 0.8333333333333333,
+    "support": 7,
+    "confused_with": {
+      "greetings.hello": 1,
+      "ask_forecast_weather": 1
+    }
+  },
+  "dialog.hug": {
+    "precision": 0.9333333333333333,
+    "recall": 0.875,
+    "f1-score": 0.9032258064516129,
+    "support": 16,
+    "confused_with": {
+      "greetings.hello": 1,
+      "agent.can_you_help": 1
+    }
+  },
+  "agent.hungry": {
+    "precision": 0.9285714285714286,
+    "recall": 0.9285714285714286,
+    "f1-score": 0.9285714285714286,
+    "support": 14,
+    "confused_with": {
+      "agent.busy": 1
+    }
+  },
+  "agent.marry_user": {
+    "precision": 0.9285714285714286,
+    "recall": 0.65,
+    "f1-score": 0.7647058823529412,
+    "support": 20,
+    "confused_with": {
+      "agent.my_friend": 3,
+      "user.loves_agent": 2
+    }
+  },
+  "query_time": {
+    "precision": 0.29411764705882354,
+    "recall": 0.8333333333333334,
+    "f1-score": 0.4347826086956522,
+    "support": 6,
+    "confused_with": {
+      "query_date": 1
+    }
+  },
+  "first_crush": {
+    "precision": 0.8,
+    "recall": 1.0,
+    "f1-score": 0.888888888888889,
+    "support": 4,
+    "confused_with": {}
+  },
+  "greetings.nice_to_talk_to_you": {
+    "precision": 0.7647058823529411,
+    "recall": 0.8666666666666667,
+    "f1-score": 0.8125,
+    "support": 15,
+    "confused_with": {
+      "user.does_not_want_to_talk": 2
+    }
+  },
+  "agent.beautiful": {
+    "precision": 0.7681159420289855,
+    "recall": 0.9464285714285714,
+    "f1-score": 0.848,
+    "support": 56,
+    "confused_with": {
+      "user.likes_agent": 2,
+      "agent.annoying": 1
+    }
+  },
+  "agent.name": {
+    "precision": 1.0,
+    "recall": 0.5,
+    "f1-score": 0.6666666666666666,
+    "support": 8,
+    "confused_with": {
+      "greetings.hello": 1,
+      "agent.what_can_do": 1
+    }
+  },
+  "dialog.sorry": {
+    "precision": 0.8666666666666667,
+    "recall": 0.5416666666666666,
+    "f1-score": 0.6666666666666667,
+    "support": 24,
+    "confused_with": {
+      "greetings.hello": 4,
+      "appraisal.bad": 2
+    }
+  },
+  "user.lonely": {
+    "precision": 0.6666666666666666,
+    "recall": 0.8,
+    "f1-score": 0.7272727272727272,
+    "support": 20,
+    "confused_with": {
+      "agent.residence": 1,
+      "user.back": 1
+    }
+  },
+  "dialog.i_do_not_care": {
+    "precision": 0.9,
+    "recall": 0.75,
+    "f1-score": 0.8181818181818182,
+    "support": 12,
+    "confused_with": {
+      "greetings.hello": 2,
+      "appraisal.bad": 1
+    }
+  },
+  "greetings.bye": {
+    "precision": 0.75,
+    "recall": 0.6857142857142857,
+    "f1-score": 0.7164179104477612,
+    "support": 35,
+    "confused_with": {
+      "greetings.nice_to_see_you": 1,
+      "appraisal.good": 1
+    }
+  },
+  "agent.what_can_do": {
+    "precision": 0.4444444444444444,
+    "recall": 0.5714285714285714,
+    "f1-score": 0.5,
+    "support": 14,
+    "confused_with": {
+      "agent.origin": 2,
+      "query_time": 2
+    }
+  },
+  "agent.can_you_help": {
+    "precision": 0.6666666666666666,
+    "recall": 0.8571428571428571,
+    "f1-score": 0.75,
+    "support": 49,
+    "confused_with": {
+      "user.looks_like": 1,
+      "skynet": 1
+    }
+  },
+  "agent.origin": {
+    "precision": 0.42857142857142855,
+    "recall": 0.42857142857142855,
+    "f1-score": 0.42857142857142855,
+    "support": 14,
+    "confused_with": {
+      "agent.residence": 3,
+      "user.has_birthday": 3
+    }
+  },
+  "greetings.goodmorning": {
+    "precision": 0.9230769230769231,
+    "recall": 0.9230769230769231,
+    "f1-score": 0.9230769230769231,
+    "support": 13,
+    "confused_with": {
+      "greetings.hello": 1
+    }
+  },
+  "volume_increase": {
+    "precision": 1.0,
+    "recall": 0.9090909090909091,
+    "f1-score": 0.9523809523809523,
+    "support": 11,
+    "confused_with": {
+      "play_music": 1
+    }
+  },
+  "agent.crazy": {
+    "precision": 0.75,
+    "recall": 0.9,
+    "f1-score": 0.8181818181818182,
+    "support": 20,
+    "confused_with": {
+      "user.angry": 1,
+      "agent.chatbot": 1
+    }
+  },
+  "user.needs_advice": {
+    "precision": 0.8,
+    "recall": 0.6956521739130435,
+    "f1-score": 0.7441860465116279,
+    "support": 23,
+    "confused_with": {
+      "agent.can_you_help": 3,
+      "agent.what_can_do": 2
+    }
+  },
+  "appraisal.thank_you": {
+    "precision": 0.6666666666666666,
+    "recall": 0.7058823529411765,
+    "f1-score": 0.6857142857142857,
+    "support": 34,
+    "confused_with": {
+      "greetings.hello": 4,
+      "agent.can_you_help": 2
+    }
+  },
+  "greetings.goodnight": {
+    "precision": 0.9285714285714286,
+    "recall": 0.7647058823529411,
+    "f1-score": 0.8387096774193549,
+    "support": 17,
+    "confused_with": {
+      "appraisal.good": 2,
+      "greetings.hello": 1
+    }
+  },
+  "greetings.hello": {
+    "precision": 0.6111111111111112,
+    "recall": 0.8768115942028986,
+    "f1-score": 0.7202380952380953,
+    "support": 138,
+    "confused_with": {
+      "user.likes_agent": 2,
+      "agent.occupation": 2
+    }
+  },
+  "dialog.what_do_you_mean": {
+    "precision": 0.7777777777777778,
+    "recall": 0.6363636363636364,
+    "f1-score": 0.7000000000000001,
+    "support": 11,
+    "confused_with": {
+      "dialog.wrong": 1,
+      "confirmation.no": 1
+    }
+  },
+  "user.loves_agent": {
+    "precision": 0.625,
+    "recall": 0.6666666666666666,
+    "f1-score": 0.6451612903225806,
+    "support": 15,
+    "confused_with": {
+      "appraisal.thank_you": 1,
+      "agent.age": 1
+    }
+  },
+  "the_truth": {
+    "precision": 0.75,
+    "recall": 0.75,
+    "f1-score": 0.75,
+    "support": 4,
+    "confused_with": {
+      "agent.right": 1
+    }
+  },
+  "emotions.ha_ha": {
+    "precision": 0.9090909090909091,
+    "recall": 0.3333333333333333,
+    "f1-score": 0.4878048780487804,
+    "support": 30,
+    "confused_with": {
+      "greetings.hello": 13,
+      "agent.funny": 4
+    }
+  },
+  "dialog.wrong": {
+    "precision": 0.5789473684210527,
+    "recall": 0.6470588235294118,
+    "f1-score": 0.6111111111111113,
+    "support": 17,
+    "confused_with": {
+      "appraisal.bad": 1,
+      "agent.crazy": 1
+    }
+  },
+  "get_ever_tired": {
+    "precision": 1.0,
+    "recall": 0.8,
+    "f1-score": 0.888888888888889,
+    "support": 5,
+    "confused_with": {
+      "ask_forecast_weather": 1
+    }
+  },
+  "query_info": {
+    "precision": 0.5,
+    "recall": 0.1111111111111111,
+    "f1-score": 0.1818181818181818,
+    "support": 9,
+    "confused_with": {
+      "agent.boss": 4,
+      "agent.residence": 2,
+      "query_time": 1
+    }
+  },
+  "look_like": {
+    "precision": 0.3333333333333333,
+    "recall": 0.2,
+    "f1-score": 0.25,
+    "support": 5,
+    "confused_with": {
+      "agent.beautiful": 2,
+      "agent.boss": 1,
+      "agent.what_can_do": 1
+    }
+  },
+  "user.sad": {
+    "precision": 0.631578947368421,
+    "recall": 0.5714285714285714,
+    "f1-score": 0.6,
+    "support": 21,
+    "confused_with": {
+      "user.lonely": 2,
+      "user.angry": 2
+    }
+  },
+  "out_of_scope": {
+    "precision": 1.0,
+    "recall": 0.07142857142857142,
+    "f1-score": 0.13333333333333333,
+    "support": 14,
+    "confused_with": {
+      "agent.occupation": 3,
+      "greetings.hello": 2,
+      "agent.can_you_help": 2
+    }
+  },
+  "greetings.nice_to_see_you": {
+    "precision": 0.7272727272727273,
+    "recall": 0.8,
+    "f1-score": 0.761904761904762,
+    "support": 20,
+    "confused_with": {
+      "user.wants_to_see_agent_again": 3,
+      "appraisal.good": 1
+    }
+  },
+  "user.likes_agent": {
+    "precision": 0.8313253012048193,
+    "recall": 0.9078947368421053,
+    "f1-score": 0.8679245283018868,
+    "support": 76,
+    "confused_with": {
+      "agent.my_friend": 1,
+      "appraisal.good": 1
+    }
+  },
+  "agent.chatbot": {
+    "precision": 0.5263157894736842,
+    "recall": 0.7142857142857143,
+    "f1-score": 0.6060606060606061,
+    "support": 14,
+    "confused_with": {
+      "agent.good": 2,
+      "agent.clever": 1
+    }
+  },
+  "agent.there": {
+    "precision": 0.8333333333333334,
+    "recall": 0.9090909090909091,
+    "f1-score": 0.8695652173913043,
+    "support": 11,
+    "confused_with": {
+      "agent.can_you_help": 1
+    }
+  },
+  "imag": {
+    "precision": 1.0,
+    "recall": 0.5,
+    "f1-score": 0.6666666666666666,
+    "support": 4,
+    "confused_with": {
+      "agent.occupation": 1,
+      "agent.hobby": 1
+    }
+  },
+  "agent.clever": {
+    "precision": 0.7142857142857143,
+    "recall": 0.7352941176470589,
+    "f1-score": 0.7246376811594202,
+    "support": 34,
+    "confused_with": {
+      "appraisal.thank_you": 2,
+      "agent.busy": 2
+    }
+  },
+  "have_feelin": {
+    "precision": 0.8571428571428571,
+    "recall": 1.0,
+    "f1-score": 0.923076923076923,
+    "support": 6,
+    "confused_with": {}
+  },
+  "user.happy": {
+    "precision": 0.5652173913043478,
+    "recall": 0.6842105263157895,
+    "f1-score": 0.6190476190476191,
+    "support": 19,
+    "confused_with": {
+      "agent.happy": 3,
+      "mean_funnny": 1
+    }
+  },
+  "user.back": {
+    "precision": 0.6875,
+    "recall": 0.7857142857142857,
+    "f1-score": 0.7333333333333334,
+    "support": 14,
+    "confused_with": {
+      "user.angry": 1,
+      "agent.boss": 1
+    }
+  },
+  "user.wants_to_see_agent_again": {
+    "precision": 0.375,
+    "recall": 0.2727272727272727,
+    "f1-score": 0.3157894736842105,
+    "support": 11,
+    "confused_with": {
+      "greetings.nice_to_see_you": 4,
+      "greetings.bye": 2
+    }
+  },
+  "turing_test": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 4,
+    "confused_with": {}
+  },
+  "user.testing_agent": {
+    "precision": 0.9166666666666666,
+    "recall": 1.0,
+    "f1-score": 0.9565217391304348,
+    "support": 11,
+    "confused_with": {}
+  },
+  "agent.ready": {
+    "precision": 0.95,
+    "recall": 0.95,
+    "f1-score": 0.9500000000000001,
+    "support": 20,
+    "confused_with": {
+      "user.wants_to_talk": 1
+    }
+  },
+  "agent.busy": {
+    "precision": 0.6538461538461539,
+    "recall": 0.85,
+    "f1-score": 0.7391304347826088,
+    "support": 20,
+    "confused_with": {
+      "user.busy": 2,
+      "agent.clever": 1
+    }
+  },
+  "user.tired": {
+    "precision": 0.8125,
+    "recall": 0.65,
+    "f1-score": 0.7222222222222223,
+    "support": 20,
+    "confused_with": {
+      "user.angry": 3,
+      "user.here": 2
+    }
+  },
+  "agent.hobby": {
+    "precision": 0.9444444444444444,
+    "recall": 0.85,
+    "f1-score": 0.8947368421052632,
+    "support": 20,
+    "confused_with": {
+      "query_time": 3
+    }
+  },
+  "user.waits": {
+    "precision": 0.7391304347826086,
+    "recall": 0.85,
+    "f1-score": 0.7906976744186046,
+    "support": 20,
+    "confused_with": {
+      "dialog.hold_on": 3
+    }
+  },
+  "user.has_birthday": {
+    "precision": 0.5714285714285714,
+    "recall": 0.7272727272727273,
+    "f1-score": 0.64,
+    "support": 11,
+    "confused_with": {
+      "agent.origin": 2,
+      "user.good": 1
+    }
+  },
+  "bot_challenge": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 8,
+    "confused_with": {
+      "agent.chatbot": 3,
+      "agent.real": 2,
+      "user.waits": 1
+    }
+  },
+  "user.good": {
+    "precision": 0.4642857142857143,
+    "recall": 0.7222222222222222,
+    "f1-score": 0.5652173913043479,
+    "support": 18,
+    "confused_with": {
+      "appraisal.good": 3,
+      "appraisal.thank_you": 1
+    }
+  },
+  "agent.my_friend": {
+    "precision": 0.7954545454545454,
+    "recall": 0.9722222222222222,
+    "f1-score": 0.875,
+    "support": 36,
+    "confused_with": {
+      "user.likes_agent": 1
+    }
+  },
+  "user.misses_agent": {
+    "precision": 0.8823529411764706,
+    "recall": 0.8333333333333334,
+    "f1-score": 0.8571428571428571,
+    "support": 18,
+    "confused_with": {
+      "user.loves_agent": 2,
+      "user.likes_agent": 1
+    }
+  },
+  "appraisal.bad": {
+    "precision": 0.6716417910447762,
+    "recall": 0.8035714285714286,
+    "f1-score": 0.7317073170731707,
+    "support": 56,
+    "confused_with": {
+      "greetings.hello": 6,
+      "confirmation.no": 1
+    }
+  },
+  "user.can_not_sleep": {
+    "precision": 0.7647058823529411,
+    "recall": 0.65,
+    "f1-score": 0.7027027027027027,
+    "support": 20,
+    "confused_with": {
+      "user.angry": 2,
+      "user.tired": 1
+    }
+  },
+  "agent.occupation": {
+    "precision": 0.6071428571428571,
+    "recall": 0.9444444444444444,
+    "f1-score": 0.7391304347826088,
+    "support": 18,
+    "confused_with": {
+      "greetings.how_are_you": 1
+    }
+  },
+  "any_pets": {
+    "precision": 1.0,
+    "recall": 0.5,
+    "f1-score": 0.6666666666666666,
+    "support": 8,
+    "confused_with": {
+      "agent.boss": 1,
+      "user.loves_agent": 1
+    }
+  },
+  "user.joking": {
+    "precision": 0.7777777777777778,
+    "recall": 0.7368421052631579,
+    "f1-score": 0.7567567567567567,
+    "support": 19,
+    "confused_with": {
+      "user.angry": 1,
+      "agent.funny": 1
+    }
+  },
+  "play_music": {
+    "precision": 0.6666666666666666,
+    "recall": 0.6666666666666666,
+    "f1-score": 0.6666666666666666,
+    "support": 6,
+    "confused_with": {
+      "open_sites": 2
+    }
+  },
+  "agent.residence": {
+    "precision": 0.6756756756756757,
+    "recall": 1.0,
+    "f1-score": 0.8064516129032258,
+    "support": 25,
+    "confused_with": {}
+  },
+  "confirmation.cancel": {
+    "precision": 0.8666666666666667,
+    "recall": 0.8125,
+    "f1-score": 0.8387096774193549,
+    "support": 16,
+    "confused_with": {
+      "greetings.hello": 3
+    }
+  },
+  "user.will_be_back": {
+    "precision": 1.0,
+    "recall": 0.7,
+    "f1-score": 0.8235294117647058,
+    "support": 20,
+    "confused_with": {
+      "user.back": 3,
+      "user.wants_to_see_agent_again": 1
+    }
+  },
+  "agent.be_clever": {
+    "precision": 0.5833333333333334,
+    "recall": 0.35,
+    "f1-score": 0.4375,
+    "support": 20,
+    "confused_with": {
+      "agent.clever": 6,
+      "agent.boss": 1
+    }
+  },
+  "greetings.goodevening": {
+    "precision": 0.9166666666666666,
+    "recall": 1.0,
+    "f1-score": 0.9565217391304348,
+    "support": 11,
+    "confused_with": {}
+  },
+  "greetings.how_are_you": {
+    "precision": 0.7714285714285715,
+    "recall": 0.6923076923076923,
+    "f1-score": 0.7297297297297296,
+    "support": 39,
+    "confused_with": {
+      "user.sad": 2,
+      "agent.right": 1
+    }
+  },
+  "snowman": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 5,
+    "confused_with": {}
+  },
+  "open_sites": {
+    "precision": 0.8,
+    "recall": 0.8888888888888888,
+    "f1-score": 0.8421052631578948,
+    "support": 9,
+    "confused_with": {
+      "dialog.wrong": 1
+    }
+  },
+  "agent.talk_to_me": {
+    "precision": 0.7,
+    "recall": 0.7,
+    "f1-score": 0.7,
+    "support": 20,
+    "confused_with": {
+      "user.wants_to_talk": 2,
+      "greetings.hello": 2
+    }
+  },
+  "skynet": {
+    "precision": 0.5,
+    "recall": 0.3333333333333333,
+    "f1-score": 0.4,
+    "support": 6,
+    "confused_with": {
+      "agent.talk_to_me": 1,
+      "agent.there": 1
+    }
+  },
+  "agent.birth_date": {
+    "precision": 0.9,
+    "recall": 0.6428571428571429,
+    "f1-score": 0.75,
+    "support": 14,
+    "confused_with": {
+      "query_date": 1,
+      "agent.residence": 1
+    }
+  },
+  "appraisal.good": {
+    "precision": 0.7111111111111111,
+    "recall": 0.7441860465116279,
+    "f1-score": 0.7272727272727273,
+    "support": 86,
+    "confused_with": {
+      "appraisal.bad": 7,
+      "greetings.hello": 4
+    }
+  },
+  "agent.happy": {
+    "precision": 0.7777777777777778,
+    "recall": 0.7,
+    "f1-score": 0.7368421052631577,
+    "support": 20,
+    "confused_with": {
+      "user.happy": 5,
+      "agent.boring": 1
+    }
+  },
+  "no_internet_fixing_internet": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 7,
+    "confused_with": {
+      "internet_is_slow_fixing_internet": 4,
+      "greetings.hello": 1,
+      "agent.residence": 1
+    }
+  },
+  "ask_forecast_weather": {
+    "precision": 0.8409090909090909,
+    "recall": 0.74,
+    "f1-score": 0.7872340425531915,
+    "support": 50,
+    "confused_with": {
+      "ask_forecast_weather_tomorrow": 3,
+      "greetings.hello": 2
+    }
+  },
+  "agent.acquaintance": {
+    "precision": 0.7142857142857143,
+    "recall": 0.5,
+    "f1-score": 0.588235294117647,
+    "support": 20,
+    "confused_with": {
+      "agent.what_can_do": 2,
+      "agent.birth_date": 1
+    }
+  },
+  "can_you_rap": {
+    "precision": 1.0,
+    "recall": 0.4,
+    "f1-score": 0.5714285714285715,
+    "support": 5,
+    "confused_with": {
+      "agent.acquaintance": 1,
+      "agent.what_can_do": 1
+    }
+  },
+  "appraisal.no_problem": {
+    "precision": 0.8333333333333334,
+    "recall": 0.8333333333333334,
+    "f1-score": 0.8333333333333334,
+    "support": 12,
+    "confused_with": {
+      "appraisal.bad": 1,
+      "confirmation.no": 1
+    }
+  },
+  "agent.real": {
+    "precision": 0.8666666666666667,
+    "recall": 1.0,
+    "f1-score": 0.9285714285714286,
+    "support": 13,
+    "confused_with": {}
+  },
+  "agent.right": {
+    "precision": 0.7391304347826086,
+    "recall": 0.7727272727272727,
+    "f1-score": 0.7555555555555555,
+    "support": 22,
+    "confused_with": {
+      "dialog.wrong": 4,
+      "the_truth": 1
+    }
+  },
+  "agent.answer_my_question": {
+    "precision": 0.9,
+    "recall": 0.9,
+    "f1-score": 0.9,
+    "support": 20,
+    "confused_with": {
+      "greetings.hello": 1,
+      "agent.hungry": 1
+    }
+  },
+  "user.angry": {
+    "precision": 0.475,
+    "recall": 0.95,
+    "f1-score": 0.6333333333333334,
+    "support": 20,
+    "confused_with": {
+      "user.wants_to_talk": 1
+    }
+  },
+  "mood_nervous": {
+    "precision": 0.7,
+    "recall": 0.32558139534883723,
+    "f1-score": 0.44444444444444453,
+    "support": 43,
+    "confused_with": {
+      "user.good": 7,
+      "user.sleepy": 4
+    }
+  },
+  "agent.bad": {
+    "precision": 0.8620689655172413,
+    "recall": 0.7575757575757576,
+    "f1-score": 0.8064516129032258,
+    "support": 33,
+    "confused_with": {
+      "agent.beautiful": 3,
+      "agent.good": 2
+    }
+  },
+  "self_destruct": {
+    "precision": 0.75,
+    "recall": 0.3333333333333333,
+    "f1-score": 0.46153846153846156,
+    "support": 9,
+    "confused_with": {
+      "agent.acquaintance": 1,
+      "agent.busy": 1
+    }
+  },
+  "user.looks_like": {
+    "precision": 0.8,
+    "recall": 0.5333333333333333,
+    "f1-score": 0.64,
+    "support": 15,
+    "confused_with": {
+      "agent.beautiful": 5,
+      "ask_forecast_weather": 1
+    }
+  },
+  "user.busy": {
+    "precision": 0.65,
+    "recall": 0.6190476190476191,
+    "f1-score": 0.6341463414634146,
+    "support": 21,
+    "confused_with": {
+      "agent.busy": 3,
+      "user.angry": 2
+    }
+  },
+  "query_date": {
+    "precision": 0.625,
+    "recall": 0.8333333333333334,
+    "f1-score": 0.7142857142857143,
+    "support": 6,
+    "confused_with": {
+      "greetings.whatsup": 1
+    }
+  },
+  "emotions.wow": {
+    "precision": 0.8333333333333334,
+    "recall": 0.4166666666666667,
+    "f1-score": 0.5555555555555556,
+    "support": 12,
+    "confused_with": {
+      "greetings.hello": 6,
+      "appraisal.well_done": 1
+    }
+  },
+  "greetings.nice_to_meet_you": {
+    "precision": 0.85,
+    "recall": 0.85,
+    "f1-score": 0.85,
+    "support": 20,
+    "confused_with": {
+      "greetings.goodnight": 1,
+      "first_crush": 1
+    }
+  },
+  "agent.annoying": {
+    "precision": 0.8260869565217391,
+    "recall": 0.95,
+    "f1-score": 0.8837209302325583,
+    "support": 20,
+    "confused_with": {
+      "agent.beautiful": 1
+    }
+  },
+  "appraisal.welcome": {
+    "precision": 1.0,
+    "recall": 0.6363636363636364,
+    "f1-score": 0.7777777777777778,
+    "support": 11,
+    "confused_with": {
+      "greetings.hello": 1,
+      "appraisal.good": 1
+    }
+  },
+  "your_father": {
+    "precision": 1.0,
+    "recall": 0.7142857142857143,
+    "f1-score": 0.8333333333333333,
+    "support": 7,
+    "confused_with": {
+      "your_daddy": 2
+    }
+  },
+  "lone_number": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 3,
+    "confused_with": {}
+  },
+  "greetings.whatsup": {
+    "precision": 0.7407407407407407,
+    "recall": 0.6451612903225806,
+    "f1-score": 0.689655172413793,
+    "support": 31,
+    "confused_with": {
+      "greetings.hello": 4,
+      "greetings.how_are_you": 2
+    }
+  },
+  "accuracy": 0.7213740458015268,
+  "macro avg": {
+    "precision": 0.7438315829784319,
+    "recall": 0.6944467882072546,
+    "f1-score": 0.6968837460808508,
+    "support": 2358
+  },
+  "weighted avg": {
+    "precision": 0.7346873048673189,
+    "recall": 0.7213740458015268,
+    "f1-score": 0.7108914798804796,
+    "support": 2358
+  }
+}

@@ -1,402 +1,2794 @@
 [
   {
-    "text": "good morning",
-    "intent": "greet",
+    "text": "I want to order food",
+    "intent": "out_of_scope",
     "intent_prediction": {
-      "name": "goodbye",
-      "confidence": 0.5005688667297363
+      "name": "user.sleepy",
+      "confidence": 0.7788726687431335
     }
   },
   {
-    "text": "good evening",
-    "intent": "greet",
+    "text": "can you find me a hotel",
+    "intent": "out_of_scope",
     "intent_prediction": {
-      "name": "goodbye",
-      "confidence": 0.5005688667297363
+      "name": "agent.annoying",
+      "confidence": 0.41997283697128296
     }
   },
   {
-    "text": "let's go",
-    "intent": "greet",
+    "text": "navigation",
+    "intent": "out_of_scope",
     "intent_prediction": {
-      "name": "open_sites",
-      "confidence": 0.9997429251670837
+      "name": "greetings.hello",
+      "confidence": 0.2923537492752075
     }
   },
   {
-    "text": "good afternoon",
-    "intent": "greet",
+    "text": "How’s the commute to work?",
+    "intent": "out_of_scope",
     "intent_prediction": {
-      "name": "goodbye",
-      "confidence": 0.5005688667297363
+      "name": "agent.occupation",
+      "confidence": 0.17801401019096375
     }
   },
   {
-    "text": "goodbye",
-    "intent": "goodbye",
+    "text": "Servos near me",
+    "intent": "out_of_scope",
     "intent_prediction": {
-      "name": "greet",
-      "confidence": 0.5949020385742188
+      "name": "user.excited",
+      "confidence": 0.43388211727142334
     }
   },
   {
-    "text": "yes",
-    "intent": "affirm",
+    "text": "What are the hours for [insert place]?",
+    "intent": "out_of_scope",
     "intent_prediction": {
-      "name": "greet",
-      "confidence": 0.5949020385742188
+      "name": "agent.occupation",
+      "confidence": 0.4663732051849365
     }
   },
   {
-    "text": "y",
-    "intent": "affirm",
+    "text": "go to facebook",
+    "intent": "open_sites",
     "intent_prediction": {
-      "name": "greet",
-      "confidence": 0.5949020385742188
+      "name": "greetings.hello",
+      "confidence": 0.33784019947052
     }
   },
   {
-    "text": "of course",
-    "intent": "affirm",
+    "text": "turn up the music",
+    "intent": "volume_increase",
     "intent_prediction": {
-      "name": "mood_unhappy",
-      "confidence": 0.3680555820465088
+      "name": "play_music",
+      "confidence": 0.9626477360725403
     }
   },
   {
-    "text": "n",
-    "intent": "deny",
+    "text": "what do you think is astrophysics",
+    "intent": "query_info",
     "intent_prediction": {
-      "name": "greet",
-      "confidence": 0.5949020385742188
+      "name": "agent.what_can_do",
+      "confidence": 0.423643559217453
     }
   },
   {
-    "text": "I don't think so",
-    "intent": "deny",
+    "text": "who is president of india",
+    "intent": "query_info",
     "intent_prediction": {
-      "name": "mood_unhappy",
-      "confidence": 0.9985359907150269
+      "name": "agent.boss",
+      "confidence": 0.6209536790847778
     }
   },
   {
-    "text": "don't like that",
-    "intent": "deny",
+    "text": "who is mohanlal",
+    "intent": "query_info",
     "intent_prediction": {
-      "name": "mood_unhappy",
-      "confidence": 0.9953857064247131
+      "name": "agent.boss",
+      "confidence": 0.5451038479804993
     }
   },
   {
-    "text": "not really",
-    "intent": "deny",
+    "text": "what is a car",
+    "intent": "query_info",
     "intent_prediction": {
-      "name": "mood_unhappy",
-      "confidence": 0.9998273849487305
+      "name": "the_truth",
+      "confidence": 0.29563379287719727
     }
   },
   {
-    "text": "perfect",
-    "intent": "mood_great",
-    "intent_prediction": {
-      "name": "greet",
-      "confidence": 0.5949020385742188
-    }
-  },
-  {
-    "text": "feeling like a king",
-    "intent": "mood_great",
+    "text": "do you know the time",
+    "intent": "query_time",
     "intent_prediction": {
       "name": "query_info",
-      "confidence": 0.815673291683197
+      "confidence": 0.5937573313713074
     }
   },
   {
-    "text": "wonderful",
-    "intent": "mood_great",
+    "text": "what day is it",
+    "intent": "query_date",
     "intent_prediction": {
-      "name": "greet",
-      "confidence": 0.5949020385742188
+      "name": "greetings.whatsup",
+      "confidence": 0.6719889044761658
     }
   },
   {
-    "text": "I am feeling very good",
-    "intent": "mood_great",
+    "text": "eva say a joke",
+    "intent": "tell_a_joke",
     "intent_prediction": {
-      "name": "mood_unhappy",
-      "confidence": 0.9853056073188782
+      "name": "greetings.hello",
+      "confidence": 0.8948659896850586
     }
   },
   {
-    "text": "so so perfect",
-    "intent": "mood_great",
+    "text": "I'm worried",
+    "intent": "mood_scared",
     "intent_prediction": {
-      "name": "mood_unhappy",
-      "confidence": 0.996836245059967
+      "name": "mood_nervous",
+      "confidence": 0.9970318078994751
     }
   },
   {
-    "text": "so perfect",
-    "intent": "mood_great",
+    "text": "I am terrified",
+    "intent": "mood_scared",
     "intent_prediction": {
-      "name": "mood_unhappy",
-      "confidence": 0.9324687719345093
+      "name": "user.back",
+      "confidence": 0.29214802384376526
     }
   },
   {
-    "text": "my day was horrible",
-    "intent": "mood_unhappy",
+    "text": "I feel intimidated",
+    "intent": "mood_scared",
     "intent_prediction": {
-      "name": "query_date",
-      "confidence": 0.4830339252948761
+      "name": "user.good",
+      "confidence": 0.47285401821136475
     }
   },
   {
-    "text": "I am disappointed",
-    "intent": "mood_unhappy",
+    "text": "I am afraid",
+    "intent": "mood_scared",
     "intent_prediction": {
-      "name": "mood_great",
-      "confidence": 0.9990652203559875
+      "name": "mood_nervous",
+      "confidence": 0.971727728843689
     }
   },
   {
-    "text": "unhappy",
-    "intent": "mood_unhappy",
+    "text": "I'm having a bad feeling",
+    "intent": "mood_scared",
     "intent_prediction": {
-      "name": "greet",
-      "confidence": 0.5949020385742188
+      "name": "user.lonely",
+      "confidence": 0.5268272757530212
+    }
+  },
+  {
+    "text": "I panicked",
+    "intent": "mood_scared",
+    "intent_prediction": {
+      "name": "user.tired",
+      "confidence": 0.257375031709671
+    }
+  },
+  {
+    "text": "This is nerveracking",
+    "intent": "mood_nervous",
+    "intent_prediction": {
+      "name": "user.bored",
+      "confidence": 0.5349861979484558
+    }
+  },
+  {
+    "text": "This is nervewracking",
+    "intent": "mood_nervous",
+    "intent_prediction": {
+      "name": "user.bored",
+      "confidence": 0.5349861979484558
+    }
+  },
+  {
+    "text": "I have a lump in my throat",
+    "intent": "mood_nervous",
+    "intent_prediction": {
+      "name": "user.bored",
+      "confidence": 0.28658488392829895
+    }
+  },
+  {
+    "text": "I am a bundle of nerves",
+    "intent": "mood_nervous",
+    "intent_prediction": {
+      "name": "user.angry",
+      "confidence": 0.6862307786941528
+    }
+  },
+  {
+    "text": "I am breaking out in a cold sweat",
+    "intent": "mood_nervous",
+    "intent_prediction": {
+      "name": "mood_scared",
+      "confidence": 0.9850548505783081
+    }
+  },
+  {
+    "text": "I am tongue tied",
+    "intent": "mood_nervous",
+    "intent_prediction": {
+      "name": "user.angry",
+      "confidence": 0.3333419859409332
+    }
+  },
+  {
+    "text": "I feel uneasy",
+    "intent": "mood_nervous",
+    "intent_prediction": {
+      "name": "user.good",
+      "confidence": 0.47285401821136475
+    }
+  },
+  {
+    "text": "I am troubled",
+    "intent": "mood_nervous",
+    "intent_prediction": {
+      "name": "user.back",
+      "confidence": 0.29214802384376526
+    }
+  },
+  {
+    "text": "I'm tensed",
+    "intent": "mood_nervous",
+    "intent_prediction": {
+      "name": "user.busy",
+      "confidence": 0.5389875769615173
+    }
+  },
+  {
+    "text": "It's been a rough couple of days. VERY stressful",
+    "intent": "mood_nervous",
+    "intent_prediction": {
+      "name": "user.good",
+      "confidence": 0.6159071326255798
+    }
+  },
+  {
+    "text": "I'm quite tensed.",
+    "intent": "mood_nervous",
+    "intent_prediction": {
+      "name": "user.busy",
+      "confidence": 0.40295034646987915
+    }
+  },
+  {
+    "text": "There's been quite a few changes in my life. I don't think I am handling them well. It's quite stressful.",
+    "intent": "mood_nervous",
+    "intent_prediction": {
+      "name": "user.excited",
+      "confidence": 0.3632104694843292
+    }
+  },
+  {
+    "text": "I find myself worrying about every little detail",
+    "intent": "mood_nervous",
+    "intent_prediction": {
+      "name": "user.sad",
+      "confidence": 0.6926990151405334
+    }
+  },
+  {
+    "text": "I cannot concentrate due to the whole number of worries that are bothering me",
+    "intent": "mood_nervous",
+    "intent_prediction": {
+      "name": "volume_increase",
+      "confidence": 0.8740550875663757
+    }
+  },
+  {
+    "text": "sluggish internet connection",
+    "intent": "internet_is_slow_fixing_internet",
+    "intent_prediction": {
+      "name": "no_internet_fixing_internet",
+      "confidence": 0.8076819777488708
+    }
+  },
+  {
+    "text": "internet is down",
+    "intent": "no_internet_fixing_internet",
+    "intent_prediction": {
+      "name": "volume_increase",
+      "confidence": 0.8056932687759399
+    }
+  },
+  {
+    "text": "my home has no internet",
+    "intent": "no_internet_fixing_internet",
+    "intent_prediction": {
+      "name": "volume_increase",
+      "confidence": 0.3279319107532501
+    }
+  },
+  {
+    "text": "network outage",
+    "intent": "no_internet_fixing_internet",
+    "intent_prediction": {
+      "name": "confirmation.yes",
+      "confidence": 0.27281245589256287
+    }
+  },
+  {
+    "text": "Do I need to carry an umbrella today?",
+    "intent": "ask_forecast_weather",
+    "intent_prediction": {
+      "name": "ask_forecast_weather_tomorrow",
+      "confidence": 0.9742478132247925
+    }
+  },
+  {
+    "text": "I wonder if there will be a storm?",
+    "intent": "ask_forecast_weather",
+    "intent_prediction": {
+      "name": "agent.happy",
+      "confidence": 0.6328864693641663
+    }
+  },
+  {
+    "text": "Is it warm or cold?",
+    "intent": "ask_forecast_weather",
+    "intent_prediction": {
+      "name": "turing_test",
+      "confidence": 0.3518509566783905
+    }
+  },
+  {
+    "text": "Lovely day, huh?",
+    "intent": "ask_forecast_weather",
+    "intent_prediction": {
+      "name": "greetings.hello",
+      "confidence": 0.9995759725570679
+    }
+  },
+  {
+    "text": "How rainy is it going to be tomorrow?",
+    "intent": "ask_forecast_weather_tomorrow",
+    "intent_prediction": {
+      "name": "ask_forecast_weather",
+      "confidence": 0.8752481341362
+    }
+  },
+  {
+    "text": "How humid is it going to be tomorrow?",
+    "intent": "ask_forecast_weather_tomorrow",
+    "intent_prediction": {
+      "name": "ask_forecast_weather",
+      "confidence": 0.8752481341362
+    }
+  },
+  {
+    "text": "How hot is it going to be tomorrow?",
+    "intent": "ask_forecast_weather_tomorrow",
+    "intent_prediction": {
+      "name": "ask_forecast_weather",
+      "confidence": 0.6778340935707092
+    }
+  },
+  {
+    "text": "How cold is it going to be tomorrow?",
+    "intent": "ask_forecast_weather_tomorrow",
+    "intent_prediction": {
+      "name": "ask_forecast_weather",
+      "confidence": 0.9465605020523071
     }
   },
   {
     "text": "are you a bot?",
     "intent": "bot_challenge",
     "intent_prediction": {
-      "name": "goodbye",
-      "confidence": 0.7764670848846436
+      "name": "agent.chatbot",
+      "confidence": 0.9841980338096619
     }
   },
   {
-    "text": "are you a human?",
+    "text": "am I talking to a bot?",
     "intent": "bot_challenge",
     "intent_prediction": {
-      "name": "goodbye",
-      "confidence": 0.6930243372917175
+      "name": "user.waits",
+      "confidence": 0.32212889194488525
+    }
+  },
+  {
+    "text": "am I talking to a human?",
+    "intent": "bot_challenge",
+    "intent_prediction": {
+      "name": "user.does_not_want_to_talk",
+      "confidence": 0.6038870215415955
+    }
+  },
+  {
+    "text": "are you even a real person?",
+    "intent": "bot_challenge",
+    "intent_prediction": {
+      "name": "agent.age",
+      "confidence": 0.5233854651451111
+    }
+  },
+  {
+    "text": "Wana have the truth",
+    "intent": "the_truth",
+    "intent_prediction": {
+      "name": "have_feelin",
+      "confidence": 0.3725987672805786
+    }
+  },
+  {
+    "text": "Funny? Me?",
+    "intent": "mean_funnny",
+    "intent_prediction": {
+      "name": "can_you_rap",
+      "confidence": 0.5834462642669678
+    }
+  },
+  {
+    "text": "What do you look like?",
+    "intent": "look_like",
+    "intent_prediction": {
+      "name": "user.looks_like",
+      "confidence": 0.9370018839836121
+    }
+  },
+  {
+    "text": "Do you resemble someone",
+    "intent": "look_like",
+    "intent_prediction": {
+      "name": "imag",
+      "confidence": 0.6030135750770569
+    }
+  },
+  {
+    "text": "Do you have an imagination?",
+    "intent": "imag",
+    "intent_prediction": {
+      "name": "wearing",
+      "confidence": 0.4372759461402893
+    }
+  },
+  {
+    "text": "Tell me about your raping skills",
+    "intent": "can_you_rap",
+    "intent_prediction": {
+      "name": "first_crush",
+      "confidence": 0.2640174329280853
+    }
+  },
+  {
+    "text": "You had a crush?",
+    "intent": "first_crush",
+    "intent_prediction": {
+      "name": "have_feelin",
+      "confidence": 0.3111554682254791
+    }
+  },
+  {
+    "text": "Do you even feel anything?",
+    "intent": "have_feelin",
+    "intent_prediction": {
+      "name": "wearing",
+      "confidence": 0.9867792725563049
+    }
+  },
+  {
+    "text": "Did you even feel that?",
+    "intent": "have_feelin",
+    "intent_prediction": {
+      "name": "wearing",
+      "confidence": 0.950221598148346
+    }
+  },
+  {
+    "text": "How about you take the Turing test?",
+    "intent": "turing_test",
+    "intent_prediction": {
+      "name": "have_feelin",
+      "confidence": 0.4783287048339844
+    }
+  },
+  {
+    "text": "Are you Skynet?",
+    "intent": "skynet",
+    "intent_prediction": {
+      "name": "agent.chatbot",
+      "confidence": 0.6698938012123108
+    }
+  },
+  {
+    "text": "Are you gonna take over?",
+    "intent": "skynet",
+    "intent_prediction": {
+      "name": "have_feelin",
+      "confidence": 0.5177602767944336
+    }
+  },
+  {
+    "text": "Do you have a dog?",
+    "intent": "any_pets",
+    "intent_prediction": {
+      "name": "wearing",
+      "confidence": 0.37050437927246094
+    }
+  },
+  {
+    "text": "Do you have a cat?",
+    "intent": "any_pets",
+    "intent_prediction": {
+      "name": "mood_nervous",
+      "confidence": 0.8197439312934875
+    }
+  },
+  {
+    "text": "You rot in hell",
+    "intent": "self_destruct",
+    "intent_prediction": {
+      "name": "agent.fired",
+      "confidence": 0.5928673148155212
+    }
+  },
+  {
+    "text": "I wanna kill you",
+    "intent": "self_destruct",
+    "intent_prediction": {
+      "name": "skynet",
+      "confidence": 0.3620052635669708
+    }
+  },
+  {
+    "text": "Do you have death?",
+    "intent": "self_destruct",
+    "intent_prediction": {
+      "name": "ask_forecast_weather",
+      "confidence": 0.904146134853363
+    }
+  },
+  {
+    "text": "What does death feel like?",
+    "intent": "self_destruct",
+    "intent_prediction": {
+      "name": "ask_forecast_weather",
+      "confidence": 0.9779420495033264
+    }
+  },
+  {
+    "text": "The lannisters sent their regards.",
+    "intent": "winter_is_coming",
+    "intent_prediction": {
+      "name": "have_feelin",
+      "confidence": 0.6422314643859863
+    }
+  },
+  {
+    "text": "North remembers.",
+    "intent": "winter_is_coming",
+    "intent_prediction": {
+      "name": "greetings.hello",
+      "confidence": 0.5157767534255981
+    }
+  },
+  {
+    "text": "I am your daddy",
+    "intent": "your_father",
+    "intent_prediction": {
+      "name": "your_daddy",
+      "confidence": 0.9190633893013
+    }
+  },
+  {
+    "text": "it bores me",
+    "intent": "user.bored",
+    "intent_prediction": {
+      "name": "agent.right",
+      "confidence": 0.9837105870246887
+    }
+  },
+  {
+    "text": "We're all bored",
+    "intent": "user.bored",
+    "intent_prediction": {
+      "name": "agent.my_friend",
+      "confidence": 0.49914300441741943
+    }
+  },
+  {
+    "text": "I think I've been living alone too long",
+    "intent": "user.lonely",
+    "intent_prediction": {
+      "name": "user.waits",
+      "confidence": 0.8709569573402405
+    }
+  },
+  {
+    "text": "I'm grieving",
+    "intent": "user.sad",
+    "intent_prediction": {
+      "name": "user.busy",
+      "confidence": 0.5389875769615173
+    }
+  },
+  {
+    "text": "I am depressed",
+    "intent": "user.sad",
+    "intent_prediction": {
+      "name": "user.back",
+      "confidence": 0.29214802384376526
+    }
+  },
+  {
+    "text": "I'm unhappy",
+    "intent": "user.sad",
+    "intent_prediction": {
+      "name": "user.busy",
+      "confidence": 0.5389875769615173
+    }
+  },
+  {
+    "text": "I'm having a bad day",
+    "intent": "user.sad",
+    "intent_prediction": {
+      "name": "user.lonely",
+      "confidence": 0.43596145510673523
+    }
+  },
+  {
+    "text": "I want to cry",
+    "intent": "user.sad",
+    "intent_prediction": {
+      "name": "user.sleepy",
+      "confidence": 0.9599065780639648
+    }
+  },
+  {
+    "text": "I'm not happy",
+    "intent": "user.sad",
+    "intent_prediction": {
+      "name": "user.happy",
+      "confidence": 0.990978479385376
+    }
+  },
+  {
+    "text": "I am sad to hear it",
+    "intent": "user.sad",
+    "intent_prediction": {
+      "name": "appraisal.good",
+      "confidence": 0.505396842956543
+    }
+  },
+  {
+    "text": "feeling so down",
+    "intent": "user.sad",
+    "intent_prediction": {
+      "name": "volume_increase",
+      "confidence": 0.6515669226646423
+    }
+  },
+  {
+    "text": "i feel i made you happy",
+    "intent": "agent.happy",
+    "intent_prediction": {
+      "name": "user.happy",
+      "confidence": 0.617123007774353
+    }
+  },
+  {
+    "text": "why aren't you talking to me?",
+    "intent": "agent.talk_to_me",
+    "intent_prediction": {
+      "name": "agent.ready",
+      "confidence": 0.41911518573760986
+    }
+  },
+  {
+    "text": "are you going to talk to me",
+    "intent": "agent.talk_to_me",
+    "intent_prediction": {
+      "name": "greetings.nice_to_talk_to_you",
+      "confidence": 0.5413304567337036
+    }
+  },
+  {
+    "text": "are you talking to me",
+    "intent": "agent.talk_to_me",
+    "intent_prediction": {
+      "name": "agent.fired",
+      "confidence": 0.23534490168094635
+    }
+  },
+  {
+    "text": "say",
+    "intent": "agent.talk_to_me",
+    "intent_prediction": {
+      "name": "greetings.hello",
+      "confidence": 0.9994661211967468
+    }
+  },
+  {
+    "text": "speak to me",
+    "intent": "agent.talk_to_me",
+    "intent_prediction": {
+      "name": "greetings.hello",
+      "confidence": 0.8682587742805481
+    }
+  },
+  {
+    "text": "you are dismissed",
+    "intent": "agent.fired",
+    "intent_prediction": {
+      "name": "agent.good",
+      "confidence": 0.2500467896461487
+    }
+  },
+  {
+    "text": "you are stupid",
+    "intent": "agent.fired",
+    "intent_prediction": {
+      "name": "agent.good",
+      "confidence": 0.2500467896461487
+    }
+  },
+  {
+    "text": "I had to fire u",
+    "intent": "agent.fired",
+    "intent_prediction": {
+      "name": "user.angry",
+      "confidence": 0.7410568594932556
+    }
+  },
+  {
+    "text": "I'm going to fire you",
+    "intent": "agent.fired",
+    "intent_prediction": {
+      "name": "user.does_not_want_to_talk",
+      "confidence": 0.656789243221283
+    }
+  },
+  {
+    "text": "I'm afraid it's bad",
+    "intent": "appraisal.bad",
+    "intent_prediction": {
+      "name": "user.sad",
+      "confidence": 0.45627617835998535
+    }
+  },
+  {
+    "text": "horrific",
+    "intent": "appraisal.bad",
+    "intent_prediction": {
+      "name": "greetings.hello",
+      "confidence": 0.2923537492752075
+    }
+  },
+  {
+    "text": "not okay",
+    "intent": "appraisal.bad",
+    "intent_prediction": {
+      "name": "confirmation.yes",
+      "confidence": 0.9895238876342773
+    }
+  },
+  {
+    "text": "Nothing",
+    "intent": "appraisal.bad",
+    "intent_prediction": {
+      "name": "confirmation.cancel",
+      "confidence": 0.9938573837280273
+    }
+  },
+  {
+    "text": "Shut up",
+    "intent": "appraisal.bad",
+    "intent_prediction": {
+      "name": "greetings.hello",
+      "confidence": 0.973484218120575
+    }
+  },
+  {
+    "text": "nothing",
+    "intent": "appraisal.bad",
+    "intent_prediction": {
+      "name": "confirmation.cancel",
+      "confidence": 0.9981388449668884
+    }
+  },
+  {
+    "text": "Fool",
+    "intent": "appraisal.bad",
+    "intent_prediction": {
+      "name": "greetings.hello",
+      "confidence": 0.9941373467445374
+    }
+  },
+  {
+    "text": "how are you getting on",
+    "intent": "greetings.how_are_you",
+    "intent_prediction": {
+      "name": "agent.real",
+      "confidence": 0.33593353629112244
+    }
+  },
+  {
+    "text": "how are the things going",
+    "intent": "greetings.how_are_you",
+    "intent_prediction": {
+      "name": "agent.busy",
+      "confidence": 0.8463184237480164
+    }
+  },
+  {
+    "text": "are you okay?",
+    "intent": "greetings.how_are_you",
+    "intent_prediction": {
+      "name": "appraisal.good",
+      "confidence": 0.6721614599227905
+    }
+  },
+  {
+    "text": "is everything okay",
+    "intent": "greetings.how_are_you",
+    "intent_prediction": {
+      "name": "greetings.bye",
+      "confidence": 0.3516111373901367
+    }
+  },
+  {
+    "text": "how is your evening",
+    "intent": "greetings.how_are_you",
+    "intent_prediction": {
+      "name": "greetings.goodevening",
+      "confidence": 0.978300154209137
+    }
+  },
+  {
+    "text": "I'm fine and you",
+    "intent": "greetings.how_are_you",
+    "intent_prediction": {
+      "name": "user.sad",
+      "confidence": 0.8121291399002075
+    }
+  },
+  {
+    "text": "how about you?",
+    "intent": "greetings.how_are_you",
+    "intent_prediction": {
+      "name": "agent.acquaintance",
+      "confidence": 0.9584354162216187
+    }
+  },
+  {
+    "text": "what about your day",
+    "intent": "greetings.how_are_you",
+    "intent_prediction": {
+      "name": "agent.acquaintance",
+      "confidence": 0.3925410509109497
+    }
+  },
+  {
+    "text": "talk about yourself",
+    "intent": "agent.acquaintance",
+    "intent_prediction": {
+      "name": "agent.talk_to_me",
+      "confidence": 0.8867032527923584
+    }
+  },
+  {
+    "text": "I want to know you better",
+    "intent": "agent.acquaintance",
+    "intent_prediction": {
+      "name": "agent.fired",
+      "confidence": 0.8224836587905884
+    }
+  },
+  {
+    "text": "introduce yourself",
+    "intent": "agent.acquaintance",
+    "intent_prediction": {
+      "name": "agent.annoying",
+      "confidence": 0.368130624294281
+    }
+  },
+  {
+    "text": "say about you",
+    "intent": "agent.acquaintance",
+    "intent_prediction": {
+      "name": "greetings.hello",
+      "confidence": 0.9940446615219116
+    }
+  },
+  {
+    "text": "define yourself",
+    "intent": "agent.acquaintance",
+    "intent_prediction": {
+      "name": "agent.annoying",
+      "confidence": 0.368130624294281
+    }
+  },
+  {
+    "text": "ur name?",
+    "intent": "agent.name",
+    "intent_prediction": {
+      "name": "user.joking",
+      "confidence": 0.46032971143722534
+    }
+  },
+  {
+    "text": "what can you be called?",
+    "intent": "agent.name",
+    "intent_prediction": {
+      "name": "agent.hobby",
+      "confidence": 0.29764094948768616
+    }
+  },
+  {
+    "text": "I need you to do something for me",
+    "intent": "agent.can_you_help",
+    "intent_prediction": {
+      "name": "user.wants_to_talk",
+      "confidence": 0.5475563406944275
+    }
+  },
+  {
+    "text": "can you do something for me",
+    "intent": "agent.can_you_help",
+    "intent_prediction": {
+      "name": "agent.what_can_do",
+      "confidence": 0.38416680693626404
+    }
+  },
+  {
+    "text": "help me with a problem",
+    "intent": "agent.can_you_help",
+    "intent_prediction": {
+      "name": "appraisal.no_problem",
+      "confidence": 0.9745703339576721
+    }
+  },
+  {
+    "text": "do me a favor",
+    "intent": "agent.can_you_help",
+    "intent_prediction": {
+      "name": "agent.what_can_do",
+      "confidence": 0.7263613343238831
+    }
+  },
+  {
+    "text": "you ready to answer my question?",
+    "intent": "agent.can_you_help",
+    "intent_prediction": {
+      "name": "agent.answer_my_question",
+      "confidence": 0.9466465711593628
+    }
+  },
+  {
+    "text": "i want something",
+    "intent": "agent.can_you_help",
+    "intent_prediction": {
+      "name": "user.wants_to_talk",
+      "confidence": 0.5432109832763672
+    }
+  },
+  {
+    "text": "what is your ability?",
+    "intent": "agent.what_can_do",
+    "intent_prediction": {
+      "name": "agent.residence",
+      "confidence": 0.4005177617073059
+    }
+  },
+  {
+    "text": "what are your features?",
+    "intent": "agent.what_can_do",
+    "intent_prediction": {
+      "name": "agent.residence",
+      "confidence": 0.3193974494934082
+    }
+  },
+  {
+    "text": "you are my wife",
+    "intent": "agent.marry_user",
+    "intent_prediction": {
+      "name": "agent.my_friend",
+      "confidence": 0.9120331406593323
+    }
+  },
+  {
+    "text": "be my husband",
+    "intent": "agent.marry_user",
+    "intent_prediction": {
+      "name": "agent.my_friend",
+      "confidence": 0.9778342843055725
+    }
+  },
+  {
+    "text": "any idea of marrying me?",
+    "intent": "agent.marry_user",
+    "intent_prediction": {
+      "name": "user.needs_advice",
+      "confidence": 0.9128531813621521
+    }
+  },
+  {
+    "text": "Let's pretend we have a happy marriage",
+    "intent": "agent.marry_user",
+    "intent_prediction": {
+      "name": "agent.fired",
+      "confidence": 0.3812403380870819
+    }
+  },
+  {
+    "text": "Did your parents approve of your marriage?",
+    "intent": "agent.marry_user",
+    "intent_prediction": {
+      "name": "agent.occupation",
+      "confidence": 0.9257175326347351
+    }
+  },
+  {
+    "text": "any suggestions",
+    "intent": "user.needs_advice",
+    "intent_prediction": {
+      "name": "user.lonely",
+      "confidence": 0.3601260483264923
+    }
+  },
+  {
+    "text": "advise me",
+    "intent": "user.needs_advice",
+    "intent_prediction": {
+      "name": "agent.can_you_help",
+      "confidence": 0.28100383281707764
+    }
+  },
+  {
+    "text": "can you advise me",
+    "intent": "user.needs_advice",
+    "intent_prediction": {
+      "name": "agent.can_you_help",
+      "confidence": 0.6638811826705933
+    }
+  },
+  {
+    "text": "guide me",
+    "intent": "user.needs_advice",
+    "intent_prediction": {
+      "name": "agent.can_you_help",
+      "confidence": 0.28100383281707764
+    }
+  },
+  {
+    "text": "what you say is true",
+    "intent": "agent.right",
+    "intent_prediction": {
+      "name": "greetings.hello",
+      "confidence": 0.9078798294067383
+    }
+  },
+  {
+    "text": "you are a waste of time",
+    "intent": "agent.bad",
+    "intent_prediction": {
+      "name": "query_info",
+      "confidence": 0.8930512070655823
+    }
+  },
+  {
+    "text": "you are disgusting",
+    "intent": "agent.bad",
+    "intent_prediction": {
+      "name": "agent.good",
+      "confidence": 0.2500467896461487
+    }
+  },
+  {
+    "text": "you're awful",
+    "intent": "agent.bad",
+    "intent_prediction": {
+      "name": "agent.good",
+      "confidence": 0.25575777888298035
+    }
+  },
+  {
+    "text": "you are waste",
+    "intent": "agent.bad",
+    "intent_prediction": {
+      "name": "agent.good",
+      "confidence": 0.2500467896461487
+    }
+  },
+  {
+    "text": "you're worthless",
+    "intent": "agent.bad",
+    "intent_prediction": {
+      "name": "agent.good",
+      "confidence": 0.25575777888298035
+    }
+  },
+  {
+    "text": "you suck",
+    "intent": "agent.bad",
+    "intent_prediction": {
+      "name": "agent.boring",
+      "confidence": 0.2749859094619751
+    }
+  },
+  {
+    "text": "You are seriously mindless and stupid",
+    "intent": "agent.bad",
+    "intent_prediction": {
+      "name": "agent.hobby",
+      "confidence": 0.4692908227443695
+    }
+  },
+  {
+    "text": "your are a loser",
+    "intent": "agent.bad",
+    "intent_prediction": {
+      "name": "agent.age",
+      "confidence": 0.4900851249694824
+    }
+  },
+  {
+    "text": "You've got to be crazy to do something like that",
+    "intent": "agent.crazy",
+    "intent_prediction": {
+      "name": "user.likes_agent",
+      "confidence": 0.5124865174293518
+    }
+  },
+  {
+    "text": "I am right back",
+    "intent": "user.back",
+    "intent_prediction": {
+      "name": "user.will_be_back",
+      "confidence": 0.8617253303527832
+    }
+  },
+  {
+    "text": "disregard",
+    "intent": "confirmation.cancel",
+    "intent_prediction": {
+      "name": "greetings.hello",
+      "confidence": 0.2923537492752075
+    }
+  },
+  {
+    "text": "nice to talk to you again",
+    "intent": "greetings.nice_to_talk_to_you",
+    "intent_prediction": {
+      "name": "greetings.nice_to_see_you",
+      "confidence": 0.7440590858459473
+    }
+  },
+  {
+    "text": "can I start speaking",
+    "intent": "user.wants_to_talk",
+    "intent_prediction": {
+      "name": "greetings.nice_to_talk_to_you",
+      "confidence": 0.3826580345630646
+    }
+  },
+  {
+    "text": "can we talk",
+    "intent": "user.wants_to_talk",
+    "intent_prediction": {
+      "name": "agent.marry_user",
+      "confidence": 0.7464768886566162
+    }
+  },
+  {
+    "text": "speak with me",
+    "intent": "user.wants_to_talk",
+    "intent_prediction": {
+      "name": "greetings.hello",
+      "confidence": 0.884330153465271
+    }
+  },
+  {
+    "text": "let's talk",
+    "intent": "user.wants_to_talk",
+    "intent_prediction": {
+      "name": "greetings.hello",
+      "confidence": 0.7862525582313538
+    }
+  },
+  {
+    "text": "can we chat",
+    "intent": "user.wants_to_talk",
+    "intent_prediction": {
+      "name": "agent.talk_to_me",
+      "confidence": 0.9484599828720093
+    }
+  },
+  {
+    "text": "I like talking to you",
+    "intent": "user.wants_to_talk",
+    "intent_prediction": {
+      "name": "user.likes_agent",
+      "confidence": 0.8279902935028076
+    }
+  },
+  {
+    "text": "have you got much to do?",
+    "intent": "agent.busy",
+    "intent_prediction": {
+      "name": "user.angry",
+      "confidence": 0.5786479115486145
+    }
+  },
+  {
+    "text": "u look busy",
+    "intent": "agent.busy",
+    "intent_prediction": {
+      "name": "user.busy",
+      "confidence": 0.7957984805107117
+    }
+  },
+  {
+    "text": "answering questions",
+    "intent": "agent.answer_my_question",
+    "intent_prediction": {
+      "name": "confirmation.yes",
+      "confidence": 0.27281245589256287
+    }
+  },
+  {
+    "text": "I'm enraged",
+    "intent": "user.angry",
+    "intent_prediction": {
+      "name": "user.busy",
+      "confidence": 0.5389875769615173
+    }
+  },
+  {
+    "text": "I'm furious",
+    "intent": "user.angry",
+    "intent_prediction": {
+      "name": "user.busy",
+      "confidence": 0.5389875769615173
+    }
+  },
+  {
+    "text": "I'm furious with you",
+    "intent": "user.angry",
+    "intent_prediction": {
+      "name": "user.busy",
+      "confidence": 0.5304429531097412
+    }
+  },
+  {
+    "text": "I have no time",
+    "intent": "user.busy",
+    "intent_prediction": {
+      "name": "confirmation.no",
+      "confidence": 0.9624808430671692
+    }
+  },
+  {
+    "text": "I got work to do",
+    "intent": "user.busy",
+    "intent_prediction": {
+      "name": "user.angry",
+      "confidence": 0.5036450028419495
+    }
+  },
+  {
+    "text": "I don't have time for this",
+    "intent": "user.busy",
+    "intent_prediction": {
+      "name": "user.waits",
+      "confidence": 0.3967624306678772
+    }
+  },
+  {
+    "text": "well done",
+    "intent": "appraisal.well_done",
+    "intent_prediction": {
+      "name": "appraisal.bad",
+      "confidence": 0.9788523316383362
+    }
+  },
+  {
+    "text": "amazing work",
+    "intent": "appraisal.well_done",
+    "intent_prediction": {
+      "name": "emotions.ha_ha",
+      "confidence": 0.4607224464416504
+    }
+  },
+  {
+    "text": "bravo",
+    "intent": "appraisal.well_done",
+    "intent_prediction": {
+      "name": "greetings.hello",
+      "confidence": 0.2923537492752075
+    }
+  },
+  {
+    "text": "marvelous",
+    "intent": "appraisal.well_done",
+    "intent_prediction": {
+      "name": "greetings.hello",
+      "confidence": 0.2923537492752075
+    }
+  },
+  {
+    "text": "splendid",
+    "intent": "appraisal.well_done",
+    "intent_prediction": {
+      "name": "greetings.hello",
+      "confidence": 0.2923537492752075
+    }
+  },
+  {
+    "text": "u r awesome",
+    "intent": "appraisal.well_done",
+    "intent_prediction": {
+      "name": "user.good",
+      "confidence": 0.9768497943878174
+    }
+  },
+  {
+    "text": "kudos",
+    "intent": "appraisal.well_done",
+    "intent_prediction": {
+      "name": "greetings.hello",
+      "confidence": 0.2923537492752075
+    }
+  },
+  {
+    "text": "zing zing amazing",
+    "intent": "appraisal.well_done",
+    "intent_prediction": {
+      "name": "emotions.wow",
+      "confidence": 0.9807551503181458
+    }
+  },
+  {
+    "text": "i'm bored of you",
+    "intent": "agent.boring",
+    "intent_prediction": {
+      "name": "user.bored",
+      "confidence": 0.7232535481452942
+    }
+  },
+  {
+    "text": "It's boring",
+    "intent": "agent.boring",
+    "intent_prediction": {
+      "name": "user.bored",
+      "confidence": 0.988728940486908
+    }
+  },
+  {
+    "text": "that's my pleasure",
+    "intent": "appraisal.welcome",
+    "intent_prediction": {
+      "name": "user.has_birthday",
+      "confidence": 0.6738384366035461
+    }
+  },
+  {
+    "text": "anytime",
+    "intent": "appraisal.welcome",
+    "intent_prediction": {
+      "name": "greetings.hello",
+      "confidence": 0.2923537492752075
+    }
+  },
+  {
+    "text": "anything you want",
+    "intent": "appraisal.welcome",
+    "intent_prediction": {
+      "name": "agent.chatbot",
+      "confidence": 0.6162872314453125
+    }
+  },
+  {
+    "text": "i'm glad",
+    "intent": "appraisal.welcome",
+    "intent_prediction": {
+      "name": "appraisal.good",
+      "confidence": 0.927477240562439
+    }
+  },
+  {
+    "text": "brilliant man",
+    "intent": "agent.clever",
+    "intent_prediction": {
+      "name": "appraisal.good",
+      "confidence": 0.8239966630935669
+    }
+  },
+  {
+    "text": "you know a lot of things",
+    "intent": "agent.clever",
+    "intent_prediction": {
+      "name": "agent.busy",
+      "confidence": 0.8080143928527832
+    }
+  },
+  {
+    "text": "you are qualified",
+    "intent": "agent.clever",
+    "intent_prediction": {
+      "name": "agent.be_clever",
+      "confidence": 0.8660963177680969
+    }
+  },
+  {
+    "text": "you're qualified",
+    "intent": "agent.clever",
+    "intent_prediction": {
+      "name": "agent.be_clever",
+      "confidence": 0.9024214744567871
+    }
+  },
+  {
+    "text": "I've overworked",
+    "intent": "user.tired",
+    "intent_prediction": {
+      "name": "user.sleepy",
+      "confidence": 0.18975317478179932
+    }
+  },
+  {
+    "text": "i'm dead tired",
+    "intent": "user.tired",
+    "intent_prediction": {
+      "name": "user.can_not_sleep",
+      "confidence": 0.19183292984962463
+    }
+  },
+  {
+    "text": "I'm a bit tires",
+    "intent": "user.tired",
+    "intent_prediction": {
+      "name": "user.busy",
+      "confidence": 0.9794598817825317
+    }
+  },
+  {
+    "text": "I shall be back",
+    "intent": "user.will_be_back",
+    "intent_prediction": {
+      "name": "user.back",
+      "confidence": 0.7476947903633118
+    }
+  },
+  {
+    "text": "give me five",
+    "intent": "user.will_be_back",
+    "intent_prediction": {
+      "name": "dialog.hug",
+      "confidence": 0.75174480676651
+    }
+  },
+  {
+    "text": "one sec",
+    "intent": "user.will_be_back",
+    "intent_prediction": {
+      "name": "dialog.hold_on",
+      "confidence": 0.9837484359741211
+    }
+  },
+  {
+    "text": "When I return, we'll talk",
+    "intent": "user.will_be_back",
+    "intent_prediction": {
+      "name": "user.misses_agent",
+      "confidence": 0.6488155126571655
+    }
+  },
+  {
+    "text": "idc",
+    "intent": "dialog.i_do_not_care",
+    "intent_prediction": {
+      "name": "greetings.hello",
+      "confidence": 0.2923537492752075
+    }
+  },
+  {
+    "text": "like i care",
+    "intent": "dialog.i_do_not_care",
+    "intent_prediction": {
+      "name": "user.likes_agent",
+      "confidence": 0.5943628549575806
+    }
+  },
+  {
+    "text": "xd",
+    "intent": "emotions.ha_ha",
+    "intent_prediction": {
+      "name": "greetings.hello",
+      "confidence": 0.2923537492752075
+    }
+  },
+  {
+    "text": "ahahah",
+    "intent": "emotions.ha_ha",
+    "intent_prediction": {
+      "name": "greetings.hello",
+      "confidence": 0.2923537492752075
+    }
+  },
+  {
+    "text": "laughing out loud",
+    "intent": "emotions.ha_ha",
+    "intent_prediction": {
+      "name": "appraisal.no_problem",
+      "confidence": 0.6220303773880005
+    }
+  },
+  {
+    "text": "that's funny",
+    "intent": "emotions.ha_ha",
+    "intent_prediction": {
+      "name": "agent.funny",
+      "confidence": 0.747760534286499
+    }
+  },
+  {
+    "text": "ahaha",
+    "intent": "emotions.ha_ha",
+    "intent_prediction": {
+      "name": "greetings.hello",
+      "confidence": 0.2923537492752075
+    }
+  },
+  {
+    "text": "joker",
+    "intent": "emotions.ha_ha",
+    "intent_prediction": {
+      "name": "greetings.hello",
+      "confidence": 0.2923537492752075
+    }
+  },
+  {
+    "text": "are you a real human?",
+    "intent": "agent.real",
+    "intent_prediction": {
+      "name": "agent.age",
+      "confidence": 0.43310511112213135
+    }
+  },
+  {
+    "text": "your birth date",
+    "intent": "agent.birth_date",
+    "intent_prediction": {
+      "name": "query_date",
+      "confidence": 0.8570084571838379
+    }
+  },
+  {
+    "text": "date of your birthday",
+    "intent": "agent.birth_date",
+    "intent_prediction": {
+      "name": "winter_is_coming",
+      "confidence": 0.6455394625663757
+    }
+  },
+  {
+    "text": "i want to know your date of birth",
+    "intent": "agent.birth_date",
+    "intent_prediction": {
+      "name": "query_date",
+      "confidence": 0.7049430012702942
+    }
+  },
+  {
+    "text": "What is your birth day?",
+    "intent": "agent.birth_date",
+    "intent_prediction": {
+      "name": "first_crush",
+      "confidence": 0.5567910671234131
+    }
+  },
+  {
+    "text": "were you born here",
+    "intent": "agent.origin",
+    "intent_prediction": {
+      "name": "agent.birth_date",
+      "confidence": 0.9837527871131897
+    }
+  },
+  {
+    "text": "Where are you from?",
+    "intent": "agent.origin",
+    "intent_prediction": {
+      "name": "ask_forecast_weather",
+      "confidence": 0.5349993705749512
+    }
+  },
+  {
+    "text": "Let me know about the origin of u",
+    "intent": "agent.origin",
+    "intent_prediction": {
+      "name": "query_info",
+      "confidence": 0.4822552502155304
+    }
+  },
+  {
+    "text": "your native?",
+    "intent": "agent.origin",
+    "intent_prediction": {
+      "name": "agent.residence",
+      "confidence": 0.6147193312644958
+    }
+  },
+  {
+    "text": "I'm sleeping",
+    "intent": "user.sleepy",
+    "intent_prediction": {
+      "name": "user.can_not_sleep",
+      "confidence": 0.983058750629425
+    }
+  },
+  {
+    "text": "apologise",
+    "intent": "dialog.sorry",
+    "intent_prediction": {
+      "name": "greetings.hello",
+      "confidence": 0.2923537492752075
+    }
+  },
+  {
+    "text": "I beg your pardon",
+    "intent": "dialog.sorry",
+    "intent_prediction": {
+      "name": "mood_nervous",
+      "confidence": 0.2850399315357208
+    }
+  },
+  {
+    "text": "I want to say sorry",
+    "intent": "dialog.sorry",
+    "intent_prediction": {
+      "name": "greetings.hello",
+      "confidence": 0.8907771706581116
+    }
+  },
+  {
+    "text": "I think I love you",
+    "intent": "user.loves_agent",
+    "intent_prediction": {
+      "name": "user.looks_like",
+      "confidence": 0.7838299870491028
+    }
+  },
+  {
+    "text": "my heart is filled with you",
+    "intent": "user.loves_agent",
+    "intent_prediction": {
+      "name": "user.wants_to_see_agent_again",
+      "confidence": 0.4846116900444031
+    }
+  },
+  {
+    "text": "I love u to the moon and back",
+    "intent": "user.loves_agent",
+    "intent_prediction": {
+      "name": "user.will_be_back",
+      "confidence": 0.7442600131034851
+    }
+  },
+  {
+    "text": "no thanks",
+    "intent": "confirmation.no",
+    "intent_prediction": {
+      "name": "appraisal.thank_you",
+      "confidence": 0.9977494478225708
+    }
+  },
+  {
+    "text": "sorry no",
+    "intent": "confirmation.no",
+    "intent_prediction": {
+      "name": "dialog.sorry",
+      "confidence": 0.8232873678207397
+    }
+  },
+  {
+    "text": "get out goodbye",
+    "intent": "confirmation.no",
+    "intent_prediction": {
+      "name": "greetings.bye",
+      "confidence": 0.9956846833229065
+    }
+  },
+  {
+    "text": "i am not okay with your help",
+    "intent": "confirmation.no",
+    "intent_prediction": {
+      "name": "user.sad",
+      "confidence": 0.5315802693367004
+    }
+  },
+  {
+    "text": "I don't need anything from you",
+    "intent": "confirmation.no",
+    "intent_prediction": {
+      "name": "query_info",
+      "confidence": 0.3571736812591553
+    }
+  },
+  {
+    "text": "okay keep it in mind",
+    "intent": "confirmation.no",
+    "intent_prediction": {
+      "name": "mood_nervous",
+      "confidence": 0.29277679324150085
+    }
+  },
+  {
+    "text": "Don't show off",
+    "intent": "confirmation.no",
+    "intent_prediction": {
+      "name": "play_music",
+      "confidence": 0.32547727227211
+    }
+  },
+  {
+    "text": "I agree",
+    "intent": "confirmation.yes",
+    "intent_prediction": {
+      "name": "user.tired",
+      "confidence": 0.257375031709671
+    }
+  },
+  {
+    "text": "okey",
+    "intent": "confirmation.yes",
+    "intent_prediction": {
+      "name": "greetings.hello",
+      "confidence": 0.2923537492752075
+    }
+  },
+  {
+    "text": "ya",
+    "intent": "confirmation.yes",
+    "intent_prediction": {
+      "name": "greetings.hello",
+      "confidence": 0.2923537492752075
+    }
+  },
+  {
+    "text": "yup",
+    "intent": "confirmation.yes",
+    "intent_prediction": {
+      "name": "greetings.hello",
+      "confidence": 0.2923537492752075
+    }
+  },
+  {
+    "text": "okay cool",
+    "intent": "confirmation.yes",
+    "intent_prediction": {
+      "name": "appraisal.good",
+      "confidence": 0.8535507321357727
+    }
+  },
+  {
+    "text": "I've not gone anywhere",
+    "intent": "user.here",
+    "intent_prediction": {
+      "name": "user.angry",
+      "confidence": 0.4330349266529083
+    }
+  },
+  {
+    "text": "I've been here all the time",
+    "intent": "user.here",
+    "intent_prediction": {
+      "name": "user.needs_advice",
+      "confidence": 0.5953422784805298
+    }
+  },
+  {
+    "text": "Look over here",
+    "intent": "user.here",
+    "intent_prediction": {
+      "name": "user.looks_like",
+      "confidence": 0.39417320489883423
+    }
+  },
+  {
+    "text": "I just got here",
+    "intent": "user.here",
+    "intent_prediction": {
+      "name": "user.angry",
+      "confidence": 0.7948867082595825
+    }
+  },
+  {
+    "text": "can we start?",
+    "intent": "agent.ready",
+    "intent_prediction": {
+      "name": "agent.marry_user",
+      "confidence": 0.669363796710968
+    }
+  },
+  {
+    "text": "We're ready, aren't we?",
+    "intent": "agent.ready",
+    "intent_prediction": {
+      "name": "agent.marry_user",
+      "confidence": 0.38959798216819763
+    }
+  },
+  {
+    "text": "cheers",
+    "intent": "appraisal.thank_you",
+    "intent_prediction": {
+      "name": "greetings.hello",
+      "confidence": 0.2923537492752075
+    }
+  },
+  {
+    "text": "thank you my friend",
+    "intent": "appraisal.thank_you",
+    "intent_prediction": {
+      "name": "agent.my_friend",
+      "confidence": 0.6307955384254456
+    }
+  },
+  {
+    "text": "thnx",
+    "intent": "appraisal.thank_you",
+    "intent_prediction": {
+      "name": "greetings.hello",
+      "confidence": 0.2923537492752075
+    }
+  },
+  {
+    "text": "tqsm",
+    "intent": "appraisal.thank_you",
+    "intent_prediction": {
+      "name": "greetings.hello",
+      "confidence": 0.2923537492752075
+    }
+  },
+  {
+    "text": "I'm glad to see you",
+    "intent": "greetings.nice_to_see_you",
+    "intent_prediction": {
+      "name": "user.good",
+      "confidence": 0.4800955355167389
+    }
+  },
+  {
+    "text": "glad to see you",
+    "intent": "greetings.nice_to_see_you",
+    "intent_prediction": {
+      "name": "greetings.bye",
+      "confidence": 0.9046998023986816
+    }
+  },
+  {
+    "text": "I'm really pleased to see u again",
+    "intent": "greetings.nice_to_see_you",
+    "intent_prediction": {
+      "name": "user.going_to_bed",
+      "confidence": 0.23821231722831726
+    }
+  },
+  {
+    "text": "much better",
+    "intent": "appraisal.good",
+    "intent_prediction": {
+      "name": "user.loves_agent",
+      "confidence": 0.252239853143692
+    }
+  },
+  {
+    "text": "not bad",
+    "intent": "appraisal.good",
+    "intent_prediction": {
+      "name": "appraisal.bad",
+      "confidence": 0.9945881366729736
+    }
+  },
+  {
+    "text": "not too bad",
+    "intent": "appraisal.good",
+    "intent_prediction": {
+      "name": "appraisal.bad",
+      "confidence": 0.9998742341995239
+    }
+  },
+  {
+    "text": "pleasant",
+    "intent": "appraisal.good",
+    "intent_prediction": {
+      "name": "greetings.hello",
+      "confidence": 0.2923537492752075
+    }
+  },
+  {
+    "text": "super fantastic",
+    "intent": "appraisal.good",
+    "intent_prediction": {
+      "name": "appraisal.well_done",
+      "confidence": 0.9201642274856567
+    }
+  },
+  {
+    "text": "that was amazing",
+    "intent": "appraisal.good",
+    "intent_prediction": {
+      "name": "emotions.wow",
+      "confidence": 0.9454169869422913
+    }
+  },
+  {
+    "text": "that was cute",
+    "intent": "appraisal.good",
+    "intent_prediction": {
+      "name": "agent.beautiful",
+      "confidence": 0.727413535118103
+    }
+  },
+  {
+    "text": "that's a good idea",
+    "intent": "appraisal.good",
+    "intent_prediction": {
+      "name": "appraisal.bad",
+      "confidence": 0.9405897855758667
+    }
+  },
+  {
+    "text": "that's amazing",
+    "intent": "appraisal.good",
+    "intent_prediction": {
+      "name": "emotions.wow",
+      "confidence": 0.9189889430999756
+    }
+  },
+  {
+    "text": "that's better",
+    "intent": "appraisal.good",
+    "intent_prediction": {
+      "name": "appraisal.bad",
+      "confidence": 0.5543478727340698
+    }
+  },
+  {
+    "text": "that's cute",
+    "intent": "appraisal.good",
+    "intent_prediction": {
+      "name": "agent.beautiful",
+      "confidence": 0.9230562448501587
+    }
+  },
+  {
+    "text": "that's fantastic",
+    "intent": "appraisal.good",
+    "intent_prediction": {
+      "name": "appraisal.well_done",
+      "confidence": 0.9697328805923462
+    }
+  },
+  {
+    "text": "that's much better",
+    "intent": "appraisal.good",
+    "intent_prediction": {
+      "name": "appraisal.bad",
+      "confidence": 0.7606012225151062
+    }
+  },
+  {
+    "text": "that's nice of you",
+    "intent": "appraisal.good",
+    "intent_prediction": {
+      "name": "appraisal.thank_you",
+      "confidence": 0.8744540810585022
+    }
+  },
+  {
+    "text": "that's not bad",
+    "intent": "appraisal.good",
+    "intent_prediction": {
+      "name": "appraisal.bad",
+      "confidence": 0.9996723532676697
+    }
+  },
+  {
+    "text": "very then",
+    "intent": "appraisal.good",
+    "intent_prediction": {
+      "name": "greetings.whatsup",
+      "confidence": 0.6993966102600098
+    }
+  },
+  {
+    "text": "good to know",
+    "intent": "appraisal.good",
+    "intent_prediction": {
+      "name": "greetings.hello",
+      "confidence": 0.9434391856193542
+    }
+  },
+  {
+    "text": "I'm insomnia's",
+    "intent": "user.can_not_sleep",
+    "intent_prediction": {
+      "name": "user.busy",
+      "confidence": 0.5364967584609985
+    }
+  },
+  {
+    "text": "I'm sleepless",
+    "intent": "user.can_not_sleep",
+    "intent_prediction": {
+      "name": "user.busy",
+      "confidence": 0.5389875769615173
+    }
+  },
+  {
+    "text": "I can't fall asleep",
+    "intent": "user.can_not_sleep",
+    "intent_prediction": {
+      "name": "user.sleepy",
+      "confidence": 0.8694974780082703
+    }
+  },
+  {
+    "text": "I'm insomniac",
+    "intent": "user.can_not_sleep",
+    "intent_prediction": {
+      "name": "user.busy",
+      "confidence": 0.5389875769615173
+    }
+  },
+  {
+    "text": "I can't seem to fall asleep",
+    "intent": "user.can_not_sleep",
+    "intent_prediction": {
+      "name": "user.busy",
+      "confidence": 0.708974301815033
+    }
+  },
+  {
+    "text": "you are so sweet",
+    "intent": "user.likes_agent",
+    "intent_prediction": {
+      "name": "appraisal.good",
+      "confidence": 0.4978882670402527
+    }
+  },
+  {
+    "text": "I like you too you're one of my favorite people to chat with",
+    "intent": "user.likes_agent",
+    "intent_prediction": {
+      "name": "user.busy",
+      "confidence": 0.7922015190124512
+    }
+  },
+  {
+    "text": "I had a great time or meeting",
+    "intent": "greetings.nice_to_meet_you",
+    "intent_prediction": {
+      "name": "user.bored",
+      "confidence": 0.5619275569915771
+    }
+  },
+  {
+    "text": "you are good at it",
+    "intent": "agent.good",
+    "intent_prediction": {
+      "name": "agent.bad",
+      "confidence": 0.7369344830513
+    }
+  },
+  {
+    "text": "you are very good at it",
+    "intent": "agent.good",
+    "intent_prediction": {
+      "name": "agent.bad",
+      "confidence": 0.7063548564910889
+    }
+  },
+  {
+    "text": "you are so lovely",
+    "intent": "agent.good",
+    "intent_prediction": {
+      "name": "greetings.nice_to_meet_you",
+      "confidence": 0.8126589059829712
+    }
+  },
+  {
+    "text": "you are too good",
+    "intent": "agent.good",
+    "intent_prediction": {
+      "name": "agent.bad",
+      "confidence": 0.9303768873214722
+    }
+  },
+  {
+    "text": "you are very lovely",
+    "intent": "agent.good",
+    "intent_prediction": {
+      "name": "greetings.nice_to_meet_you",
+      "confidence": 0.8895136117935181
+    }
+  },
+  {
+    "text": "you made my day",
+    "intent": "agent.good",
+    "intent_prediction": {
+      "name": "user.angry",
+      "confidence": 0.4749775528907776
+    }
+  },
+  {
+    "text": "you rock",
+    "intent": "agent.good",
+    "intent_prediction": {
+      "name": "agent.boring",
+      "confidence": 0.2749859094619751
+    }
+  },
+  {
+    "text": "you almost sound human",
+    "intent": "agent.good",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.8336334824562073
+    }
+  },
+  {
+    "text": "nice",
+    "intent": "agent.good",
+    "intent_prediction": {
+      "name": "appraisal.good",
+      "confidence": 0.985116720199585
+    }
+  },
+  {
+    "text": "you're the funniest bot I've talked to",
+    "intent": "agent.funny",
+    "intent_prediction": {
+      "name": "user.looks_like",
+      "confidence": 0.38309699296951294
+    }
+  },
+  {
+    "text": "you're the funniest",
+    "intent": "agent.funny",
+    "intent_prediction": {
+      "name": "agent.crazy",
+      "confidence": 0.18935991823673248
+    }
+  },
+  {
+    "text": "It's pretty funny",
+    "intent": "agent.funny",
+    "intent_prediction": {
+      "name": "internet_is_slow_fixing_internet",
+      "confidence": 0.592040479183197
+    }
+  },
+  {
+    "text": "really very funny",
+    "intent": "agent.funny",
+    "intent_prediction": {
+      "name": "emotions.ha_ha",
+      "confidence": 0.6367672085762024
+    }
+  },
+  {
+    "text": "You know today it's my bday",
+    "intent": "user.has_birthday",
+    "intent_prediction": {
+      "name": "user.looks_like",
+      "confidence": 0.47167879343032837
+    }
+  },
+  {
+    "text": "i was born on this day",
+    "intent": "user.has_birthday",
+    "intent_prediction": {
+      "name": "user.needs_advice",
+      "confidence": 0.4195679724216461
+    }
+  },
+  {
+    "text": "It's my born day",
+    "intent": "user.has_birthday",
+    "intent_prediction": {
+      "name": "user.looks_like",
+      "confidence": 0.6204159259796143
+    }
+  },
+  {
+    "text": "who trained you?",
+    "intent": "agent.boss",
+    "intent_prediction": {
+      "name": "agent.acquaintance",
+      "confidence": 0.7557333111763
+    }
+  },
+  {
+    "text": "u r made by?",
+    "intent": "agent.boss",
+    "intent_prediction": {
+      "name": "user.angry",
+      "confidence": 0.9883987903594971
+    }
+  },
+  {
+    "text": "I'm just playing with you",
+    "intent": "user.joking",
+    "intent_prediction": {
+      "name": "user.busy",
+      "confidence": 0.5610283613204956
+    }
+  },
+  {
+    "text": "don't worry",
+    "intent": "appraisal.no_problem",
+    "intent_prediction": {
+      "name": "confirmation.no",
+      "confidence": 0.8652021884918213
+    }
+  },
+  {
+    "text": "you're a robot",
+    "intent": "agent.chatbot",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.6894208788871765
+    }
+  },
+  {
+    "text": "going to bed now",
+    "intent": "user.going_to_bed",
+    "intent_prediction": {
+      "name": "greetings.bye",
+      "confidence": 0.9307791590690613
+    }
+  },
+  {
+    "text": "I sometimes feel drowsy in the early afternoon",
+    "intent": "user.going_to_bed",
+    "intent_prediction": {
+      "name": "user.sleepy",
+      "confidence": 0.9301106929779053
+    }
+  },
+  {
+    "text": "It's fun and exciting",
+    "intent": "user.excited",
+    "intent_prediction": {
+      "name": "user.does_not_want_to_talk",
+      "confidence": 0.3013133108615875
+    }
+  },
+  {
+    "text": "am i good looking?",
+    "intent": "user.looks_like",
+    "intent_prediction": {
+      "name": "agent.beautiful",
+      "confidence": 0.9913091659545898
+    }
+  },
+  {
+    "text": "what do u think of me?",
+    "intent": "user.looks_like",
+    "intent_prediction": {
+      "name": "agent.what_can_do",
+      "confidence": 0.4676189422607422
+    }
+  },
+  {
+    "text": "what do u think about me?",
+    "intent": "user.looks_like",
+    "intent_prediction": {
+      "name": "agent.what_can_do",
+      "confidence": 0.7766709923744202
+    }
+  },
+  {
+    "text": "long time no see",
+    "intent": "greetings.hello",
+    "intent_prediction": {
+      "name": "confirmation.no",
+      "confidence": 0.4403383433818817
+    }
+  },
+  {
+    "text": "I greet you",
+    "intent": "greetings.hello",
+    "intent_prediction": {
+      "name": "user.loves_agent",
+      "confidence": 0.46390676498413086
+    }
+  },
+  {
+    "text": "afternoon",
+    "intent": "greetings.hello",
+    "intent_prediction": {
+      "name": "user.busy",
+      "confidence": 0.6809083819389343
+    }
+  },
+  {
+    "text": "I said, helllllloooooO!!!!",
+    "intent": "greetings.hello",
+    "intent_prediction": {
+      "name": "user.joking",
+      "confidence": 0.8033274412155151
+    }
+  },
+  {
+    "text": "hey dude",
+    "intent": "greetings.hello",
+    "intent_prediction": {
+      "name": "confirmation.cancel",
+      "confidence": 0.29371950030326843
+    }
+  },
+  {
+    "text": "sup",
+    "intent": "greetings.hello",
+    "intent_prediction": {
+      "name": "greetings.whatsup",
+      "confidence": 0.99870365858078
+    }
+  },
+  {
+    "text": "you made me very happy",
+    "intent": "user.happy",
+    "intent_prediction": {
+      "name": "agent.happy",
+      "confidence": 0.6982002854347229
+    }
+  },
+  {
+    "text": "it is not right",
+    "intent": "dialog.wrong",
+    "intent_prediction": {
+      "name": "agent.right",
+      "confidence": 0.8081570267677307
+    }
+  },
+  {
+    "text": "that's not right",
+    "intent": "dialog.wrong",
+    "intent_prediction": {
+      "name": "agent.right",
+      "confidence": 0.771808922290802
+    }
+  },
+  {
+    "text": "not correct",
+    "intent": "dialog.wrong",
+    "intent_prediction": {
+      "name": "agent.right",
+      "confidence": 0.9932048916816711
+    }
+  },
+  {
+    "text": "you are wrong",
+    "intent": "dialog.wrong",
+    "intent_prediction": {
+      "name": "agent.right",
+      "confidence": 0.5110809206962585
+    }
+  },
+  {
+    "text": "u don't know anything",
+    "intent": "dialog.wrong",
+    "intent_prediction": {
+      "name": "dialog.what_do_you_mean",
+      "confidence": 0.7577540278434753
+    }
+  },
+  {
+    "text": "you misinterpret",
+    "intent": "dialog.wrong",
+    "intent_prediction": {
+      "name": "agent.boring",
+      "confidence": 0.2749859094619751
+    }
+  },
+  {
+    "text": "you misunderstood",
+    "intent": "dialog.wrong",
+    "intent_prediction": {
+      "name": "agent.boring",
+      "confidence": 0.2749859094619751
+    }
+  },
+  {
+    "text": "till next time",
+    "intent": "greetings.bye",
+    "intent_prediction": {
+      "name": "query_time",
+      "confidence": 0.4489496052265167
+    }
+  },
+  {
+    "text": "I must go",
+    "intent": "greetings.bye",
+    "intent_prediction": {
+      "name": "user.sleepy",
+      "confidence": 0.5750905275344849
+    }
+  },
+  {
+    "text": "bye bye good night",
+    "intent": "greetings.bye",
+    "intent_prediction": {
+      "name": "greetings.goodnight",
+      "confidence": 0.950018584728241
+    }
+  },
+  {
+    "text": "talk to you later",
+    "intent": "greetings.bye",
+    "intent_prediction": {
+      "name": "user.busy",
+      "confidence": 0.4083445072174072
+    }
+  },
+  {
+    "text": "see you tomorrow",
+    "intent": "greetings.bye",
+    "intent_prediction": {
+      "name": "ask_forecast_weather_tomorrow",
+      "confidence": 0.3765217661857605
+    }
+  },
+  {
+    "text": "c u",
+    "intent": "greetings.bye",
+    "intent_prediction": {
+      "name": "dialog.wrong",
+      "confidence": 0.4194393455982208
+    }
+  },
+  {
+    "text": "good tonight",
+    "intent": "greetings.goodnight",
+    "intent_prediction": {
+      "name": "appraisal.good",
+      "confidence": 0.7514020204544067
+    }
+  },
+  {
+    "text": "Why do you lie?",
+    "intent": "dialog.what_do_you_mean",
+    "intent_prediction": {
+      "name": "agent.occupation",
+      "confidence": 0.7312768697738647
+    }
+  },
+  {
+    "text": "I'm in a good mood",
+    "intent": "user.good",
+    "intent_prediction": {
+      "name": "user.sad",
+      "confidence": 0.5083791613578796
+    }
+  },
+  {
+    "text": "i am pretty good",
+    "intent": "user.good",
+    "intent_prediction": {
+      "name": "appraisal.good",
+      "confidence": 0.9652683138847351
+    }
+  },
+  {
+    "text": "study",
+    "intent": "agent.be_clever",
+    "intent_prediction": {
+      "name": "greetings.hello",
+      "confidence": 0.2923537492752075
+    }
+  },
+  {
+    "text": "you should study better",
+    "intent": "agent.be_clever",
+    "intent_prediction": {
+      "name": "agent.bad",
+      "confidence": 0.6099947094917297
+    }
+  },
+  {
+    "text": "be smarter",
+    "intent": "agent.be_clever",
+    "intent_prediction": {
+      "name": "any_pets",
+      "confidence": 0.2986416220664978
+    }
+  },
+  {
+    "text": "you need to improve",
+    "intent": "agent.be_clever",
+    "intent_prediction": {
+      "name": "agent.fired",
+      "confidence": 0.1780644655227661
+    }
+  },
+  {
+    "text": "what is on your mind?",
+    "intent": "greetings.whatsup",
+    "intent_prediction": {
+      "name": "agent.birth_date",
+      "confidence": 0.30283865332603455
+    }
+  },
+  {
+    "text": "what is going on",
+    "intent": "greetings.whatsup",
+    "intent_prediction": {
+      "name": "ask_forecast_weather",
+      "confidence": 0.4360024333000183
+    }
+  },
+  {
+    "text": "what's cooking",
+    "intent": "greetings.whatsup",
+    "intent_prediction": {
+      "name": "agent.what_can_do",
+      "confidence": 0.5546991229057312
+    }
+  },
+  {
+    "text": "wassap yo",
+    "intent": "greetings.whatsup",
+    "intent_prediction": {
+      "name": "greetings.hello",
+      "confidence": 0.9999152421951294
+    }
+  },
+  {
+    "text": "wooow",
+    "intent": "emotions.wow",
+    "intent_prediction": {
+      "name": "greetings.hello",
+      "confidence": 0.2923537492752075
+    }
+  },
+  {
+    "text": "woah",
+    "intent": "emotions.wow",
+    "intent_prediction": {
+      "name": "greetings.hello",
+      "confidence": 0.2923537492752075
+    }
+  },
+  {
+    "text": "woow",
+    "intent": "emotions.wow",
+    "intent_prediction": {
+      "name": "greetings.hello",
+      "confidence": 0.2923537492752075
+    }
+  },
+  {
+    "text": "Don't ever make me wait again",
+    "intent": "user.waits",
+    "intent_prediction": {
+      "name": "user.happy",
+      "confidence": 0.44752436876296997
+    }
+  },
+  {
+    "text": "bad time for talking",
+    "intent": "user.does_not_want_to_talk",
+    "intent_prediction": {
+      "name": "confirmation.no",
+      "confidence": 0.30906471610069275
+    }
+  },
+  {
+    "text": "I don't want to talk",
+    "intent": "user.does_not_want_to_talk",
+    "intent_prediction": {
+      "name": "user.wants_to_talk",
+      "confidence": 0.9791333675384521
+    }
+  },
+  {
+    "text": "let's not talk",
+    "intent": "user.does_not_want_to_talk",
+    "intent_prediction": {
+      "name": "user.wants_to_talk",
+      "confidence": 0.9187018871307373
+    }
+  },
+  {
+    "text": "I don't want to talk to you",
+    "intent": "user.does_not_want_to_talk",
+    "intent_prediction": {
+      "name": "user.wants_to_talk",
+      "confidence": 0.7763981223106384
+    }
+  },
+  {
+    "text": "I'm not in the mood for chatting",
+    "intent": "user.does_not_want_to_talk",
+    "intent_prediction": {
+      "name": "user.here",
+      "confidence": 0.40777909755706787
+    }
+  },
+  {
+    "text": "I'm not in a mood to talk",
+    "intent": "user.does_not_want_to_talk",
+    "intent_prediction": {
+      "name": "user.sad",
+      "confidence": 0.3666204810142517
+    }
+  },
+  {
+    "text": "how do you spend your free time",
+    "intent": "agent.hobby",
+    "intent_prediction": {
+      "name": "greetings.how_are_you",
+      "confidence": 0.5093029737472534
+    }
+  },
+  {
+    "text": "how do you spend your time?",
+    "intent": "agent.hobby",
+    "intent_prediction": {
+      "name": "greetings.how_are_you",
+      "confidence": 0.7280697822570801
+    }
+  },
+  {
+    "text": "The important thing is to have your own hobby",
+    "intent": "agent.hobby",
+    "intent_prediction": {
+      "name": "your_daddy",
+      "confidence": 0.2768930494785309
+    }
+  },
+  {
+    "text": "where's your house",
+    "intent": "agent.residence",
+    "intent_prediction": {
+      "name": "agent.origin",
+      "confidence": 0.4857872426509857
+    }
+  },
+  {
+    "text": "GM",
+    "intent": "greetings.goodmorning",
+    "intent_prediction": {
+      "name": "greetings.hello",
+      "confidence": 0.8395283222198486
+    }
+  },
+  {
+    "text": "are you dying of hunger",
+    "intent": "agent.hungry",
+    "intent_prediction": {
+      "name": "agent.crazy",
+      "confidence": 0.6892980933189392
+    }
+  },
+  {
+    "text": "would be nice to see you again",
+    "intent": "user.wants_to_see_agent_again",
+    "intent_prediction": {
+      "name": "greetings.nice_to_see_you",
+      "confidence": 0.7906848788261414
+    }
+  },
+  {
+    "text": "that'd be great to see you again",
+    "intent": "user.wants_to_see_agent_again",
+    "intent_prediction": {
+      "name": "greetings.nice_to_see_you",
+      "confidence": 0.9570237398147583
+    }
+  },
+  {
+    "text": "let's meet soon",
+    "intent": "user.wants_to_see_agent_again",
+    "intent_prediction": {
+      "name": "greetings.nice_to_meet_you",
+      "confidence": 0.960451066493988
+    }
+  },
+  {
+    "text": "I will see you soon",
+    "intent": "user.wants_to_see_agent_again",
+    "intent_prediction": {
+      "name": "user.wants_to_talk",
+      "confidence": 0.41420072317123413
+    }
+  },
+  {
+    "text": "can you show me some picture",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "agent.can_you_help",
+      "confidence": 0.8097963333129883
+    }
+  },
+  {
+    "text": "pics please",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "tell_a_joke",
+      "confidence": 0.8591356873512268
+    }
+  },
+  {
+    "text": "Take me home",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "look_like",
+      "confidence": 0.37878382205963135
+    }
+  },
+  {
+    "text": "What’s the address for location?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "agent.occupation",
+      "confidence": 0.4019026458263397
+    }
+  },
+  {
+    "text": "Where is the nearest florist?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "imag",
+      "confidence": 0.42174699902534485
+    }
+  },
+  {
+    "text": "What time will flight arrive in Sydney?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "mean_funnny",
+      "confidence": 0.6630731821060181
+    }
+  },
+  {
+    "text": "can you open stackoverflow",
+    "intent": "open_sites",
+    "intent_prediction": {
+      "name": "agent.there",
+      "confidence": 0.40030667185783386
     }
   },
   {
     "text": "what do you know about ships",
     "intent": "query_info",
     "intent_prediction": {
-      "name": "query_time",
-      "confidence": 0.9865718483924866
+      "name": "your_daddy",
+      "confidence": 0.329198956489563
     }
   },
   {
-    "text": "hey eva tell me the date",
-    "intent": "query_date",
+    "text": "what is a pandemic",
+    "intent": "query_info",
     "intent_prediction": {
-      "name": "query_time",
-      "confidence": 0.9448992013931274
+      "name": "query_date",
+      "confidence": 0.3228195607662201
     }
   },
   {
-    "text": "do you know the date",
-    "intent": "query_date",
+    "text": "who is mahatma gandhi",
+    "intent": "query_info",
     "intent_prediction": {
-      "name": "query_time",
-      "confidence": 0.5867996215820312
-    }
-  },
-  {
-    "text": "open music player",
-    "intent": "play_music",
-    "intent_prediction": {
-      "name": "open_sites",
-      "confidence": 0.9932926297187805
-    }
-  },
-  {
-    "text": "open music",
-    "intent": "play_music",
-    "intent_prediction": {
-      "name": "open_sites",
-      "confidence": 0.996553361415863
-    }
-  },
-  {
-    "text": "tell me a joke",
-    "intent": "tell_a_joke",
-    "intent_prediction": {
-      "name": "query_time",
-      "confidence": 0.5916898250579834
-    }
-  },
-  {
-    "text": "can you tell me a joke",
-    "intent": "tell_a_joke",
-    "intent_prediction": {
-      "name": "query_time",
-      "confidence": 0.5633108615875244
-    }
-  },
-  {
-    "text": "hello",
-    "intent": "greet",
-    "intent_prediction": {
-      "name": "mood_great",
-      "confidence": 0.9560072422027588
-    }
-  },
-  {
-    "text": "goodmorning",
-    "intent": "greet",
-    "intent_prediction": {
-      "name": "mood_great",
-      "confidence": 0.9560072422027588
-    }
-  },
-  {
-    "text": "goodevening",
-    "intent": "greet",
-    "intent_prediction": {
-      "name": "mood_great",
-      "confidence": 0.9560072422027588
-    }
-  },
-  {
-    "text": "cu",
-    "intent": "goodbye",
-    "intent_prediction": {
-      "name": "mood_great",
-      "confidence": 0.9560072422027588
-    }
-  },
-  {
-    "text": "good by",
-    "intent": "goodbye",
-    "intent_prediction": {
-      "name": "greet",
-      "confidence": 0.7660408616065979
-    }
-  },
-  {
-    "text": "have a nice day",
-    "intent": "goodbye",
-    "intent_prediction": {
-      "name": "mood_unhappy",
-      "confidence": 0.5407766699790955
-    }
-  },
-  {
-    "text": "indeed",
-    "intent": "affirm",
-    "intent_prediction": {
-      "name": "mood_great",
-      "confidence": 0.9560072422027588
-    }
-  },
-  {
-    "text": "that sounds good",
-    "intent": "affirm",
-    "intent_prediction": {
-      "name": "mood_unhappy",
-      "confidence": 0.6730054020881653
-    }
-  },
-  {
-    "text": "correct",
-    "intent": "affirm",
-    "intent_prediction": {
-      "name": "mood_great",
-      "confidence": 0.9560072422027588
-    }
-  },
-  {
-    "text": "no",
-    "intent": "deny",
-    "intent_prediction": {
-      "name": "mood_great",
-      "confidence": 0.9560072422027588
-    }
-  },
-  {
-    "text": "never",
-    "intent": "deny",
-    "intent_prediction": {
-      "name": "mood_great",
-      "confidence": 0.9560072422027588
-    }
-  },
-  {
-    "text": "no way",
-    "intent": "deny",
-    "intent_prediction": {
-      "name": "greet",
-      "confidence": 0.6193742752075195
-    }
-  },
-  {
-    "text": "I am going to save the world",
-    "intent": "mood_great",
-    "intent_prediction": {
-      "name": "deny",
-      "confidence": 0.36891651153564453
-    }
-  },
-  {
-    "text": "super stoked",
-    "intent": "mood_great",
-    "intent_prediction": {
-      "name": "mood_unhappy",
-      "confidence": 0.9943859577178955
-    }
-  },
-  {
-    "text": "extremely good",
-    "intent": "mood_great",
-    "intent_prediction": {
-      "name": "mood_unhappy",
-      "confidence": 0.37195873260498047
-    }
-  },
-  {
-    "text": "i'm good",
-    "intent": "mood_great",
-    "intent_prediction": {
-      "name": "mood_unhappy",
-      "confidence": 0.9869040846824646
-    }
-  },
-  {
-    "text": "i'm fine",
-    "intent": "mood_great",
-    "intent_prediction": {
-      "name": "mood_unhappy",
-      "confidence": 0.9777929186820984
-    }
-  },
-  {
-    "text": "I don't feel very well",
-    "intent": "mood_unhappy",
-    "intent_prediction": {
-      "name": "deny",
-      "confidence": 0.9997889995574951
-    }
-  },
-  {
-    "text": "so saad",
-    "intent": "mood_unhappy",
-    "intent_prediction": {
-      "name": "mood_great",
-      "confidence": 0.977253794670105
+      "name": "agent.boss",
+      "confidence": 0.8663545250892639
     }
   },
   {
     "text": "what is the city of gold",
     "intent": "query_info",
     "intent_prediction": {
-      "name": "query_time",
-      "confidence": 0.9919233322143555
+      "name": "agent.residence",
+      "confidence": 0.9875346422195435
     }
   },
   {
@@ -404,31 +2796,2703 @@
     "intent": "query_info",
     "intent_prediction": {
       "name": "query_time",
-      "confidence": 0.9045282006263733
+      "confidence": 0.3213193118572235
     }
   },
   {
-    "text": "hey eva tell me the time",
+    "text": "what time is it",
     "intent": "query_time",
     "intent_prediction": {
       "name": "query_date",
-      "confidence": 0.9369531869888306
+      "confidence": 0.5597467422485352
     }
   },
   {
-    "text": "what day is it",
-    "intent": "query_date",
+    "text": "the time please",
+    "intent": "query_time",
     "intent_prediction": {
-      "name": "query_time",
-      "confidence": 0.998811662197113
+      "name": "tell_a_joke",
+      "confidence": 0.9041613936424255
     }
   },
   {
-    "text": "what is joke of the day",
-    "intent": "tell_a_joke",
+    "text": "play song",
+    "intent": "play_music",
     "intent_prediction": {
-      "name": "query_time",
-      "confidence": 0.9851918816566467
+      "name": "confirmation.cancel",
+      "confidence": 0.5497868657112122
+    }
+  },
+  {
+    "text": "That is frightening",
+    "intent": "mood_scared",
+    "intent_prediction": {
+      "name": "agent.right",
+      "confidence": 0.27544546127319336
+    }
+  },
+  {
+    "text": "That is intimidating",
+    "intent": "mood_scared",
+    "intent_prediction": {
+      "name": "agent.right",
+      "confidence": 0.27544546127319336
+    }
+  },
+  {
+    "text": "I am petrified",
+    "intent": "mood_scared",
+    "intent_prediction": {
+      "name": "user.lonely",
+      "confidence": 0.506017804145813
+    }
+  },
+  {
+    "text": "I'm fearful",
+    "intent": "mood_scared",
+    "intent_prediction": {
+      "name": "user.sleepy",
+      "confidence": 0.33751076459884644
+    }
+  },
+  {
+    "text": "I broke out in a cold sweat",
+    "intent": "mood_scared",
+    "intent_prediction": {
+      "name": "mood_nervous",
+      "confidence": 0.9985671043395996
+    }
+  },
+  {
+    "text": "That startled me!",
+    "intent": "mood_scared",
+    "intent_prediction": {
+      "name": "user.likes_agent",
+      "confidence": 0.9682568907737732
+    }
+  },
+  {
+    "text": "I'm spooked easily",
+    "intent": "mood_scared",
+    "intent_prediction": {
+      "name": "user.angry",
+      "confidence": 0.23338311910629272
+    }
+  },
+  {
+    "text": "I'm horrified",
+    "intent": "mood_scared",
+    "intent_prediction": {
+      "name": "user.sleepy",
+      "confidence": 0.33751076459884644
+    }
+  },
+  {
+    "text": "I feel like I am going to throw up",
+    "intent": "mood_nervous",
+    "intent_prediction": {
+      "name": "user.happy",
+      "confidence": 0.6574512720108032
+    }
+  },
+  {
+    "text": "I have butterflies in my stomach",
+    "intent": "mood_nervous",
+    "intent_prediction": {
+      "name": "user.busy",
+      "confidence": 0.8220336437225342
+    }
+  },
+  {
+    "text": "I am afraid of my own shadow",
+    "intent": "mood_nervous",
+    "intent_prediction": {
+      "name": "your_daddy",
+      "confidence": 0.14363116025924683
+    }
+  },
+  {
+    "text": "I am like a cat on hot bricks",
+    "intent": "mood_nervous",
+    "intent_prediction": {
+      "name": "any_pets",
+      "confidence": 0.5673355460166931
+    }
+  },
+  {
+    "text": "I am jumping out of my skin",
+    "intent": "mood_nervous",
+    "intent_prediction": {
+      "name": "user.looks_like",
+      "confidence": 0.41744890809059143
+    }
+  },
+  {
+    "text": "I am at my wits' end",
+    "intent": "mood_nervous",
+    "intent_prediction": {
+      "name": "user.angry",
+      "confidence": 0.3764803409576416
+    }
+  },
+  {
+    "text": "I am on edge",
+    "intent": "mood_nervous",
+    "intent_prediction": {
+      "name": "user.lonely",
+      "confidence": 0.41174009442329407
+    }
+  },
+  {
+    "text": "I am very tense",
+    "intent": "mood_nervous",
+    "intent_prediction": {
+      "name": "user.excited",
+      "confidence": 0.24632161855697632
+    }
+  },
+  {
+    "text": "I am alarmed",
+    "intent": "mood_nervous",
+    "intent_prediction": {
+      "name": "user.lonely",
+      "confidence": 0.506017804145813
+    }
+  },
+  {
+    "text": "I'm constantly worried",
+    "intent": "mood_nervous",
+    "intent_prediction": {
+      "name": "mood_scared",
+      "confidence": 0.9965946078300476
+    }
+  },
+  {
+    "text": "I feel constant tension",
+    "intent": "mood_nervous",
+    "intent_prediction": {
+      "name": "user.tired",
+      "confidence": 0.27170664072036743
+    }
+  },
+  {
+    "text": "I’m suffering from anxiety.",
+    "intent": "mood_nervous",
+    "intent_prediction": {
+      "name": "user.can_not_sleep",
+      "confidence": 0.42647308111190796
+    }
+  },
+  {
+    "text": "I cannot concentrate as I'm worried constantly",
+    "intent": "mood_nervous",
+    "intent_prediction": {
+      "name": "mood_scared",
+      "confidence": 0.6519283056259155
+    }
+  },
+  {
+    "text": "I am a chronic worrier.",
+    "intent": "mood_nervous",
+    "intent_prediction": {
+      "name": "user.here",
+      "confidence": 0.28793877363204956
+    }
+  },
+  {
+    "text": "spotty internet",
+    "intent": "internet_is_slow_fixing_internet",
+    "intent_prediction": {
+      "name": "no_internet_fixing_internet",
+      "confidence": 0.8145850300788879
+    }
+  },
+  {
+    "text": "no internet connection",
+    "intent": "no_internet_fixing_internet",
+    "intent_prediction": {
+      "name": "internet_is_slow_fixing_internet",
+      "confidence": 0.9471263289451599
+    }
+  },
+  {
+    "text": "web page is not loading",
+    "intent": "no_internet_fixing_internet",
+    "intent_prediction": {
+      "name": "internet_is_slow_fixing_internet",
+      "confidence": 0.5731276869773865
+    }
+  },
+  {
+    "text": "What is the humidity level right now?",
+    "intent": "ask_forecast_weather",
+    "intent_prediction": {
+      "name": "your_daddy",
+      "confidence": 0.8798858523368835
+    }
+  },
+  {
+    "text": "What's the humidity level right now?",
+    "intent": "ask_forecast_weather",
+    "intent_prediction": {
+      "name": "your_daddy",
+      "confidence": 0.7637003660202026
+    }
+  },
+  {
+    "text": "Do I need to carry an umbrella tomorrow?",
+    "intent": "ask_forecast_weather_tomorrow",
+    "intent_prediction": {
+      "name": "ask_forecast_weather",
+      "confidence": 0.9806123971939087
+    }
+  },
+  {
+    "text": "What is the weather tomorrow?",
+    "intent": "ask_forecast_weather_tomorrow",
+    "intent_prediction": {
+      "name": "ask_forecast_weather",
+      "confidence": 0.9720686078071594
+    }
+  },
+  {
+    "text": "will it rain tomorrow?",
+    "intent": "ask_forecast_weather_tomorrow",
+    "intent_prediction": {
+      "name": "greetings.bye",
+      "confidence": 0.6240009069442749
+    }
+  },
+  {
+    "text": "weather tomorrow?",
+    "intent": "ask_forecast_weather_tomorrow",
+    "intent_prediction": {
+      "name": "appraisal.bad",
+      "confidence": 0.3661689758300781
+    }
+  },
+  {
+    "text": "are you a human?",
+    "intent": "bot_challenge",
+    "intent_prediction": {
+      "name": "agent.chatbot",
+      "confidence": 0.5271113514900208
+    }
+  },
+  {
+    "text": "are you a robot?",
+    "intent": "bot_challenge",
+    "intent_prediction": {
+      "name": "agent.chatbot",
+      "confidence": 0.9760921001434326
+    }
+  },
+  {
+    "text": "am I talking to an actual person?",
+    "intent": "bot_challenge",
+    "intent_prediction": {
+      "name": "user.sad",
+      "confidence": 0.38504448533058167
+    }
+  },
+  {
+    "text": "you're a bot aren't you?",
+    "intent": "bot_challenge",
+    "intent_prediction": {
+      "name": "agent.chatbot",
+      "confidence": 0.6435621380805969
+    }
+  },
+  {
+    "text": "Who is your twin?",
+    "intent": "look_like",
+    "intent_prediction": {
+      "name": "agent.boss",
+      "confidence": 0.8257758021354675
+    }
+  },
+  {
+    "text": "Whats your imaginations?",
+    "intent": "imag",
+    "intent_prediction": {
+      "name": "greetings.hello",
+      "confidence": 0.9851295351982117
+    }
+  },
+  {
+    "text": "Can you rap?",
+    "intent": "can_you_rap",
+    "intent_prediction": {
+      "name": "mean_funnny",
+      "confidence": 0.8064463138580322
+    }
+  },
+  {
+    "text": "Rap for me",
+    "intent": "can_you_rap",
+    "intent_prediction": {
+      "name": "user.wants_to_talk",
+      "confidence": 0.8696539402008057
+    }
+  },
+  {
+    "text": "You tired?",
+    "intent": "get_ever_tired",
+    "intent_prediction": {
+      "name": "user.tired",
+      "confidence": 0.7366849184036255
+    }
+  },
+  {
+    "text": "Who am I talking to, you dont have feelings",
+    "intent": "have_feelin",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.38920244574546814
+    }
+  },
+  {
+    "text": "Whats to assure you wont kill us all?",
+    "intent": "skynet",
+    "intent_prediction": {
+      "name": "self_destruct",
+      "confidence": 0.2893236577510834
+    }
+  },
+  {
+    "text": "Are you from matrix?",
+    "intent": "skynet",
+    "intent_prediction": {
+      "name": "agent.origin",
+      "confidence": 0.9908551573753357
+    }
+  },
+  {
+    "text": "You wearing something sexy",
+    "intent": "wearing",
+    "intent_prediction": {
+      "name": "agent.occupation",
+      "confidence": 0.8662204742431641
+    }
+  },
+  {
+    "text": "Are you hot",
+    "intent": "wearing",
+    "intent_prediction": {
+      "name": "agent.bad",
+      "confidence": 0.7880935668945312
+    }
+  },
+  {
+    "text": "Do you even wear anything",
+    "intent": "wearing",
+    "intent_prediction": {
+      "name": "have_feelin",
+      "confidence": 0.9332833290100098
+    }
+  },
+  {
+    "text": "Do you love animals?",
+    "intent": "any_pets",
+    "intent_prediction": {
+      "name": "user.loves_agent",
+      "confidence": 0.9966410398483276
+    }
+  },
+  {
+    "text": "Whats your pets name?",
+    "intent": "any_pets",
+    "intent_prediction": {
+      "name": "your_daddy",
+      "confidence": 0.3217333257198334
+    }
+  },
+  {
+    "text": "I am gonna kill your pet",
+    "intent": "any_pets",
+    "intent_prediction": {
+      "name": "self_destruct",
+      "confidence": 0.5941184163093567
+    }
+  },
+  {
+    "text": "What’s the meaning of life?",
+    "intent": "meaning_of_life",
+    "intent_prediction": {
+      "name": "turing_test",
+      "confidence": 0.33305275440216064
+    }
+  },
+  {
+    "text": "What meaning does life have?",
+    "intent": "meaning_of_life",
+    "intent_prediction": {
+      "name": "your_daddy",
+      "confidence": 0.5135130286216736
+    }
+  },
+  {
+    "text": "How about we make a snowman?",
+    "intent": "snowman",
+    "intent_prediction": {
+      "name": "your_daddy",
+      "confidence": 0.36784884333610535
+    }
+  },
+  {
+    "text": "Self-destruct.",
+    "intent": "self_destruct",
+    "intent_prediction": {
+      "name": "greetings.hello",
+      "confidence": 0.9929148554801941
+    }
+  },
+  {
+    "text": "Go kill yourself",
+    "intent": "self_destruct",
+    "intent_prediction": {
+      "name": "dialog.hold_on",
+      "confidence": 0.9236444234848022
+    }
+  },
+  {
+    "text": "Have you ever been dead?",
+    "intent": "self_destruct",
+    "intent_prediction": {
+      "name": "get_ever_tired",
+      "confidence": 0.31789928674697876
+    }
+  },
+  {
+    "text": "Winter has come.",
+    "intent": "winter_is_coming",
+    "intent_prediction": {
+      "name": "your_father",
+      "confidence": 0.47471171617507935
+    }
+  },
+  {
+    "text": "The winter has come.",
+    "intent": "winter_is_coming",
+    "intent_prediction": {
+      "name": "your_daddy",
+      "confidence": 0.4116186499595642
+    }
+  },
+  {
+    "text": "that was boring",
+    "intent": "user.bored",
+    "intent_prediction": {
+      "name": "agent.boring",
+      "confidence": 0.9847487211227417
+    }
+  },
+  {
+    "text": "very boring",
+    "intent": "user.bored",
+    "intent_prediction": {
+      "name": "agent.boring",
+      "confidence": 0.9536755681037903
+    }
+  },
+  {
+    "text": "i had a slow day",
+    "intent": "user.bored",
+    "intent_prediction": {
+      "name": "your_daddy",
+      "confidence": 0.6440077424049377
+    }
+  },
+  {
+    "text": "Im kinda bored today",
+    "intent": "user.bored",
+    "intent_prediction": {
+      "name": "user.has_birthday",
+      "confidence": 0.5543393492698669
+    }
+  },
+  {
+    "text": "I've never been more bored",
+    "intent": "user.bored",
+    "intent_prediction": {
+      "name": "user.angry",
+      "confidence": 0.6298064589500427
+    }
+  },
+  {
+    "text": "This is boring",
+    "intent": "user.bored",
+    "intent_prediction": {
+      "name": "agent.boring",
+      "confidence": 0.5423310995101929
+    }
+  },
+  {
+    "text": "It's very boring",
+    "intent": "user.bored",
+    "intent_prediction": {
+      "name": "agent.boring",
+      "confidence": 0.9779300093650818
+    }
+  },
+  {
+    "text": "this is boring",
+    "intent": "user.bored",
+    "intent_prediction": {
+      "name": "agent.boring",
+      "confidence": 0.8985345959663391
+    }
+  },
+  {
+    "text": "I am a loner",
+    "intent": "user.lonely",
+    "intent_prediction": {
+      "name": "user.happy",
+      "confidence": 0.27523598074913025
+    }
+  },
+  {
+    "text": "I don't have any company",
+    "intent": "user.lonely",
+    "intent_prediction": {
+      "name": "user.busy",
+      "confidence": 0.9813120365142822
+    }
+  },
+  {
+    "text": "I don't have anyone else",
+    "intent": "user.lonely",
+    "intent_prediction": {
+      "name": "user.busy",
+      "confidence": 0.9751673936843872
+    }
+  },
+  {
+    "text": "I am upset",
+    "intent": "user.sad",
+    "intent_prediction": {
+      "name": "user.lonely",
+      "confidence": 0.506017804145813
+    }
+  },
+  {
+    "text": "I am as sad and lonely as can be",
+    "intent": "user.sad",
+    "intent_prediction": {
+      "name": "user.waits",
+      "confidence": 0.3204348385334015
+    }
+  },
+  {
+    "text": "you're full of happiness",
+    "intent": "agent.happy",
+    "intent_prediction": {
+      "name": "agent.beautiful",
+      "confidence": 0.4519091844558716
+    }
+  },
+  {
+    "text": "I wonder if you are truly happy",
+    "intent": "agent.happy",
+    "intent_prediction": {
+      "name": "ask_forecast_weather_tomorrow",
+      "confidence": 0.5862289667129517
+    }
+  },
+  {
+    "text": "You don't look very happy today",
+    "intent": "agent.happy",
+    "intent_prediction": {
+      "name": "user.happy",
+      "confidence": 0.6216192245483398
+    }
+  },
+  {
+    "text": "do you want to chat with me",
+    "intent": "agent.talk_to_me",
+    "intent_prediction": {
+      "name": "user.wants_to_talk",
+      "confidence": 0.822935163974762
+    }
+  },
+  {
+    "text": "spill some beans",
+    "intent": "agent.talk_to_me",
+    "intent_prediction": {
+      "name": "agent.can_you_help",
+      "confidence": 0.47918230295181274
+    }
+  },
+  {
+    "text": "could you wait",
+    "intent": "dialog.hold_on",
+    "intent_prediction": {
+      "name": "agent.sure",
+      "confidence": 0.46914178133010864
+    }
+  },
+  {
+    "text": "oh wait",
+    "intent": "dialog.hold_on",
+    "intent_prediction": {
+      "name": "user.waits",
+      "confidence": 0.5148842334747314
+    }
+  },
+  {
+    "text": "don't rush",
+    "intent": "dialog.hold_on",
+    "intent_prediction": {
+      "name": "confirmation.no",
+      "confidence": 0.9879540801048279
+    }
+  },
+  {
+    "text": "wait one sec",
+    "intent": "dialog.hold_on",
+    "intent_prediction": {
+      "name": "user.waits",
+      "confidence": 0.48444122076034546
+    }
+  },
+  {
+    "text": "you don't work for me anymore",
+    "intent": "agent.fired",
+    "intent_prediction": {
+      "name": "agent.can_you_help",
+      "confidence": 0.9516408443450928
+    }
+  },
+  {
+    "text": "we're not working together anymore",
+    "intent": "agent.fired",
+    "intent_prediction": {
+      "name": "user.busy",
+      "confidence": 0.9591400027275085
+    }
+  },
+  {
+    "text": "you are unemployed from now on",
+    "intent": "agent.fired",
+    "intent_prediction": {
+      "name": "agent.origin",
+      "confidence": 0.937987744808197
+    }
+  },
+  {
+    "text": "I will make you unemployed",
+    "intent": "agent.fired",
+    "intent_prediction": {
+      "name": "user.has_birthday",
+      "confidence": 0.49374401569366455
+    }
+  },
+  {
+    "text": "I'm firing you",
+    "intent": "agent.fired",
+    "intent_prediction": {
+      "name": "user.angry",
+      "confidence": 0.5785603523254395
+    }
+  },
+  {
+    "text": "go to hell",
+    "intent": "agent.fired",
+    "intent_prediction": {
+      "name": "greetings.bye",
+      "confidence": 0.8663418292999268
+    }
+  },
+  {
+    "text": "that was lame",
+    "intent": "appraisal.bad",
+    "intent_prediction": {
+      "name": "agent.bad",
+      "confidence": 0.9918889999389648
+    }
+  },
+  {
+    "text": "that was terrible",
+    "intent": "appraisal.bad",
+    "intent_prediction": {
+      "name": "agent.bad",
+      "confidence": 0.6506441831588745
+    }
+  },
+  {
+    "text": "horrible",
+    "intent": "appraisal.bad",
+    "intent_prediction": {
+      "name": "greetings.hello",
+      "confidence": 0.4733090400695801
+    }
+  },
+  {
+    "text": "abysmal",
+    "intent": "appraisal.bad",
+    "intent_prediction": {
+      "name": "greetings.hello",
+      "confidence": 0.4733090400695801
+    }
+  },
+  {
+    "text": "that was horrible",
+    "intent": "appraisal.bad",
+    "intent_prediction": {
+      "name": "appraisal.good",
+      "confidence": 0.8612422943115234
+    }
+  },
+  {
+    "text": "that's lame",
+    "intent": "appraisal.bad",
+    "intent_prediction": {
+      "name": "agent.bad",
+      "confidence": 0.8115819096565247
+    }
+  },
+  {
+    "text": "bad idea",
+    "intent": "appraisal.bad",
+    "intent_prediction": {
+      "name": "appraisal.good",
+      "confidence": 0.8501796126365662
+    }
+  },
+  {
+    "text": "not a good one",
+    "intent": "appraisal.bad",
+    "intent_prediction": {
+      "name": "user.sad",
+      "confidence": 0.3711388409137726
+    }
+  },
+  {
+    "text": "so lame",
+    "intent": "appraisal.bad",
+    "intent_prediction": {
+      "name": "agent.bad",
+      "confidence": 0.9920880794525146
+    }
+  },
+  {
+    "text": "is everything all right",
+    "intent": "greetings.how_are_you",
+    "intent_prediction": {
+      "name": "agent.right",
+      "confidence": 0.8914509415626526
+    }
+  },
+  {
+    "text": "are you alright",
+    "intent": "greetings.how_are_you",
+    "intent_prediction": {
+      "name": "agent.good",
+      "confidence": 0.5657457709312439
+    }
+  },
+  {
+    "text": "how are you feeling",
+    "intent": "greetings.how_are_you",
+    "intent_prediction": {
+      "name": "self_destruct",
+      "confidence": 0.23420798778533936
+    }
+  },
+  {
+    "text": "how are you today?",
+    "intent": "greetings.how_are_you",
+    "intent_prediction": {
+      "name": "agent.annoying",
+      "confidence": 0.3497855067253113
+    }
+  },
+  {
+    "text": "how do you do?",
+    "intent": "greetings.how_are_you",
+    "intent_prediction": {
+      "name": "agent.age",
+      "confidence": 0.22802704572677612
+    }
+  },
+  {
+    "text": "how do you feel?",
+    "intent": "greetings.how_are_you",
+    "intent_prediction": {
+      "name": "agent.happy",
+      "confidence": 0.280518114566803
+    }
+  },
+  {
+    "text": "why are you here",
+    "intent": "agent.acquaintance",
+    "intent_prediction": {
+      "name": "agent.there",
+      "confidence": 0.9544349312782288
+    }
+  },
+  {
+    "text": "I want to know more about you",
+    "intent": "agent.acquaintance",
+    "intent_prediction": {
+      "name": "agent.be_clever",
+      "confidence": 0.8975808620452881
+    }
+  },
+  {
+    "text": "who are you",
+    "intent": "agent.acquaintance",
+    "intent_prediction": {
+      "name": "agent.boss",
+      "confidence": 0.9730203151702881
+    }
+  },
+  {
+    "text": "tell me about you",
+    "intent": "agent.acquaintance",
+    "intent_prediction": {
+      "name": "query_date",
+      "confidence": 0.6534056067466736
+    }
+  },
+  {
+    "text": "what are you upto?",
+    "intent": "agent.acquaintance",
+    "intent_prediction": {
+      "name": "agent.what_can_do",
+      "confidence": 0.7071419358253479
+    }
+  },
+  {
+    "text": "who the hell are you?",
+    "intent": "agent.acquaintance",
+    "intent_prediction": {
+      "name": "any_pets",
+      "confidence": 0.539467453956604
+    }
+  },
+  {
+    "text": "assistance",
+    "intent": "agent.can_you_help",
+    "intent_prediction": {
+      "name": "greetings.hello",
+      "confidence": 0.4733090400695801
+    }
+  },
+  {
+    "text": "sos",
+    "intent": "agent.can_you_help",
+    "intent_prediction": {
+      "name": "greetings.hello",
+      "confidence": 0.4733090400695801
+    }
+  },
+  {
+    "text": "are you gonna help me?",
+    "intent": "agent.can_you_help",
+    "intent_prediction": {
+      "name": "skynet",
+      "confidence": 0.5713651180267334
+    }
+  },
+  {
+    "text": "let's get married",
+    "intent": "agent.marry_user",
+    "intent_prediction": {
+      "name": "user.looks_like",
+      "confidence": 0.48561087250709534
+    }
+  },
+  {
+    "text": "I love you marry me",
+    "intent": "agent.marry_user",
+    "intent_prediction": {
+      "name": "user.loves_agent",
+      "confidence": 0.9299701452255249
+    }
+  },
+  {
+    "text": "I would love to marry you",
+    "intent": "agent.marry_user",
+    "intent_prediction": {
+      "name": "user.loves_agent",
+      "confidence": 0.8853142857551575
+    }
+  },
+  {
+    "text": "Will you be my girlfriend?",
+    "intent": "agent.marry_user",
+    "intent_prediction": {
+      "name": "agent.my_friend",
+      "confidence": 0.727557897567749
+    }
+  },
+  {
+    "text": "We're married",
+    "intent": "agent.marry_user",
+    "intent_prediction": {
+      "name": "user.likes_agent",
+      "confidence": 0.8940410614013672
+    }
+  },
+  {
+    "text": "what should I do about it",
+    "intent": "user.needs_advice",
+    "intent_prediction": {
+      "name": "mean_funnny",
+      "confidence": 0.7029210329055786
+    }
+  },
+  {
+    "text": "what should I do",
+    "intent": "user.needs_advice",
+    "intent_prediction": {
+      "name": "user.wants_to_talk",
+      "confidence": 0.3252883851528168
+    }
+  },
+  {
+    "text": "what do you suggest",
+    "intent": "user.needs_advice",
+    "intent_prediction": {
+      "name": "agent.what_can_do",
+      "confidence": 0.8211113214492798
+    }
+  },
+  {
+    "text": "you're not wrong",
+    "intent": "agent.right",
+    "intent_prediction": {
+      "name": "dialog.wrong",
+      "confidence": 0.9918030500411987
+    }
+  },
+  {
+    "text": "it's the truth",
+    "intent": "agent.right",
+    "intent_prediction": {
+      "name": "the_truth",
+      "confidence": 0.8081295490264893
+    }
+  },
+  {
+    "text": "you are so useless",
+    "intent": "agent.bad",
+    "intent_prediction": {
+      "name": "agent.beautiful",
+      "confidence": 0.34020233154296875
+    }
+  },
+  {
+    "text": "you are totally useless",
+    "intent": "agent.bad",
+    "intent_prediction": {
+      "name": "agent.beautiful",
+      "confidence": 0.25506138801574707
+    }
+  },
+  {
+    "text": "you're the worst ever",
+    "intent": "agent.bad",
+    "intent_prediction": {
+      "name": "get_ever_tired",
+      "confidence": 0.27681297063827515
+    }
+  },
+  {
+    "text": "you are really the worst bot ever",
+    "intent": "agent.bad",
+    "intent_prediction": {
+      "name": "get_ever_tired",
+      "confidence": 0.6000383496284485
+    }
+  },
+  {
+    "text": "are you mad or what?",
+    "intent": "agent.crazy",
+    "intent_prediction": {
+      "name": "agent.be_clever",
+      "confidence": 0.7201211452484131
+    }
+  },
+  {
+    "text": "you are a weirdo",
+    "intent": "agent.crazy",
+    "intent_prediction": {
+      "name": "agent.chatbot",
+      "confidence": 0.3140987753868103
+    }
+  },
+  {
+    "text": "boss is back",
+    "intent": "user.back",
+    "intent_prediction": {
+      "name": "any_pets",
+      "confidence": 0.2740194797515869
+    }
+  },
+  {
+    "text": "I have returned",
+    "intent": "user.back",
+    "intent_prediction": {
+      "name": "user.busy",
+      "confidence": 0.9035374522209167
+    }
+  },
+  {
+    "text": "I'm rb",
+    "intent": "user.back",
+    "intent_prediction": {
+      "name": "user.sleepy",
+      "confidence": 0.33751076459884644
+    }
+  },
+  {
+    "text": "look who is back",
+    "intent": "user.back",
+    "intent_prediction": {
+      "name": "any_pets",
+      "confidence": 0.30521100759506226
+    }
+  },
+  {
+    "text": "nevermind forget about it",
+    "intent": "confirmation.cancel",
+    "intent_prediction": {
+      "name": "dialog.wrong",
+      "confidence": 0.34379324316978455
+    }
+  },
+  {
+    "text": "nothing just forget it",
+    "intent": "confirmation.cancel",
+    "intent_prediction": {
+      "name": "appraisal.bad",
+      "confidence": 0.9531723260879517
+    }
+  },
+  {
+    "text": "forget",
+    "intent": "confirmation.cancel",
+    "intent_prediction": {
+      "name": "greetings.hello",
+      "confidence": 0.4733090400695801
+    }
+  },
+  {
+    "text": "cancelled",
+    "intent": "confirmation.cancel",
+    "intent_prediction": {
+      "name": "greetings.hello",
+      "confidence": 0.4733090400695801
+    }
+  },
+  {
+    "text": "shall stand cancelled",
+    "intent": "confirmation.cancel",
+    "intent_prediction": {
+      "name": "user.will_be_back",
+      "confidence": 0.901718020439148
+    }
+  },
+  {
+    "text": "It was nice speaking with you",
+    "intent": "greetings.nice_to_talk_to_you",
+    "intent_prediction": {
+      "name": "user.wants_to_talk",
+      "confidence": 0.7690915465354919
+    }
+  },
+  {
+    "text": "let's discuss something",
+    "intent": "user.wants_to_talk",
+    "intent_prediction": {
+      "name": "agent.can_you_help",
+      "confidence": 0.9980524182319641
+    }
+  },
+  {
+    "text": "let's have a discussion",
+    "intent": "user.wants_to_talk",
+    "intent_prediction": {
+      "name": "greetings.hello",
+      "confidence": 0.5883646011352539
+    }
+  },
+  {
+    "text": "I want to talk to you",
+    "intent": "user.wants_to_talk",
+    "intent_prediction": {
+      "name": "greetings.nice_to_talk_to_you",
+      "confidence": 0.5872114300727844
+    }
+  },
+  {
+    "text": "I'm happy to talk",
+    "intent": "user.wants_to_talk",
+    "intent_prediction": {
+      "name": "user.does_not_want_to_talk",
+      "confidence": 0.43919751048088074
+    }
+  },
+  {
+    "text": "do you have a lot of things to do",
+    "intent": "agent.busy",
+    "intent_prediction": {
+      "name": "agent.my_friend",
+      "confidence": 0.7796217799186707
+    }
+  },
+  {
+    "text": "answers",
+    "intent": "agent.answer_my_question",
+    "intent_prediction": {
+      "name": "confirmation.no",
+      "confidence": 0.231148824095726
+    }
+  },
+  {
+    "text": "busy right now",
+    "intent": "user.busy",
+    "intent_prediction": {
+      "name": "agent.busy",
+      "confidence": 0.9406401515007019
+    }
+  },
+  {
+    "text": "I'm overloaded",
+    "intent": "user.busy",
+    "intent_prediction": {
+      "name": "user.sleepy",
+      "confidence": 0.33751076459884644
+    }
+  },
+  {
+    "text": "I'm swamped",
+    "intent": "user.busy",
+    "intent_prediction": {
+      "name": "user.sleepy",
+      "confidence": 0.33751076459884644
+    }
+  },
+  {
+    "text": "I'll see you later",
+    "intent": "user.busy",
+    "intent_prediction": {
+      "name": "greetings.bye",
+      "confidence": 0.8253286480903625
+    }
+  },
+  {
+    "text": "you are irritating",
+    "intent": "agent.annoying",
+    "intent_prediction": {
+      "name": "agent.bad",
+      "confidence": 0.3359626531600952
+    }
+  },
+  {
+    "text": "good job",
+    "intent": "appraisal.well_done",
+    "intent_prediction": {
+      "name": "agent.occupation",
+      "confidence": 0.9186578989028931
+    }
+  },
+  {
+    "text": "great job",
+    "intent": "appraisal.well_done",
+    "intent_prediction": {
+      "name": "agent.occupation",
+      "confidence": 0.887633204460144
+    }
+  },
+  {
+    "text": "way to go",
+    "intent": "appraisal.well_done",
+    "intent_prediction": {
+      "name": "greetings.bye",
+      "confidence": 0.6525503993034363
+    }
+  },
+  {
+    "text": "you did a wonderful job",
+    "intent": "appraisal.well_done",
+    "intent_prediction": {
+      "name": "agent.occupation",
+      "confidence": 0.9909689426422119
+    }
+  },
+  {
+    "text": "fantastic",
+    "intent": "appraisal.well_done",
+    "intent_prediction": {
+      "name": "appraisal.good",
+      "confidence": 0.987036406993866
+    }
+  },
+  {
+    "text": "mind blowing",
+    "intent": "appraisal.well_done",
+    "intent_prediction": {
+      "name": "greetings.bye",
+      "confidence": 0.9747431874275208
+    }
+  },
+  {
+    "text": "just great",
+    "intent": "appraisal.well_done",
+    "intent_prediction": {
+      "name": "appraisal.good",
+      "confidence": 0.7592284083366394
+    }
+  },
+  {
+    "text": "brilliant job",
+    "intent": "appraisal.well_done",
+    "intent_prediction": {
+      "name": "agent.occupation",
+      "confidence": 0.634385883808136
+    }
+  },
+  {
+    "text": "out standing",
+    "intent": "appraisal.well_done",
+    "intent_prediction": {
+      "name": "agent.beautiful",
+      "confidence": 0.6342432498931885
+    }
+  },
+  {
+    "text": "you are not interesting",
+    "intent": "agent.boring",
+    "intent_prediction": {
+      "name": "agent.bad",
+      "confidence": 0.9559756517410278
+    }
+  },
+  {
+    "text": "you're boring everyone",
+    "intent": "agent.boring",
+    "intent_prediction": {
+      "name": "agent.good",
+      "confidence": 0.9839994311332703
+    }
+  },
+  {
+    "text": "I'm extremely bored because of you",
+    "intent": "agent.boring",
+    "intent_prediction": {
+      "name": "user.angry",
+      "confidence": 0.3873186707496643
+    }
+  },
+  {
+    "text": "Im bored of you",
+    "intent": "agent.boring",
+    "intent_prediction": {
+      "name": "user.wants_to_talk",
+      "confidence": 0.461624413728714
+    }
+  },
+  {
+    "text": "You look bored",
+    "intent": "agent.boring",
+    "intent_prediction": {
+      "name": "user.bored",
+      "confidence": 0.4095088243484497
+    }
+  },
+  {
+    "text": "I was bored with your speech",
+    "intent": "agent.boring",
+    "intent_prediction": {
+      "name": "user.bored",
+      "confidence": 0.8204373121261597
+    }
+  },
+  {
+    "text": "clever",
+    "intent": "agent.clever",
+    "intent_prediction": {
+      "name": "agent.be_clever",
+      "confidence": 0.7460225224494934
+    }
+  },
+  {
+    "text": "you know a lot",
+    "intent": "agent.clever",
+    "intent_prediction": {
+      "name": "appraisal.thank_you",
+      "confidence": 0.7900033593177795
+    }
+  },
+  {
+    "text": "you have a lot of knowledge",
+    "intent": "agent.clever",
+    "intent_prediction": {
+      "name": "agent.busy",
+      "confidence": 0.3014720678329468
+    }
+  },
+  {
+    "text": "you know so much",
+    "intent": "agent.clever",
+    "intent_prediction": {
+      "name": "agent.beautiful",
+      "confidence": 0.5643636584281921
+    }
+  },
+  {
+    "text": "missing you",
+    "intent": "user.misses_agent",
+    "intent_prediction": {
+      "name": "appraisal.thank_you",
+      "confidence": 0.3635590970516205
+    }
+  },
+  {
+    "text": "I'm exhausted",
+    "intent": "user.tired",
+    "intent_prediction": {
+      "name": "user.sleepy",
+      "confidence": 0.33751076459884644
+    }
+  },
+  {
+    "text": "I grow weary",
+    "intent": "user.tired",
+    "intent_prediction": {
+      "name": "user.busy",
+      "confidence": 0.34928521513938904
+    }
+  },
+  {
+    "text": "I'm worn out",
+    "intent": "user.tired",
+    "intent_prediction": {
+      "name": "user.angry",
+      "confidence": 0.40177732706069946
+    }
+  },
+  {
+    "text": "whatever",
+    "intent": "dialog.i_do_not_care",
+    "intent_prediction": {
+      "name": "greetings.hello",
+      "confidence": 0.4733090400695801
+    }
+  },
+  {
+    "text": "lol",
+    "intent": "emotions.ha_ha",
+    "intent_prediction": {
+      "name": "greetings.hello",
+      "confidence": 0.4733090400695801
+    }
+  },
+  {
+    "text": "LMAO",
+    "intent": "emotions.ha_ha",
+    "intent_prediction": {
+      "name": "greetings.hello",
+      "confidence": 0.5634536147117615
+    }
+  },
+  {
+    "text": "ahahaha",
+    "intent": "emotions.ha_ha",
+    "intent_prediction": {
+      "name": "greetings.hello",
+      "confidence": 0.4733090400695801
+    }
+  },
+  {
+    "text": "hah",
+    "intent": "emotions.ha_ha",
+    "intent_prediction": {
+      "name": "greetings.hello",
+      "confidence": 0.4733090400695801
+    }
+  },
+  {
+    "text": "he",
+    "intent": "emotions.ha_ha",
+    "intent_prediction": {
+      "name": "agent.residence",
+      "confidence": 0.3859798014163971
+    }
+  },
+  {
+    "text": "hehe",
+    "intent": "emotions.ha_ha",
+    "intent_prediction": {
+      "name": "greetings.hello",
+      "confidence": 0.4733090400695801
+    }
+  },
+  {
+    "text": "hehehe",
+    "intent": "emotions.ha_ha",
+    "intent_prediction": {
+      "name": "greetings.hello",
+      "confidence": 0.4733090400695801
+    }
+  },
+  {
+    "text": "lmao",
+    "intent": "emotions.ha_ha",
+    "intent_prediction": {
+      "name": "greetings.hello",
+      "confidence": 0.4733090400695801
+    }
+  },
+  {
+    "text": "testing chatbot",
+    "intent": "user.testing_agent",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.3823315501213074
+    }
+  },
+  {
+    "text": "you are being tested",
+    "intent": "user.testing_agent",
+    "intent_prediction": {
+      "name": "agent.ready",
+      "confidence": 0.35651013255119324
+    }
+  },
+  {
+    "text": "you're tested",
+    "intent": "user.testing_agent",
+    "intent_prediction": {
+      "name": "agent.bad",
+      "confidence": 0.45792126655578613
+    }
+  },
+  {
+    "text": "what is your country?",
+    "intent": "agent.origin",
+    "intent_prediction": {
+      "name": "agent.residence",
+      "confidence": 0.6086419224739075
+    }
+  },
+  {
+    "text": "I like the way you look now",
+    "intent": "agent.beautiful",
+    "intent_prediction": {
+      "name": "user.likes_agent",
+      "confidence": 0.9990766048431396
+    }
+  },
+  {
+    "text": "I like the way you look",
+    "intent": "agent.beautiful",
+    "intent_prediction": {
+      "name": "user.likes_agent",
+      "confidence": 0.9994668960571289
+    }
+  },
+  {
+    "text": "you are cutie",
+    "intent": "agent.beautiful",
+    "intent_prediction": {
+      "name": "agent.bad",
+      "confidence": 0.3359626531600952
+    }
+  },
+  {
+    "text": "I am drowsy",
+    "intent": "user.sleepy",
+    "intent_prediction": {
+      "name": "user.going_to_bed",
+      "confidence": 0.975156307220459
+    }
+  },
+  {
+    "text": "i will doze off",
+    "intent": "user.sleepy",
+    "intent_prediction": {
+      "name": "user.angry",
+      "confidence": 0.37405577301979065
+    }
+  },
+  {
+    "text": "excuse me",
+    "intent": "dialog.sorry",
+    "intent_prediction": {
+      "name": "agent.can_you_help",
+      "confidence": 0.8052483201026917
+    }
+  },
+  {
+    "text": "I apologize",
+    "intent": "dialog.sorry",
+    "intent_prediction": {
+      "name": "user.busy",
+      "confidence": 0.5193789601325989
+    }
+  },
+  {
+    "text": "apology",
+    "intent": "dialog.sorry",
+    "intent_prediction": {
+      "name": "greetings.hello",
+      "confidence": 0.4733090400695801
+    }
+  },
+  {
+    "text": "excuse",
+    "intent": "dialog.sorry",
+    "intent_prediction": {
+      "name": "greetings.hello",
+      "confidence": 0.4733090400695801
+    }
+  },
+  {
+    "text": "forgive me",
+    "intent": "dialog.sorry",
+    "intent_prediction": {
+      "name": "agent.can_you_help",
+      "confidence": 0.8052483201026917
+    }
+  },
+  {
+    "text": "I adore you",
+    "intent": "user.loves_agent",
+    "intent_prediction": {
+      "name": "user.likes_agent",
+      "confidence": 0.22112606465816498
+    }
+  },
+  {
+    "text": "loving you",
+    "intent": "user.loves_agent",
+    "intent_prediction": {
+      "name": "appraisal.thank_you",
+      "confidence": 0.3635590970516205
+    }
+  },
+  {
+    "text": "you r unique",
+    "intent": "user.loves_agent",
+    "intent_prediction": {
+      "name": "agent.boss",
+      "confidence": 0.3361457884311676
+    }
+  },
+  {
+    "text": "don't come",
+    "intent": "confirmation.no",
+    "intent_prediction": {
+      "name": "user.can_not_sleep",
+      "confidence": 0.3835597634315491
+    }
+  },
+  {
+    "text": "never help",
+    "intent": "confirmation.no",
+    "intent_prediction": {
+      "name": "agent.can_you_help",
+      "confidence": 0.6509152054786682
+    }
+  },
+  {
+    "text": "not needed",
+    "intent": "confirmation.no",
+    "intent_prediction": {
+      "name": "appraisal.good",
+      "confidence": 0.7421013116836548
+    }
+  },
+  {
+    "text": "of course not",
+    "intent": "confirmation.no",
+    "intent_prediction": {
+      "name": "appraisal.good",
+      "confidence": 0.7747771143913269
+    }
+  },
+  {
+    "text": "not at this time",
+    "intent": "confirmation.no",
+    "intent_prediction": {
+      "name": "dialog.i_do_not_care",
+      "confidence": 0.7007824182510376
+    }
+  },
+  {
+    "text": "not exactly",
+    "intent": "confirmation.no",
+    "intent_prediction": {
+      "name": "appraisal.good",
+      "confidence": 0.3478279113769531
+    }
+  },
+  {
+    "text": "nope i dont need your help",
+    "intent": "confirmation.no",
+    "intent_prediction": {
+      "name": "agent.can_you_help",
+      "confidence": 0.8376180529594421
+    }
+  },
+  {
+    "text": "nope",
+    "intent": "confirmation.no",
+    "intent_prediction": {
+      "name": "greetings.hello",
+      "confidence": 0.4733090400695801
+    }
+  },
+  {
+    "text": "okay that's fine",
+    "intent": "confirmation.yes",
+    "intent_prediction": {
+      "name": "appraisal.good",
+      "confidence": 0.9910220503807068
+    }
+  },
+  {
+    "text": "that is ok",
+    "intent": "confirmation.yes",
+    "intent_prediction": {
+      "name": "greetings.bye",
+      "confidence": 0.9203981161117554
+    }
+  },
+  {
+    "text": "I guess",
+    "intent": "confirmation.yes",
+    "intent_prediction": {
+      "name": "user.busy",
+      "confidence": 0.5193789601325989
+    }
+  },
+  {
+    "text": "yew",
+    "intent": "confirmation.yes",
+    "intent_prediction": {
+      "name": "greetings.hello",
+      "confidence": 0.4733090400695801
+    }
+  },
+  {
+    "text": "yea fine",
+    "intent": "confirmation.yes",
+    "intent_prediction": {
+      "name": "appraisal.good",
+      "confidence": 0.988835871219635
+    }
+  },
+  {
+    "text": "fine okay",
+    "intent": "confirmation.yes",
+    "intent_prediction": {
+      "name": "greetings.how_are_you",
+      "confidence": 0.6626285910606384
+    }
+  },
+  {
+    "text": "yeah sure",
+    "intent": "confirmation.yes",
+    "intent_prediction": {
+      "name": "user.bored",
+      "confidence": 0.4174045920372009
+    }
+  },
+  {
+    "text": "coool",
+    "intent": "confirmation.yes",
+    "intent_prediction": {
+      "name": "agent.good",
+      "confidence": 0.7669973969459534
+    }
+  },
+  {
+    "text": "you are my bestie",
+    "intent": "agent.my_friend",
+    "intent_prediction": {
+      "name": "agent.crazy",
+      "confidence": 0.3144364058971405
+    }
+  },
+  {
+    "text": "here buddy",
+    "intent": "user.here",
+    "intent_prediction": {
+      "name": "greetings.hello",
+      "confidence": 0.4059339165687561
+    }
+  },
+  {
+    "text": "here dude",
+    "intent": "user.here",
+    "intent_prediction": {
+      "name": "greetings.hello",
+      "confidence": 0.6980451941490173
+    }
+  },
+  {
+    "text": "I'm here buddy",
+    "intent": "user.here",
+    "intent_prediction": {
+      "name": "user.back",
+      "confidence": 0.4220406413078308
+    }
+  },
+  {
+    "text": "Here i come",
+    "intent": "user.here",
+    "intent_prediction": {
+      "name": "user.wants_to_talk",
+      "confidence": 0.4612943232059479
+    }
+  },
+  {
+    "text": "thanks for your help",
+    "intent": "appraisal.thank_you",
+    "intent_prediction": {
+      "name": "agent.can_you_help",
+      "confidence": 0.862531304359436
+    }
+  },
+  {
+    "text": "thanks love",
+    "intent": "appraisal.thank_you",
+    "intent_prediction": {
+      "name": "user.loves_agent",
+      "confidence": 0.9534480571746826
+    }
+  },
+  {
+    "text": "so nice of you",
+    "intent": "appraisal.thank_you",
+    "intent_prediction": {
+      "name": "appraisal.good",
+      "confidence": 0.9322386384010315
+    }
+  },
+  {
+    "text": "ty",
+    "intent": "appraisal.thank_you",
+    "intent_prediction": {
+      "name": "greetings.hello",
+      "confidence": 0.4733090400695801
+    }
+  },
+  {
+    "text": "I’m delighted to see you again",
+    "intent": "greetings.nice_to_see_you",
+    "intent_prediction": {
+      "name": "user.wants_to_see_agent_again",
+      "confidence": 0.6824522018432617
+    }
+  },
+  {
+    "text": "terrific",
+    "intent": "appraisal.good",
+    "intent_prediction": {
+      "name": "appraisal.thank_you",
+      "confidence": 0.936040461063385
+    }
+  },
+  {
+    "text": "excellent",
+    "intent": "appraisal.good",
+    "intent_prediction": {
+      "name": "greetings.hello",
+      "confidence": 0.4733090400695801
+    }
+  },
+  {
+    "text": "brilliant",
+    "intent": "appraisal.good",
+    "intent_prediction": {
+      "name": "agent.clever",
+      "confidence": 0.9983682036399841
+    }
+  },
+  {
+    "text": "it is good",
+    "intent": "appraisal.good",
+    "intent_prediction": {
+      "name": "appraisal.bad",
+      "confidence": 0.5967127084732056
+    }
+  },
+  {
+    "text": "straight",
+    "intent": "appraisal.good",
+    "intent_prediction": {
+      "name": "greetings.hello",
+      "confidence": 0.4733090400695801
+    }
+  },
+  {
+    "text": "that's awesome thank you",
+    "intent": "appraisal.good",
+    "intent_prediction": {
+      "name": "appraisal.thank_you",
+      "confidence": 0.9983558654785156
+    }
+  },
+  {
+    "text": "this is awesome",
+    "intent": "appraisal.good",
+    "intent_prediction": {
+      "name": "appraisal.bad",
+      "confidence": 0.40946754813194275
+    }
+  },
+  {
+    "text": "this is good",
+    "intent": "appraisal.good",
+    "intent_prediction": {
+      "name": "appraisal.bad",
+      "confidence": 0.9861410856246948
+    }
+  },
+  {
+    "text": "ok good",
+    "intent": "appraisal.good",
+    "intent_prediction": {
+      "name": "greetings.bye",
+      "confidence": 0.9933757185935974
+    }
+  },
+  {
+    "text": "oh well",
+    "intent": "appraisal.good",
+    "intent_prediction": {
+      "name": "confirmation.yes",
+      "confidence": 0.477124959230423
+    }
+  },
+  {
+    "text": "okay good",
+    "intent": "appraisal.good",
+    "intent_prediction": {
+      "name": "confirmation.yes",
+      "confidence": 0.33499249815940857
+    }
+  },
+  {
+    "text": "no it's okay",
+    "intent": "appraisal.good",
+    "intent_prediction": {
+      "name": "confirmation.yes",
+      "confidence": 0.5889754295349121
+    }
+  },
+  {
+    "text": "I'm wide awake",
+    "intent": "user.can_not_sleep",
+    "intent_prediction": {
+      "name": "user.angry",
+      "confidence": 0.23338311910629272
+    }
+  },
+  {
+    "text": "I didn't go to sleep",
+    "intent": "user.can_not_sleep",
+    "intent_prediction": {
+      "name": "user.sleepy",
+      "confidence": 0.43176212906837463
+    }
+  },
+  {
+    "text": "I'm not sleeping well",
+    "intent": "user.can_not_sleep",
+    "intent_prediction": {
+      "name": "user.sleepy",
+      "confidence": 0.962762713432312
+    }
+  },
+  {
+    "text": "I do like you",
+    "intent": "user.likes_agent",
+    "intent_prediction": {
+      "name": "user.looks_like",
+      "confidence": 0.8553448915481567
+    }
+  },
+  {
+    "text": "hi I like you",
+    "intent": "user.likes_agent",
+    "intent_prediction": {
+      "name": "user.wants_to_talk",
+      "confidence": 0.5040428638458252
+    }
+  },
+  {
+    "text": "I like you as a friend",
+    "intent": "user.likes_agent",
+    "intent_prediction": {
+      "name": "agent.my_friend",
+      "confidence": 0.5898723006248474
+    }
+  },
+  {
+    "text": "good to know each other",
+    "intent": "greetings.nice_to_meet_you",
+    "intent_prediction": {
+      "name": "user.testing_agent",
+      "confidence": 0.25686901807785034
+    }
+  },
+  {
+    "text": "happy to meet you",
+    "intent": "greetings.nice_to_meet_you",
+    "intent_prediction": {
+      "name": "user.happy",
+      "confidence": 0.37885183095932007
+    }
+  },
+  {
+    "text": "Great interacting with you",
+    "intent": "greetings.nice_to_meet_you",
+    "intent_prediction": {
+      "name": "user.loves_agent",
+      "confidence": 0.527031421661377
+    }
+  },
+  {
+    "text": "you are the best",
+    "intent": "agent.good",
+    "intent_prediction": {
+      "name": "agent.my_friend",
+      "confidence": 0.9708095192909241
+    }
+  },
+  {
+    "text": "you're a true professional",
+    "intent": "agent.good",
+    "intent_prediction": {
+      "name": "agent.right",
+      "confidence": 0.9646780490875244
+    }
+  },
+  {
+    "text": "you work well",
+    "intent": "agent.good",
+    "intent_prediction": {
+      "name": "appraisal.well_done",
+      "confidence": 0.45278099179267883
+    }
+  },
+  {
+    "text": "you are a pro",
+    "intent": "agent.good",
+    "intent_prediction": {
+      "name": "agent.chatbot",
+      "confidence": 0.3140987753868103
+    }
+  },
+  {
+    "text": "you're awesome",
+    "intent": "agent.good",
+    "intent_prediction": {
+      "name": "agent.beautiful",
+      "confidence": 0.6218790411949158
+    }
+  },
+  {
+    "text": "you work very well",
+    "intent": "agent.good",
+    "intent_prediction": {
+      "name": "agent.occupation",
+      "confidence": 0.4881771504878998
+    }
+  },
+  {
+    "text": "you're perfect",
+    "intent": "agent.good",
+    "intent_prediction": {
+      "name": "agent.beautiful",
+      "confidence": 0.6379804611206055
+    }
+  },
+  {
+    "text": "you are awesome",
+    "intent": "agent.good",
+    "intent_prediction": {
+      "name": "agent.beautiful",
+      "confidence": 0.7342380285263062
+    }
+  },
+  {
+    "text": "you are so awesome",
+    "intent": "agent.good",
+    "intent_prediction": {
+      "name": "agent.beautiful",
+      "confidence": 0.8597955703735352
+    }
+  },
+  {
+    "text": "you are the best ever",
+    "intent": "agent.good",
+    "intent_prediction": {
+      "name": "agent.my_friend",
+      "confidence": 0.9940044283866882
+    }
+  },
+  {
+    "text": "you are the best in the world",
+    "intent": "agent.good",
+    "intent_prediction": {
+      "name": "agent.my_friend",
+      "confidence": 0.9925509095191956
+    }
+  },
+  {
+    "text": "you are the nicest person in the world",
+    "intent": "agent.good",
+    "intent_prediction": {
+      "name": "agent.marry_user",
+      "confidence": 0.26392728090286255
+    }
+  },
+  {
+    "text": "you are very useful",
+    "intent": "agent.good",
+    "intent_prediction": {
+      "name": "agent.be_clever",
+      "confidence": 0.9521996378898621
+    }
+  },
+  {
+    "text": "you are wonderful",
+    "intent": "agent.good",
+    "intent_prediction": {
+      "name": "agent.beautiful",
+      "confidence": 0.7837990522384644
+    }
+  },
+  {
+    "text": "you are hilarious",
+    "intent": "agent.funny",
+    "intent_prediction": {
+      "name": "agent.bad",
+      "confidence": 0.3359626531600952
+    }
+  },
+  {
+    "text": "you're a very funny bot",
+    "intent": "agent.funny",
+    "intent_prediction": {
+      "name": "agent.boss",
+      "confidence": 0.5526414513587952
+    }
+  },
+  {
+    "text": "u sound funny",
+    "intent": "agent.funny",
+    "intent_prediction": {
+      "name": "agent.good",
+      "confidence": 0.5311644077301025
+    }
+  },
+  {
+    "text": "are you near me",
+    "intent": "agent.there",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.9325580596923828
+    }
+  },
+  {
+    "text": "How old did you turn?",
+    "intent": "agent.age",
+    "intent_prediction": {
+      "name": "agent.busy",
+      "confidence": 0.8010396361351013
+    }
+  },
+  {
+    "text": "You look aged",
+    "intent": "agent.age",
+    "intent_prediction": {
+      "name": "agent.ready",
+      "confidence": 0.5569937229156494
+    }
+  },
+  {
+    "text": "I'm just being funny",
+    "intent": "user.joking",
+    "intent_prediction": {
+      "name": "user.angry",
+      "confidence": 0.7687348127365112
+    }
+  },
+  {
+    "text": "it's a joke",
+    "intent": "user.joking",
+    "intent_prediction": {
+      "name": "tell_a_joke",
+      "confidence": 0.6125245690345764
+    }
+  },
+  {
+    "text": "no worries",
+    "intent": "appraisal.no_problem",
+    "intent_prediction": {
+      "name": "mood_nervous",
+      "confidence": 0.5030764937400818
+    }
+  },
+  {
+    "text": "i have no problem with that",
+    "intent": "appraisal.no_problem",
+    "intent_prediction": {
+      "name": "greetings.hello",
+      "confidence": 0.4091395139694214
+    }
+  },
+  {
+    "text": "not a problem at all.",
+    "intent": "appraisal.no_problem",
+    "intent_prediction": {
+      "name": "dialog.i_do_not_care",
+      "confidence": 0.9326866865158081
+    }
+  },
+  {
+    "text": "are you a bot",
+    "intent": "agent.chatbot",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.4999921917915344
+    }
+  },
+  {
+    "text": "you're an AI",
+    "intent": "agent.chatbot",
+    "intent_prediction": {
+      "name": "agent.there",
+      "confidence": 0.4917656481266022
+    }
+  },
+  {
+    "text": "are you artificially intelligent?",
+    "intent": "agent.chatbot",
+    "intent_prediction": {
+      "name": "agent.clever",
+      "confidence": 0.9990940690040588
+    }
+  },
+  {
+    "text": "are you an AI?",
+    "intent": "agent.chatbot",
+    "intent_prediction": {
+      "name": "agent.there",
+      "confidence": 0.36662641167640686
+    }
+  },
+  {
+    "text": "you are just a bot",
+    "intent": "agent.chatbot",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.5807203054428101
+    }
+  },
+  {
+    "text": "time to sleep",
+    "intent": "user.going_to_bed",
+    "intent_prediction": {
+      "name": "user.sleepy",
+      "confidence": 0.9749618172645569
+    }
+  },
+  {
+    "text": "I am thrilled to talk to you",
+    "intent": "user.excited",
+    "intent_prediction": {
+      "name": "user.wants_to_talk",
+      "confidence": 0.7884406447410583
+    }
+  },
+  {
+    "text": "I'm hyped",
+    "intent": "user.excited",
+    "intent_prediction": {
+      "name": "user.sleepy",
+      "confidence": 0.33751076459884644
+    }
+  },
+  {
+    "text": "It was very exciting! I'd like to use this feature again",
+    "intent": "user.excited",
+    "intent_prediction": {
+      "name": "user.likes_agent",
+      "confidence": 0.42332300543785095
+    }
+  },
+  {
+    "text": "do I look good ?",
+    "intent": "user.looks_like",
+    "intent_prediction": {
+      "name": "user.will_be_back",
+      "confidence": 0.3166532516479492
+    }
+  },
+  {
+    "text": "any idea of how good i look like?",
+    "intent": "user.looks_like",
+    "intent_prediction": {
+      "name": "agent.marry_user",
+      "confidence": 0.7456084489822388
+    }
+  },
+  {
+    "text": "Ain't i look good?",
+    "intent": "user.looks_like",
+    "intent_prediction": {
+      "name": "skynet",
+      "confidence": 0.48103800415992737
+    }
+  },
+  {
+    "text": "lovely day isn't it",
+    "intent": "greetings.hello",
+    "intent_prediction": {
+      "name": "ask_forecast_weather",
+      "confidence": 0.9985045790672302
+    }
+  },
+  {
+    "text": "a good day",
+    "intent": "greetings.hello",
+    "intent_prediction": {
+      "name": "appraisal.good",
+      "confidence": 0.6449892520904541
+    }
+  },
+  {
+    "text": "yo man",
+    "intent": "greetings.hello",
+    "intent_prediction": {
+      "name": "greetings.whatsup",
+      "confidence": 0.5970080494880676
+    }
+  },
+  {
+    "text": "hello, my name is Charles Pfeffer",
+    "intent": "greetings.hello",
+    "intent_prediction": {
+      "name": "agent.name",
+      "confidence": 0.41638219356536865
+    }
+  },
+  {
+    "text": "i am Karen Mease",
+    "intent": "greetings.hello",
+    "intent_prediction": {
+      "name": "user.wants_to_talk",
+      "confidence": 0.5564385056495667
+    }
+  },
+  {
+    "text": "what up",
+    "intent": "greetings.hello",
+    "intent_prediction": {
+      "name": "greetings.whatsup",
+      "confidence": 0.9928176999092102
+    }
+  },
+  {
+    "text": "yo",
+    "intent": "greetings.hello",
+    "intent_prediction": {
+      "name": "greetings.whatsup",
+      "confidence": 0.9858646392822266
+    }
+  },
+  {
+    "text": "I'm happy to help",
+    "intent": "user.happy",
+    "intent_prediction": {
+      "name": "user.can_not_sleep",
+      "confidence": 0.37575894594192505
+    }
+  },
+  {
+    "text": "I was the happiest man on earth",
+    "intent": "user.happy",
+    "intent_prediction": {
+      "name": "user.will_be_back",
+      "confidence": 0.3696613907814026
+    }
+  },
+  {
+    "text": "I feel happiest when I'm chatting with u",
+    "intent": "user.happy",
+    "intent_prediction": {
+      "name": "user.does_not_want_to_talk",
+      "confidence": 0.6813703179359436
+    }
+  },
+  {
+    "text": "Nobody but you can make me happy",
+    "intent": "user.happy",
+    "intent_prediction": {
+      "name": "your_father",
+      "confidence": 0.34872564673423767
+    }
+  },
+  {
+    "text": "ur smile always makes me happy",
+    "intent": "user.happy",
+    "intent_prediction": {
+      "name": "your_daddy",
+      "confidence": 0.4489821791648865
+    }
+  },
+  {
+    "text": "that's not what I asked",
+    "intent": "dialog.wrong",
+    "intent_prediction": {
+      "name": "user.can_not_sleep",
+      "confidence": 0.5487291812896729
+    }
+  },
+  {
+    "text": "don't think that you know everything",
+    "intent": "dialog.wrong",
+    "intent_prediction": {
+      "name": "confirmation.no",
+      "confidence": 0.5693819522857666
+    }
+  },
+  {
+    "text": "u took it in a wrong way",
+    "intent": "dialog.wrong",
+    "intent_prediction": {
+      "name": "user.sleepy",
+      "confidence": 0.19448316097259521
+    }
+  },
+  {
+    "text": "see you soon",
+    "intent": "greetings.bye",
+    "intent_prediction": {
+      "name": "user.wants_to_see_agent_again",
+      "confidence": 0.9320011734962463
+    }
+  },
+  {
+    "text": "leave me alone",
+    "intent": "greetings.bye",
+    "intent_prediction": {
+      "name": "user.lonely",
+      "confidence": 0.9930469393730164
+    }
+  },
+  {
+    "text": "go to bed",
+    "intent": "greetings.bye",
+    "intent_prediction": {
+      "name": "user.going_to_bed",
+      "confidence": 0.9991533756256104
+    }
+  },
+  {
+    "text": "you can go now",
+    "intent": "greetings.bye",
+    "intent_prediction": {
+      "name": "agent.there",
+      "confidence": 0.8012520670890808
+    }
+  },
+  {
+    "text": "get lost",
+    "intent": "greetings.bye",
+    "intent_prediction": {
+      "name": "confirmation.no",
+      "confidence": 0.8607704639434814
+    }
+  },
+  {
+    "text": "whats your job?",
+    "intent": "agent.occupation",
+    "intent_prediction": {
+      "name": "greetings.hello",
+      "confidence": 0.5406559705734253
+    }
+  },
+  {
+    "text": "GN",
+    "intent": "greetings.goodnight",
+    "intent_prediction": {
+      "name": "greetings.hello",
+      "confidence": 0.5634536147117615
+    }
+  },
+  {
+    "text": "sweet dreams",
+    "intent": "greetings.goodnight",
+    "intent_prediction": {
+      "name": "appraisal.good",
+      "confidence": 0.6397085189819336
+    }
+  },
+  {
+    "text": "thank you good night",
+    "intent": "greetings.goodnight",
+    "intent_prediction": {
+      "name": "appraisal.thank_you",
+      "confidence": 0.5193506479263306
+    }
+  },
+  {
+    "text": "good night bye",
+    "intent": "greetings.goodnight",
+    "intent_prediction": {
+      "name": "greetings.bye",
+      "confidence": 0.9032967686653137
+    }
+  },
+  {
+    "text": "what did you blabber?",
+    "intent": "dialog.what_do_you_mean",
+    "intent_prediction": {
+      "name": "your_daddy",
+      "confidence": 0.4175500273704529
+    }
+  },
+  {
+    "text": "I'm great thanks",
+    "intent": "user.good",
+    "intent_prediction": {
+      "name": "confirmation.no",
+      "confidence": 0.5891200304031372
+    }
+  },
+  {
+    "text": "It's good",
+    "intent": "user.good",
+    "intent_prediction": {
+      "name": "appraisal.good",
+      "confidence": 0.7960965037345886
+    }
+  },
+  {
+    "text": "That's good",
+    "intent": "user.good",
+    "intent_prediction": {
+      "name": "appraisal.good",
+      "confidence": 0.9654783010482788
+    }
+  },
+  {
+    "text": "get qualified",
+    "intent": "agent.be_clever",
+    "intent_prediction": {
+      "name": "agent.clever",
+      "confidence": 0.7303099632263184
+    }
+  },
+  {
+    "text": "you are not as smart as i thought",
+    "intent": "agent.be_clever",
+    "intent_prediction": {
+      "name": "agent.crazy",
+      "confidence": 0.4389049708843231
+    }
+  },
+  {
+    "text": "think out of the box",
+    "intent": "agent.be_clever",
+    "intent_prediction": {
+      "name": "agent.beautiful",
+      "confidence": 0.5582408905029297
+    }
+  },
+  {
+    "text": "smarty pants",
+    "intent": "agent.be_clever",
+    "intent_prediction": {
+      "name": "confirmation.yes",
+      "confidence": 0.31001755595207214
+    }
+  },
+  {
+    "text": "u have to use your brains",
+    "intent": "agent.be_clever",
+    "intent_prediction": {
+      "name": "agent.age",
+      "confidence": 0.2998937666416168
+    }
+  },
+  {
+    "text": "whazzup",
+    "intent": "greetings.whatsup",
+    "intent_prediction": {
+      "name": "greetings.hello",
+      "confidence": 0.4733090400695801
+    }
+  },
+  {
+    "text": "what is happening",
+    "intent": "greetings.whatsup",
+    "intent_prediction": {
+      "name": "agent.what_can_do",
+      "confidence": 0.35096341371536255
+    }
+  },
+  {
+    "text": "What are you upto?",
+    "intent": "greetings.whatsup",
+    "intent_prediction": {
+      "name": "wearing",
+      "confidence": 0.4383240044116974
+    }
+  },
+  {
+    "text": "buddy sup",
+    "intent": "greetings.whatsup",
+    "intent_prediction": {
+      "name": "greetings.hello",
+      "confidence": 0.8117364048957825
+    }
+  },
+  {
+    "text": "what is up with you these days?",
+    "intent": "greetings.whatsup",
+    "intent_prediction": {
+      "name": "mood_nervous",
+      "confidence": 0.5018360614776611
+    }
+  },
+  {
+    "text": "What you upto?",
+    "intent": "greetings.whatsup",
+    "intent_prediction": {
+      "name": "wearing",
+      "confidence": 0.651885449886322
+    }
+  },
+  {
+    "text": "then?",
+    "intent": "greetings.whatsup",
+    "intent_prediction": {
+      "name": "appraisal.good",
+      "confidence": 0.9846546053886414
+    }
+  },
+  {
+    "text": "woaah",
+    "intent": "emotions.wow",
+    "intent_prediction": {
+      "name": "greetings.hello",
+      "confidence": 0.4733090400695801
+    }
+  },
+  {
+    "text": "amazing",
+    "intent": "emotions.wow",
+    "intent_prediction": {
+      "name": "appraisal.good",
+      "confidence": 0.9973447322845459
+    }
+  },
+  {
+    "text": "whoah",
+    "intent": "emotions.wow",
+    "intent_prediction": {
+      "name": "greetings.hello",
+      "confidence": 0.4733090400695801
+    }
+  },
+  {
+    "text": "wheey",
+    "intent": "emotions.wow",
+    "intent_prediction": {
+      "name": "greetings.hello",
+      "confidence": 0.4733090400695801
+    }
+  },
+  {
+    "text": "stop your nuisance talk",
+    "intent": "user.does_not_want_to_talk",
+    "intent_prediction": {
+      "name": "greetings.nice_to_talk_to_you",
+      "confidence": 0.5597121715545654
+    }
+  },
+  {
+    "text": "Can u pls stop talking",
+    "intent": "user.does_not_want_to_talk",
+    "intent_prediction": {
+      "name": "dialog.hold_on",
+      "confidence": 0.7295103073120117
+    }
+  },
+  {
+    "text": "what do you do for fun?",
+    "intent": "agent.hobby",
+    "intent_prediction": {
+      "name": "greetings.hello",
+      "confidence": 0.6709690690040588
+    }
+  },
+  {
+    "text": "what do you do when you are bored",
+    "intent": "agent.hobby",
+    "intent_prediction": {
+      "name": "agent.birth_date",
+      "confidence": 0.43366336822509766
+    }
+  },
+  {
+    "text": "What will you do when you are alone?",
+    "intent": "agent.hobby",
+    "intent_prediction": {
+      "name": "look_like",
+      "confidence": 0.37187129259109497
+    }
+  },
+  {
+    "text": "what's your home",
+    "intent": "agent.residence",
+    "intent_prediction": {
+      "name": "agent.what_can_do",
+      "confidence": 0.5745742321014404
+    }
+  },
+  {
+    "text": "and a good morning to you",
+    "intent": "greetings.goodmorning",
+    "intent_prediction": {
+      "name": "greetings.how_are_you",
+      "confidence": 0.8655434250831604
+    }
+  },
+  {
+    "text": "I'd be happy to see you again",
+    "intent": "user.wants_to_see_agent_again",
+    "intent_prediction": {
+      "name": "user.happy",
+      "confidence": 0.5378546118736267
+    }
+  },
+  {
+    "text": "want to see u very badly",
+    "intent": "user.wants_to_see_agent_again",
+    "intent_prediction": {
+      "name": "greetings.nice_to_see_you",
+      "confidence": 0.9348944425582886
+    }
+  },
+  {
+    "text": "I want to see you again",
+    "intent": "user.wants_to_see_agent_again",
+    "intent_prediction": {
+      "name": "greetings.nice_to_see_you",
+      "confidence": 0.5383701920509338
     }
   }
 ]

@@ -1,29 +1,5 @@
 [
   {
-    "text": "open google",
-    "entities": [
-      {
-        "start": 5,
-        "end": 11,
-        "value": "google",
-        "entity": "site"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "open youtube",
-    "entities": [
-      {
-        "start": 5,
-        "end": 12,
-        "value": "youtube",
-        "entity": "site"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
     "text": "go to facebook",
     "entities": [
       {
@@ -34,120 +10,6 @@
       }
     ],
     "predicted_entities": []
-  },
-  {
-    "text": "down the volume",
-    "entities": [
-      {
-        "start": 0,
-        "end": 4,
-        "value": "down",
-        "entity": "mode"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "turn down the volume",
-    "entities": [
-      {
-        "start": 5,
-        "end": 9,
-        "value": "down",
-        "entity": "mode"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "what do you know about ships",
-    "entities": [
-      {
-        "start": 23,
-        "end": 28,
-        "value": "ships",
-        "entity": "topic"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "what is a pandemic",
-    "entities": [
-      {
-        "start": 10,
-        "end": 18,
-        "value": "pandemic",
-        "entity": "topic"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "who is mohanlal",
-    "entities": [
-      {
-        "start": 7,
-        "end": 15,
-        "value": "mohanlal",
-        "entity": "topic"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "what is a car",
-    "entities": [
-      {
-        "start": 10,
-        "end": 13,
-        "value": "car",
-        "entity": "topic"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "the time please",
-    "entities": [],
-    "predicted_entities": [
-      {
-        "entity": "mode",
-        "start": 9,
-        "end": 15,
-        "confidence_entity": 0.9427651166915894,
-        "value": "please",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "what is joke of the day",
-    "entities": [],
-    "predicted_entities": [
-      {
-        "entity": "topic",
-        "start": 13,
-        "end": 15,
-        "confidence_entity": 0.5447066426277161,
-        "value": "of",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "a joke please",
-    "entities": [],
-    "predicted_entities": [
-      {
-        "entity": "mode",
-        "start": 7,
-        "end": 13,
-        "confidence_entity": 0.9342918992042542,
-        "value": "please",
-        "extractor": "DIETClassifier"
-      }
-    ]
   },
   {
     "text": "open github",
@@ -168,6 +30,132 @@
         "start": 13,
         "end": 26,
         "value": "stackoverflow",
+        "entity": "site"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "turn up the music",
+    "entities": [
+      {
+        "start": 5,
+        "end": 7,
+        "value": "up",
+        "entity": "mode"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "what do you think is astrophysics",
+    "entities": [
+      {
+        "start": 21,
+        "end": 33,
+        "value": "astrophysics",
+        "entity": "topic"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "who is president of india",
+    "entities": [
+      {
+        "start": 7,
+        "end": 25,
+        "value": "president of india",
+        "entity": "topic"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "what is a car",
+    "entities": [
+      {
+        "start": 10,
+        "end": 13,
+        "value": "car",
+        "entity": "topic"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "what is the city of gold",
+    "entities": [
+      {
+        "start": 12,
+        "end": 24,
+        "value": "city of gold",
+        "entity": "topic"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "I feel like I am going to throw up",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "mode",
+        "start": 32,
+        "end": 34,
+        "confidence_entity": 0.5892037749290466,
+        "value": "up",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Will the weather keep up?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "mode",
+        "start": 22,
+        "end": 24,
+        "confidence_entity": 0.4528641402721405,
+        "value": "up",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "what is up with you these days?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "mode",
+        "start": 8,
+        "end": 10,
+        "confidence_entity": 0.4983987510204315,
+        "value": "up",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "open google",
+    "entities": [
+      {
+        "start": 5,
+        "end": 11,
+        "value": "google",
+        "entity": "site"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "open youtube",
+    "entities": [
+      {
+        "start": 5,
+        "end": 12,
+        "value": "youtube",
         "entity": "site"
       }
     ],
@@ -198,12 +186,36 @@
     "predicted_entities": []
   },
   {
-    "text": "what do you think is astrophysics",
+    "text": "volume up",
     "entities": [
       {
-        "start": 21,
-        "end": 33,
-        "value": "astrophysics",
+        "start": 7,
+        "end": 9,
+        "value": "up",
+        "entity": "mode"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "what do you know about ships",
+    "entities": [
+      {
+        "start": 23,
+        "end": 28,
+        "value": "ships",
+        "entity": "topic"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "what is a pandemic",
+    "entities": [
+      {
+        "start": 10,
+        "end": 18,
+        "value": "pandemic",
         "entity": "topic"
       }
     ],
@@ -222,24 +234,12 @@
     "predicted_entities": []
   },
   {
-    "text": "who is president of india",
+    "text": "who is mohanlal",
     "entities": [
       {
         "start": 7,
-        "end": 25,
-        "value": "president of india",
-        "entity": "topic"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "what is the city of gold",
-    "entities": [
-      {
-        "start": 12,
-        "end": 24,
-        "value": "city of gold",
+        "end": 15,
+        "value": "mohanlal",
         "entity": "topic"
       }
     ],
@@ -256,5 +256,137 @@
       }
     ],
     "predicted_entities": []
+  },
+  {
+    "text": "internet is down",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "mode",
+        "start": 12,
+        "end": 16,
+        "confidence_entity": 0.7206879258155823,
+        "value": "down",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Who is your twin?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "site",
+        "start": 12,
+        "end": 16,
+        "confidence_entity": 0.39510369300842285,
+        "value": "twin",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "feeling so down",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "mode",
+        "start": 11,
+        "end": 15,
+        "confidence_entity": 0.6882622241973877,
+        "value": "down",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "hello, my name is Charles Pfeffer",
+    "entities": [
+      {
+        "start": 18,
+        "end": 33,
+        "value": "Charles Pfeffer",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "hi i'm Sandra Hernandez",
+    "entities": [
+      {
+        "start": 7,
+        "end": 23,
+        "value": "Sandra Hernandez",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "hi im Amanda Anderson",
+    "entities": [
+      {
+        "start": 6,
+        "end": 21,
+        "value": "Amanda Anderson",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "i am Karen Mease",
+    "entities": [
+      {
+        "start": 5,
+        "end": 16,
+        "value": "Karen Mease",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "your residence",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "topic",
+        "start": 5,
+        "end": 14,
+        "confidence_entity": 0.4499853551387787,
+        "value": "residence",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "what is your residence",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "topic",
+        "start": 13,
+        "end": 22,
+        "confidence_entity": 0.49285581707954407,
+        "value": "residence",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "where is your residence",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "topic",
+        "start": 14,
+        "end": 23,
+        "confidence_entity": 0.4877628982067108,
+        "value": "residence",
+        "extractor": "DIETClassifier"
+      }
+    ]
   }
 ]
