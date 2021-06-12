@@ -5,6 +5,9 @@ pipeline:
 - name: LexicalSyntacticFeaturizer
 - name: CountVectorsFeaturizer
 - name: DIETClassifier
+  epochs: 300
+  model_confidence: linear_norm
+  constrain_similarities: True
 policies:
 - name: TEDPolicy
   max_history: 10
