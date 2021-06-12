@@ -52,7 +52,6 @@ intents:
     - your_father
     - chitchat
     - thanks
-    - news_headlines
     - agent.acquaintance
     - agent.age
     - agent.annoying
@@ -600,7 +599,6 @@ actions:
     - action_play_music
     - action_tell_a_joke
     - action_word_meaning
-    - action_news_headlines
     - utter_agent.acquaintance
     - utter_agent.age
     - utter_agent.annoying

@@ -6,7 +6,7 @@ pipeline:
 - name: CountVectorsFeaturizer
 - name: DIETClassifier
 policies:
-- name: EmbeddingPolicy
+- name: TEDPolicy
   max_history: 10
   epochs: 100
   batch_size:
