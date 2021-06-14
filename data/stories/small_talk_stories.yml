@@ -216,6 +216,7 @@ stories:
     steps:
       - intent: greetings.how_are_you
       - action: utter_greetings.how_are_you
+      - action: utter_ask_how_are_you
   - story: story 53
     steps:
       - intent: greetings.nice_to_meet_you

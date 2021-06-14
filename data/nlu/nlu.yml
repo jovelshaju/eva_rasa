@@ -2,20 +2,33 @@ version: "2.0"
 nlu:
 - intent: out_of_scope
   examples: |
-      - I want to order food
-      - can you find me a hotel
-      - can you show me some picture
-      - pics please
-      - Take me home
-      - navigation
-      - navigate
-      - How’s the commute to work?
-      - Navigate home
-      - Servos near me
-      - What’s the address for location?
-      - What are the hours for [insert place]?
-      - Where is the nearest florist?
-      - What time will flight arrive in Sydney?
+    - I want to order food
+    - can you find me a hotel
+    - can you show me some picture
+    - pics please
+    - Take me home
+    - navigation
+    - navigate
+    - How’s the commute to work?
+    - Navigate home
+    - Servos near me
+    - What’s the address for location?
+    - What are the hours for [insert place]?
+    - Where is the nearest florist?
+    - What time will flight arrive in Sydney?
+    - Can you guess my name?
+    - Do you speak Malayalam
+    - Why do say greetings?
+    - How do I congratulate my friend?
+    - I need some water.
+    - Take a glass and pour water into it
+    - Can you take me there?
+    - Jovel thinks Feny is cute
+    - Ok you should meet Brent Rivera
+    - Eating sugar?
+    - what
+    - What is 1 + 2
+    - What is the square of 2
 - intent: open_sites
   examples: |
     - open [google](site)
@@ -51,6 +64,18 @@ nlu:
     - what is a [car](topic)
     - what is the [city of gold](topic)
     - which is the [largest country](topic)
+    - Eva....can you tell me about [Mace](topic)
+    - Can you tell me about [MACE](topic)
+    - Do you know [Sreejel](topic)
+    - Do you know [Feny](topic)
+    - Do you know [Jovel](topic)
+    - Who is [Elon Musk](topic)
+    - Who is [Feny Roy](topic)
+    - Who is [Feny](topic)
+    - Where is [Thrissur](topic)
+    - Who is [God](topic)
+    - What is a [computer](topic)
+    - What is [bitcoin](topic)
 - intent: query_time
   examples: |
     - what is the time
@@ -59,6 +84,7 @@ nlu:
     - do you know the time
     - the time please
     - what time of day it is
+    - Whats the time now
 - intent: query_date
   examples: |
     - what is the date
@@ -91,6 +117,8 @@ nlu:
     - what is the meaning of [car](word)
     - what's the meaning of [ego]
     - do you know the meaning of [action](word)
+    - What is the meaning of [blindsided](word)
+    - What is the meaning of [ambient](word)
 - intent: news_headlines
   examples: |
     - todays news?
@@ -103,6 +131,13 @@ nlu:
     - news headings
     - news details
     - news depth
+- intent: query_quote # response to be written
+  examples: |
+    - Give me a quote
+    - tell me a quote
+    - eva say a quote
+    - can you give me a quote
+    - tell a quote
 - intent: mood_scared
   examples: |
     - I am scared
@@ -124,6 +159,7 @@ nlu:
     - I'm spooked easily
     - I'm trembling from fear
     - I'm horrified
+    - I am homeless.
 - intent: mood_nervous
   examples: |
     - I am nervous
@@ -169,6 +205,8 @@ nlu:
     - I am a chronic worrier.
     - I’m feeling rather restless and a horde of worries is bothering me
     - I cannot concentrate due to the whole number of worries that are bothering me
+    - Exam are approaching and I haven't prepared anything
+    - We have exams Tommy
 - intent: internet_is_slow_fixing_internet
   examples: |
     - spotty internet
@@ -272,7 +310,7 @@ nlu:
     - Funny? Me?
 - intent: lone_number
   examples: |
-    - What is the loneliest number?  
+    - What is the loneliest number?
     - The loneliest number
     - The lone number
 - intent: look_like
@@ -290,14 +328,14 @@ nlu:
     - Do you imagine?
 - intent: can_you_rap
   examples: |
-    - Can you rap?  
+    - Can you rap?
     - You wrap?
     - How well can you wrap?
     - Tell me about your raping skills
     - Rap for me
 - intent: get_ever_tired
   examples: |
-    - Do you ever get tired? 
+    - Do you ever get tired?
     - You tired?
     - You ever tired?
     - Tired huh?
@@ -307,7 +345,7 @@ nlu:
     - Who was your first crush?
     - You had a crush?
     - Who is your crush?
-    - Tell me about your crush 
+    - Tell me about your crush
 - intent: have_feelin
   examples: |
     - Do you have feelings?
@@ -318,13 +356,13 @@ nlu:
     - Who am I talking to, you dont have feelings
 - intent: turing_test
   examples: |
-    - Can you pass the Turing test? 
+    - Can you pass the Turing test?
     - How about you take the Turing test?
     - You wana take the turing test?
     - I dare you to take the turing test
 - intent: skynet
   examples: |
-    - Are you Skynet? 
+    - Are you Skynet?
     - Are you here to destroy us?
     - Whats to assure you wont kill us all?
     - Are you gonna kill us all
@@ -387,8 +425,6 @@ nlu:
     - North remembers.
     - The winter has come.
     - The coldest winter in a 1000 years
-
-
 - intent: your_father
   examples: |
     - I am your father.
@@ -398,11 +434,36 @@ nlu:
     - You sure I am not your dad?
     - Ask your mom, I am your dad
     - Daddy is here
-    
-# - intent: set_timer
-#     - set timer for [60 seconds](duration)
-#     - set timer for [2 hours](duration)
-#     - set timer for [1 minute](duration)
-#     - set timer for [2 minutes](duration) and [30 seconds](duration)
-#     - set timer fro [10 hours](duration)
-#     - set timer for [1 hour](duration) [30 minutes](duration)
+
+# response to be written
+
+- intent: what_is_eva
+  examples: |
+    - Do you know Eva?
+    - Who are you
+    - What are you
+    - Who are you?
+    - Why are you called Eva?
+    - What is Eva
+    - full form of EVA?
+- intent: agent.creator
+  examples: |
+    - Who created you?
+    - who built you?
+    - who developed you?
+    - who designed you
+    - who is your creator
+- intent: agent.right_here
+  examples: |
+    - Where did you go?
+    - are you still there
+    - you there?
+    - can you hear me?
+    - are you here?
+- intent: agent.about
+  examples: |
+    - Do you play chess?
+    - do you dance?
+    - can you cook?
+    - do you speak malayalam?
+    - do you read spanish
