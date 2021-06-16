@@ -131,7 +131,7 @@ nlu:
     - news headings
     - news details
     - news depth
-- intent: query_quote # response to be written
+- intent: query_quote
   examples: |
     - Give me a quote
     - tell me a quote
@@ -434,36 +434,12 @@ nlu:
     - You sure I am not your dad?
     - Ask your mom, I am your dad
     - Daddy is here
-
-# response to be written
-
 - intent: what_is_eva
   examples: |
-    - Do you know Eva?
+    - Do you know eva?
     - Who are you
     - What are you
     - Who are you?
-    - Why are you called Eva?
-    - What is Eva
-    - full form of EVA?
-- intent: agent.creator
-  examples: |
-    - Who created you?
-    - who built you?
-    - who developed you?
-    - who designed you
-    - who is your creator
-- intent: agent.right_here
-  examples: |
-    - Where did you go?
-    - are you still there
-    - you there?
-    - can you hear me?
-    - are you here?
-- intent: agent.about
-  examples: |
-    - Do you play chess?
-    - do you dance?
-    - can you cook?
-    - do you speak malayalam?
-    - do you read spanish
+    - Why are you called eva?
+    - What is eva
+    - full form of eva?

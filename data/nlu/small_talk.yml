@@ -1559,7 +1559,6 @@ nlu:
 - intent: agent.there
   examples: |
     - are you there?
-    - are you there
     - you are there
     - are you near me
     - are you here ?
@@ -1600,9 +1599,6 @@ nlu:
     - your owner
     - the boss
     - who do you work for?
-    - who developed you?
-    - your developer
-    - your creator
     - owns you
     - your trainer
     - trained you?
@@ -2227,9 +2223,6 @@ nlu:
     - I will see you soon
     - want to see u very badly
     - I want to see you again
-
-# response to be written
-
 - intent: user.who_am_i
   examples: |
     - Do you know me
@@ -2237,3 +2230,22 @@ nlu:
     - what am i
     - tell me who am i
     - what do you know about me
+- intent: agent.creator
+  examples: |
+    - Who created you?
+    - who built you?
+    - who developed you?
+    - who designed you
+    - who is your creator
+- intent: agent.right_here
+  examples: |
+    - Where did you go?
+    - can you hear me?
+    - are you here?
+- intent: agent.about
+  examples: |
+    - Do you play chess?
+    - do you dance?
+    - can you cook?
+    - do you speak malayalam?
+    - do you read spanish

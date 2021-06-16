@@ -259,6 +259,18 @@ intents:
     use_entities: true
 - confirmation.no:
     use_entities: true
+- user.who_am_i:
+    use_entities: true
+- agent.creator:
+    use_entities: true
+- agent.right_here:
+    use_entities: true
+- query_quote:
+    use_entities: true
+- agent.about:
+    use_entities: true
+- what_is_eva:
+    use_entities: true
 entities:
 - mode
 - site
@@ -710,6 +722,20 @@ responses:
   - text: I see.
   - text: I understand.
   - text: Okay then.
+  utter_what_is_eva:
+  - text: EVA stands for Evolved Virtual Assistant
+  - text: I am EVA, Evolved Virtual Assistant
+  utter_agent.who_am_i:
+  - text: You are my good friend
+  - text: You are a good person
+  utter_agent.creator:
+  - text: I was created by three wannabe engineers
+  utter_agent.right_here:
+  - text: Yeah I'm still here. Go on
+  - text: I'm listening
+  utter_agent.about:
+  - text: Hmm...I'm not sure
+  - text: I don't know, I haven't tried
 actions:
 - action_open_sites
 - action_news_headlines
@@ -721,6 +747,7 @@ actions:
 - action_play_music
 - action_tell_a_joke
 - action_word_meaning
+- action_query_quote
 - utter_agent.acquaintance
 - utter_agent.age
 - utter_agent.annoying

@@ -353,6 +353,22 @@ stories:
     steps:
       - intent: confirmation.no
       - action: utter_confirmation.no
+  - story: user asking who am i
+    steps:
+      - intent: user.who_am_i
+      - action: utter_agent.who_am_i
+  - story: user asks about creator
+    steps:
+      - intent: agent.creator
+      - action: utter_agent.creator
+  - story: is bot active
+    steps:
+      - intent: agent.right_here
+      - action: utter_agent.right_here
+  - story: asking about bot
+    steps:
+      - intent: agent.about
+      - action: utter_agent.about
   - story: Generated Story -1957476507798035057
     steps:
       - intent: greetings.hello

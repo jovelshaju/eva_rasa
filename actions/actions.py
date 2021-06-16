@@ -45,6 +45,14 @@ jokes = [
     "What did the left eye say to the right eye?\nBetween you and me, something smells"
 ]
 
+quotes = [
+    ["The greatest glory in living lies not in never falling, but in rising every time we fall","Nelson Mandela"],
+    ["If life were predictable it would cease to be life, and be without flavor","Eleanor Roosevelt"],
+    ["Tell me and I forget. Teach me and I remember. Involve me and I learn","Benjamin Franklin"],
+    ["The best and most beautiful things in the world cannot be seen or even touched.They must be felt with the heart","Helen Keller"],
+    ["The way to get started is to quit talking and begin doing","Walt Disney"]
+]
+
 # class ActionHelloWorld(Action):
 
 #     def name(self) -> Text:
@@ -87,7 +95,7 @@ class ActionOpenSites(Action):
                 webbrowser.open(f"https://www.google.com/search?q={site}")
         
         except:
-            dispatcher.utter_message(text=f"There was an error while extracting entity")
+            dispatcher.utter_message(text=f"There was an error while connecting to the server")
 
         return []
 
@@ -127,7 +135,7 @@ class ActionChangeVolume(Action):
             dispatcher.utter_message(text="Changing Volume...")
 
         except:
-            dispatcher.utter_message(text=f"There was an error while extracting entity")
+            dispatcher.utter_message(text=f"There was an error while connecting to the server")
 
         return []
 
@@ -225,6 +233,21 @@ class ActionTellAJoke(Action):
 
         joke = random.choice(jokes)
         dispatcher.utter_message(text=f"Here's one,\n{joke}")
+
+        return []
+
+class ActionQueryQuote(Action):
+
+    def name(self) -> Text:
+        return "action_query_quote"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
+        quote = random.choice(quotes)
+        dispatcher.utter_message(text=f"{quote[1]} once said...")
+        dispatcher.utter_message(text=f"{quote[0]}")
 
         return []
 
